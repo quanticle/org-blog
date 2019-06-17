@@ -1,0 +1,20 @@
+#+OPTIONS: toc:nil; num:nil; ^:nil; ':t
+
+* Reviews
++ [[file:reviews/kill_all_normies.org][Kill All Normies: Online Culture Wars From 4Chan and Tumblr to Trump and the Alt-Right]]
++ [[file:reviews/monsoon.org][Monsoon: The Indian Ocean and the Future of American Power]]
++ [[file:reviews/the_us_militarys_dangerous_embedded_assumptions.org][The US Military's Dangerous Embedded Assumptions]]
++ [[file:reviews/trust_me_im_lying.org][Trust Me I'm Lying: Confessions of a Media Manipulator]]
++ [[file:reviews/why_i_didnt_like_the_last_jedi.org][Why I Didn't Like /The Last Jedi/]]
+
+* Outlines (Completed):
++ [[file:outlines/trust_me_im_lying.org][Trust Me I'm Lying]]
+
+* Outlines (In Progress):
++ [[file:outlines/a_crisis_is_a_terrible_thing_to_waste.org][A Crisis is a Terrible Thing To Waste: The History and Future of the US/China Relationship]]
++ [[file:outlines/managing_risk_nuclear_weapons_new_era.org][Managing Risk: Nuclear Weapons in the New Era of Geopolitics]]
++ [[file:outlines/challenger_launch_decision.org][Challenger Launch Decision]]
++ [[file:outlines/russia_in_revolution.org][Russia In Revolution]]
++ [[file:outlines/the_tanks_of_august.org][The Tanks of August]]
++ [[file:outlines/ai_natsec.org][Artificial Intelligence and National Security]]
+ 

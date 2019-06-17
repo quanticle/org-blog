@@ -1,0 +1,217 @@
+#+TITLE: 2019-02-11 RRG Notes
+#+OPTIONS: num:nil toc:nil
+
+* [[https://www.ecoshock.org/transcripts/greer_on_collapse.pdf][How Civilizations Fall: A Theory of Catabolic Collapse]]
+** Introduction
++ The collapse of complex human societies is a poorly understood phenomenon
+  + Most proposed explanations fail to describe causative mechanisms
+  + Rely on ad-hoc hypotheses based upon the specifics of the civilization
+  + Make essentially mystical claims (like all civilizations having natural lifespans like biological organisms)
++ Tainter (1988) proposed a general theory of collapse
+  + Complex societies break down when increasing complexity result in negative marginal returns
+  + Decrease in sociopolitical complexity yields net benefits to people in the society
+  + /How do you define sociopolitical complexity?/
+  + While this theory has strengths, it does not model the temporal aspect of civilizational breakdown
+  + While Tainter maintains that this process takes place over a period of decades, many of the examples that he cites take place over a period of centuries
+  + The shifts are often a progressive disintegration that takes place over centuries rather than a rapid shift from an unsustainable state to a sustainable one
+  + The fall of the Western Roman Empire is even more difficult to square with Tainter's theory
+    + Series of crises each leading to a loss of social complexity
+    + Temporary sustainability at a less complex level
+    + In many cases the level of sociopolitical complexity after the collapse of the Roman empire was lower than level of sociopolitical complexity that had been present prior to the area's inclusion in the Roman empire
+    + Britain, for example, had a flourishing Iron-age society prior to its conquest by Rome, but after Rome's fall, Britain was depopulated, impoverished and politically chaotic for centuries
+    + /Broader question: why should we even talk about the collapse of the Roman empire?/
+    + /I get that it's romantic and fun to think about, but why do we think that the collapse of Rome is at all applicable to modern civilization?/
+    + /Moreover, empires can collapse without necessarily decreasing sociopolitical complexity: look at the fading of the great empires of the 19th century/
+    + /Or the replacement of the Byzantines by the Ottomans/
+    + /Or, to go back in time, the breakup of Alexander's empire and it's eventual division between Rome and the Parthian Persians/
+  + An alternative model based on perspectives from human ecology offers a more effective way to understand the collapse process
+    + Theory of catabolic collapse
+    + Models collapse as a self-reinforcing cycle of decline
+    + Driven by interactions between:
+      + Resources
+      + Capital production
+      + Waste
+** The Human Ecology of Collapse
++ At the highest level of abstraction, each human society involves 4 elements
+  + Resources
+    + Naturally occurring factors in the environment
+    + Have not yet been extracted and incorporated into the society's flows of energy and material
+    + Examples:
+      + Natural resources, such as metal ores, petroleum, etc
+      + Soil fertility
+      + Human resources -- people who could work, but who are not yet working
+      + Scientific discoveries which can be made by the society's methods of research, but which have not been made
+    + This is a radical oversimplification of resources 
+    + Necessary to allow us to discern large scale patterns
+    + /I don't know. It seems like this overbroad definition of resources tries to define anything that can be used or discovered once as a "resource"/
+    + /I'm not sure that's correct, especially with regards to scientific discoveries/
+  + Capital
+    + Consists of everything that has been incorporated into society's flows of energy and material but which is still capable of further use
+    + Tools, buildings, machinery, productive farmland
+    + Also includes social capital such as economic systems and social organization
+  + Waste
+    + All factors that have been completely incorporated into a society's flows of energy and material, but which are no longer capable of further use
+    + Worn out tools
+    + Laborers at the end of their lives
+    + Information that is garbled or lost
+  + Production
+    + Process by which existing capital and resources are combined to create new capital and waste
+    + Resources and existing capital can, to some extent, be substituted for one another, but the substitution is not 1:1 and the relationship is nonlinear
+    + As the use of resources approaches zero, maintaining any given level of production requires exponential increases in the use of capital
+    + /Seems like a motte-and-bailey argument/
+    + /Yes, *technically* this is true, if you count things like sunlight and wind as resources -- the sun will eventually burn out, etc/
+    + /However, I get the feeling that this is not what the author intends to mean/
+    + /As a concrete example, what would Greer make of car batteries, which have been in a completely closed cycle for some time now?/
+    + In any given society, resources and capital enter the production process, and new capital and waste exit the production process
++ The maintenance of a steady state requires the formation of new capital from production to equal waste from production and capital
++ /I'm deliberately leaving the equations out because I'm not at all convinced that any of the things the author is talking about can be quantified in the way that he intends/
++ Societies which expand produce more capital than is necessary to maintain existing stocks
++ This becomes a self-reinforcing cycle -- _anabolic cycle_
+  + More capital than is necessary to maintain existing stocks is produced
+  + This capital allows the production of even more capital
+  + Positive feedback cycle results
++ The self-reinforcing part of an anabolic cycle is limited by two factors
+  + Resource depletion:
+    + All resources have a replenishment rate and a depletion rate
+      + Replenishment rate is the rate at which resources are replenished _or_ the rate at which new resources are found to substitute for the existing resources
+      + Depletion rate is the rate at which resources are consumed
+    + Resources that are consumed faster than they are replenished become depleted and must be replaced by capital to maintain production
+    + Because of the nonlinear substitutability of capital and resources, an exponential amount of new capital is required to replace the depleted resource
+      + /Once again, I'm not quite sure what he's talking about with regards to "capital" and "resource", but I'm suspicious/
+      + /Resource depletion is totally a thing, and things like declines in soil fertility and loss of rainfall (leading to a decline in the replenishment rate of water) have caused civilizations to collapse/
+      + /However, that's a far more straightforward model than what he's proposing here -- you don't need to model things in terms of abstract resources, capital, waste and production to realize that if your civilization was reliant on 36-40" of rainfall per year, and now you're in a mode of receiving 22" of rainfall a year, you're in trouble/
+  + Inherent relation between capital and waste
+    + As capital stocks rise, the amount of production required to maintain the existing capital stocks also rises
+      + Increased waste of capital outside of the production process
+      + Increased waste of capital in the production of replacement capital
+    + /This seems... non-obvious/
+    + /He asserts that as capital stocks rise, the amount of capital converted to waste outside of production also rises proportionally/
+    + /This, specifically, is a non-obvious assertion to make/
+    + /To go back to his example with regards to food waste -- yes, food spoilage increases if food production increases and nothing else changes/
+    + /But in practice, people find ways of converting the food into other forms or develop new forms of food storage and preservation that allow them to hang on to the surplus/
+    + /All of what he's saying is true at a given level of efficiency, but efficiency isn't fixed/
++ When an anabolic cycle ends, a society faces a choice between two strategies:
+  + Move to a steady state where new capital production is equal to maintenance production, and depletion rate is equal to replenishment rate
+    + Requires social controls to keep capital stocks down to a level where maintenance costs can be met from current production
+    + Requires difficult collective choices, but as long as resource availability remains stable, controls on capital production remain in place, and society escapes major exogenous shocks, this process can be maintained indefinitely
+      + /But this will never happen. A state of stable resource availability, long-term controls on capital production and no major exogenous shocks is a state that has never occurred in this world. What he's describing is more akin to the world from dystopian fiction. _Handmaid's Tale_ springs to mind/
+      + /In reality, there are always exogenous shocks which make this strategy nonviable/
+      + /Remember, exogenous shocks can be positive as well as negative/
+      + /Moreover, this is a recipe for stagnation/
+  + Prolong the anabolic cycle
+    + New technology
+    + Military conquest
+    + Other means
+    + Since increasing production leads to increasing capital stocks (which inherently increases waste), this means that maintenance production must increase
+    + Thus a society that attempts to prolong its anabolic cycle must increase its production at an ever increasing rate
+    + This leads to problems with resource depletion
+  + /Okay, so far this is nothing more than a re-hash of the Marxist critique of capitalism, with more algebra/
+  + /Moreover, I continue to be frustrated that he doesn't consider efficiency. He thinks that an increase in production necessarily requires an increase in input resources, when oftentimes that isn't the case/
+  + /Finally, all of this is meaningless without a discussion of what the actual values of these limits are/
+    + /Remember: [[https://www.greaterwrong.com/posts/5wMcKNAwB6X4mp9og/that-alien-message][Finite doesn't mean small]]/
+  + /What's amazing is that this paper, so far, has managed to combine some of the worst habits of both conventional *and* Marxist economics/
++ If an attempt to maintain a steady state fails, society enters a contractionary phase, which may take one of two forms:
+  + A society that uses resources at or below replenishment rates enters a _maintenance crisis_
+    + Capital cannot be maintained and turns into waste
+    + Physical capital is destroyed or spoiled
+    + Human populations decline in number
+    + Large scale social organizations splinter into smaller, more economical ones
+    + Information is forgotten or lost
+    + However, because resources are not depleted, maintenance crises tend to be self-limiting
+  + A society that uses resources beyond their replenishment rates enters a _depletion crisis_
+    + Key features of maintenance crises are amplified by the effects of resource depletion
+    + Resource depletion reduces society's ability to produce new capital, just as maintenance requires more and more new capital production
+    + This results in a _catabolic cycle_, where new capital production remains below production required for maintenance, even as both decline
+    + While catabolic cycles may occur in maintenance crises, they tend to be self-limiting
+    + However, in a depletion crisis, catabolic cycles accelerate to _catabolic collapse_, where new capital production approaches zero and most of society's production is converted to waste
+    + /I don't understand why catabolic collapse can't occur in a maintenance crisis/
+    + /The ability to convert resources into capital is governed by one's existing capital/
+    + /So if a maintenance crisis results in the destruction of capital, then one's ability to convert resources into capital is also affected, which leads to collapse/
+    + /According to Greer, knowledge is capital. Having resources available doesn't help you if you don't know they're available and don't know what to do with them once you've discovered them/
+** Testing The Model
++ /Let the cherry-picking begin/
++ The two types of collapse are ideal types
++ Most actual collapses occur in a range between these two
++ Maintenance crises
+  + Kachin societies of Burma
+    + Cycle from relatively centralized to decentralized forms without significant losses in physical, human or information capital
+  + Historical China
+    + Repeated cycles of unification and split into warring states
+    + The sustainability of traditional Chinese agriculture meant that replenishment was high, and that any collapse was self-limiting
+    + /This is Chinese propaganda, by the way/
+    + /While there are continuities among the Chinese civilizations, there are also significant differences/
+    + /The Chinese government likes to say that they are an "unbroken 5000 year old civilization", but it's not clear that this is supported by historiography/
+    + /Moreover, every nationalistic government says this -- this is no different than Mussolini tracing Italian heritage back to Rome, Islamic fundamentalists tracing their heritage back to Muhammad, or British nationalists tracing their heritage back to pre-Christian druids/
++ Catabolic collapse
+  + Western Roman Empire
+    + The Mediterranean society at the core of the empire was based on readily replenished resources
+    + However, the empire itself was the product of military expansionism and easily depleted resources
+      + /Like what?/
+      + /The problem with resource depletion theories of Roman collapse is that they very rarely mention which resources were depleted/
+    + After Rome's initial expansion (i.e. conquest of Gaul and Britain) all the remaining conquests were either resource-poor (Germans) or empires capable of defending themselves (Parthians)
+      + /Wrong! Rome totally conquered the Parthians and extracted *significant* amounts of tribute from them/
+      + /He might be thinking of the Sassanid Persians, who were the successors to the Parthians, and who managed to kill one Emperor on the field of battle and capture another/
+      + /That's a pretty huge miss, though, given that the Sassanid Persians were hundreds of years later than the Parthians/
+    + The collapse of Rome has an instructive feature which presents further support to the model
+      + In AD 297 Diocletian divided the empire into Eastern and Western halves
+      + /Diocletian did no such thing/
+      + /What Diocletian did was establish a second base of government, closer to the war front, so as to better manage his military campaigns against the Sassanid Persians/
+      + /It was not at all his intent to divide the empire/
+      + With the death of Theodosius I in AD 395, coordination between the eastern and western halves of the Roman empire effectively ceased
+      + The Western Roman Empire produced only a third of the revenue of the Eastern Roman Empire, but had much more territory to defend
+      + The split essentially allowed the Eastern Roman Empire to convert large amounts of high-maintenance capital into waste, thus bringing its maintenance costs below its rate of new capital production
+      + Further conquests by Muslim Empires also reduced the Eastern Roman Empire's new capital requirements
+      + As a result, the Eastern Roman Empire survived for nearly a millenium longer than its Western counterpart
+    + /My problem with this is that it falls into the Gibbons trap of explaining the fall of Rome/
+    + /It's all about what *Rome* did/
+    + /However, later historiography and archaeology has shown that Rome was not an all-powerful actor brought low by its own decadence and weakeness (Gibbons) or by its territorial over-extension (Greer)/
+    + /There were external demographic shifts -- there was a massive population increase along the Rome/Germany border, due to migration from what is now Russia/
+    + /The Sassanid Persians replaced the Parthians, causing Rome to face its first near-peer military threat since Fabius defeated Hannibal/
+    + /There were climatic shifts, which made it more difficult for Egypt and the Black Sea colonies to produce grain/
+    + /And even in the face of all this, Rome managed to plow forward for nearly 500 years/
+  + Lowland Classic Maya
+    + Mayan population and agriculture grew beyond a level that could be supported by the nutrient-poor soils of the Yucatan lowlands
+    + Mayan polities created massive building projects which did not contribute to further production
+    + The result was a rolling collapse over two centuries, in which urban centers were abandoned to the jungle and populations declined preciptously
+    + The Lowland Classic Maya collapse was preceded by at least two other similar breakdowns
+    + Unclear whether these were maintenance crises preceding the final catabolic collapse or whether there's some other explanation
+    + /The problem with using the Maya as evidence is that there's so little knowledge about them, and what little evidence there is can be interpreted in such a broad range of ways/
+    + /The Lowland Classic Maya are an archaeological Rorscharch Test -- they have evidence for whatever pet theory you want to push/
+    + /It's like talking about the Minoan (Linear A) people/
+    + /Another theory about the Mayan collapse is that it was a change in rainfall patterns which doomed them, much like a change in rainfall patterns doomed the Pueblo peoples/
++ Features of long-lasting societies often have measures to reduce the growth of capital
+  + Aspects of the potlatch economy
+  + Ritual deposition of prestige metalwork by Bronze and Iron-age peoples of Western Europe
+  + /Once again, I'm not certain what Greer means by "capital" -- the things that were deposited by Bronze and Iron-age peoples in Western Europe were things like jewelry/
+  + /Jewelry is "capital" according to Greer, but it's not what most other people would consider to be capital/
+  + While these features often have other meanings to the societies which adopt them, the fact that socities that adopt them survive for long periods of time means that societies that adopt these practices tend to survive for longer periods of time that socities that don't
+  + /Do they? How long did these bronze and iron-age societies survive?/
+  + /A lot of the "sustainable" practices of Native American society are actually relatively recent inventions (i.e. 150-200 years old) that were thought to be ancient because of the "noble savage" myths that Europeans imposed upon the societies they encountered/
+  + /It's not clear that these practices were actually sustainable over a period of thousands of years -- they don't have the track record to prove that/
++ /Okay, so Greer has talked about the big hits (Rome, Maya)/
++ /But what about the [[https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse][Late Bronze Age Collapse]]/
++ /More broadly, what separates an empire from a civilization?/
+  + /Did Greek civilization collapse, or was it subsumed into the later Roman civilization?/
+  + /Did Roman civilization collapse, or was it subsumed into the later Byzantines empire/
+  + /This is more pertinent question for China, where its various dynastic collapses and conquests straddle the border between empires forming and dying, and total civilizational collapse/
+** Conclusion: Collapse As A Succession Process
++ Even within the social sciences, the process by which complex societies give way to smaller and simpler societies has been described with the language of literary tragedy
++ This is understandable, given the cultural and human costs involved, but it conflates description of the facts with a value judgment
++ A less problematic approach is to use the concept of ecological succession 
++ Succession describes the process by which an area not yet occupied by biological organisms is colonized by a series of _seres_, or biotic complexes, which each sere being replaced by a later one until a stable self-perpetuating climax community is reached
+  + /Okay, except that the entire concept of a "climax community" has been pretty well rejected by later ecologists/
+  + /The notion that nature progresses towards an ideal "climax" is an example of anthropomorphic fallacy that was created by early ecologists at the turn of the 20th century/
+  + /Later ecological research as shown that so-called "climax" ecologies are often much less stable than they appear and shift unpredictably between a number of equilibria, since they're chaotic systems/
+  + /There's also the fact that this is warmed over Hegel/Marx. Socialism is inevitable because it is the k-selected ecological successor to r-selected capitalism/
++ Earlier seres tend to use r-selected reproductive strategies, maximizing the rate of resource acquisition, while later seres tend to use k-selected strategies, maximizing the efficiency of resource utilization
++ While human socities cannot be directly compared to biological seres, there are certain similarities
++ However, unlike other species, humans can change their strategies -- the same humans can be r-selected in one culture and k-selected in another
++ /And they are! Look at the steep declines in birthrates in India and China, for example. China's total-fertility rate has fallen from something like 6 to 1.7!/
++ /And it's tempting to say that that was because of the one-child policy but:/
+  1. /India has experienced a similar decline in birthrate, without imposing any such policy/
+  2. /China relaxed its one-child policy quite some time ago, and birthrates didn't go up/
++ /There's a subtext here that capitalism is bad, that capitalism is an r-selected strategy, but in reality, capitalist economic development has been the #1 cause of declining birthrates in the world/
++ /At the top, he calls out other theories of civilizational collapse for making "mystical" claims, but honestly, I don't find his theory to be any less mystical than the theories he criticizes/
++ /Sure, it's incorrect to compare civilizations to individual biological entities... that doesn't make it correct to compare them to ecologies/
+
+

@@ -1,0 +1,56 @@
+#+TITLE: 2019-01-21 RRG Notes
+* [[https://www.greaterwrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace][Mutual Information, and Density In Thingspace]]
++ Suppose that we have two systems:
+  + X can be in any of 8 states, each equally probable
+  + Y can be any of 4 states, each equally probable
+  + The entropy of X is 3 bits
+  + The entropy of Y is 2 bits
++ What happens when the two systems are entangled, so they're no longer independent? -- entropy is reduced
+  + Let's say that X and Y are either both even or both odd
+  + Need fewer bits of information to determine the total state of the system
++ The /mutual information/ of two variables is defined as the difference between the combined entropies of the individual variables and the entropy of the joint variable: \( I(X;Y) = H(X) + H(Y) - H(X, Y) \)
++ In this case, the mutual information of the joint system is 1 bit -- learning X gives us one bit of information about Y and learning Y gives us 1 bit of information about X
++ So what happens when the probability distribution is no longer uniform?
+  + Example: 
+    + \( Y \) has the distribution: \( 1/2 \), \( 1/4 \), \( 1/8 \), \( 1/8 \)
+    + \( Z \) has the distribution: \( 3/8 \), \( 5/8 \)
+  + There is zero mutual information between \( Y \) and \( Z \) if and only if the combined probability distribution is \( P(Y,Z) = P(Y)P(Z) \)
+  + Just by inspecting the joint distribution, we can examine whether the variables are independent
++ If the joint distribution doesn't factorize, then we know that the variables aren't independent
++ So what does this have to do with the correct use of words?
+  + In [[https://www.greaterwrong.com/posts/i2dfY65JciebF3CAo/empty-labels][Empty Labels]] and [[https://www.greaterwrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance][Replace the Symbol With The Substance]], we learned that it's often useful to replace a word with its definition
+  + So why have words for abstract concepts at all? Why not /always/ use the definition?
+  + It's useful to have short words for commonly-encountered concepts
+  + In an efficient code, word length corresponds to probability
+    + The code for \( Z_1Y_2 \) will be just as long as the code for \( Z_1 \) plus the code for \( Y_2 \) unless \( P(Z_1Y_2) > P(Z_1)P(Y_2) \) in which case the code for \( Z_1Y_2 \) will be shorter than the sum of its parts
+    + This corresponds exactly to the case where we can infer some of the properties of an object from observing its other properties
+  + We don't replace the word "human" with its definition in a lot of contexts, because the definition is /huge/
+  + However, we're only able to do this because all the qualities that make a human a human are linked -- pointing to one quality implies the existence of the others
+  + The act of definining a word is an implicit promise that the word will help you make inferences (else why else are you defining a new word)
+    + /This is fundamentally my objection to postmodernists -- they define new words, but the new words they define aren't really useful for anything/
+  + If you define a word for two properties that are no more likely than chance to be found together, then the word you've defined is a lie -- you've promised that you've invented a concept that will help make inferences, but the word you've defined doesn't actually do that
+  + Use words to describe clusters of characteristics that go together
+* [[https://www.greaterwrong.com/posts/82eMd5KLiJ5Z6rTrr/superexponential-conceptspace-and-simple-words][Superexponential Conceptspace and Simple Words]]
++ As vast as [[https://www.greaterwrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace][Thingspace]] is, it's much smaller than Conceptspace
++ What is Conceptspace?
+  + A /concept/ is a rule that includes or excludes examples
+  + For example: a rule that goes ~{2: yes, 3: no, 14: yes, 23: no, 8: yes, 9: no}~, then you might guess that the rule is "even numbers"
+  + There is a huge literature on how to infer concepts from data
++ The number of concepts grows faster than exponentially with the number of variables involved
++ So, in order to build rules that we can draw inferences from, we need to draw /simple/ boundaries around clusters in thingspace
++ These simple boundaries are expressed as intensional definitions
++ Singling out any particular concept for consideration is something that has to be considered very carefully, given the superexponential size of conceptspace
+* [[https://www.greaterwrong.com/posts/gDWvLicHhcMfGmwaK/conditional-independence-and-naive-bayes][Conditional Independence and Naive Bayes]]
++ If you use the right kind of neural network, its inferences are exactly the same as a naive Bayesian algorithm
++ Algorithms that are "scruffy" or "emergent" often have, at their core, Bayesian reasoning
+* [[https://www.greaterwrong.com/posts/YF9HB6cWCJrDK5pBM/words-as-mental-paintbrush-handles][Words as Mental Paintbrush Handles]]
++ Part of the reason that people get into trouble with words is because they don't understand how much complexity words can hide
++ Words are merely tags that are assigned to enormously complex concepts
++ They're like handles to paintbrushes, whereas the concepts they represent are like the paintings created by those brushes
+* [[https://www.greaterwrong.com/posts/shoMpaoZypfkXv84Y/variable-question-fallacies][Variable Question Fallacies]]
++ When we use words, we're often sneaking a reference to ourselves in the concepts that those words point to
++ For example, when we describe the grocery store as being on the /left/ side of the street, we're implicitly saying that we're approaching the store from a direction that would put the store on the left
++ Someone living on the other side of the store could very well say that it's on the right side of street
++ This phenomenon is known as "speaker deixis"
++ If we encounter two concepts for which we have the same name, or which look the same in our model, then it appears to us as if reality is changeable
++ However, what we're actually encountering is a question with a hidden variable, whose meaning depends in part on the person asking the question

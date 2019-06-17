@@ -1,0 +1,140 @@
+#+TITLE: 2019-03-04 RRG Notes
+#+OPTIONS: num:nil
+
+* [[https://80000hours.org/2015/07/effective-altruists-love-systemic-change/][Effective Altruists Love Systemic Change]]
++ There is nothing in principle that rules out using wide-spread legal, cultural or political changes to make the world a better place
++ Examples of effective altruists working on systemic change
+  + Many Open Philanthropy grants are focused on immigration reform, criminal justice reform, macroeconomics, institutional development and other huge structural changes
+  + OpenBorders.info -- collates material promoting open borders as an option to increase the migration from poor countries to rich countries
+  + EAPolicy -- making recommendations to open policy forums held by the US government
+  + One of GiveWell's goals has been to change cultural norms within the nonprofit sector
+  + Giving What We Can has met with the UK government to look at options for better improving its foreign aid
+  + 80,000 Hours alumni are going into politics and business to effect systemic change that would benefit the global poor
+  + Organizations focused on existential risk take a large interest in government policies that could influence the development of new powerful technologies or institutions that could promote inter-state cooperation and conflict prevention
++ There are other systemic changes that 80,000 Hours has researched which show promise for future action
+  + Significantly more spending on development aid
+  + Improved regulation to crack down on illicit financial flows from poor countries to rich countries
+  + Changes to financial regulations to make it more difficult for financial institutions to externalize systemic risk
+  + Pricing greenhouse gas emissions
+  + More international cooperation around prevention and containment of contagious diseases
++ 80,000 Hours already has positive views on careers in policy and politics; it just hasn't done enough research on them to confidently recommend them over all alternatives
++ Therefore it's not accurate to say that 80,000 Hours is hostile to systemic change
++ So why might there be a perception that 80,000 Hours is against systemic change
+  + "Earning to give" is perceived as being anti-systemic change
+    + However, earning to give is neutral on systemic change
+    + Someone who earns to give and gives their donations to someone working for systemic change is working for systemic change themselves
+    + Example: Engels traveled back to Britain and entered the business world in order to support Marx financially
+  + Effective altruists are usually not radicals or revolutionaries
+    + Sudden dramatic changes in society usually lead to worse outcomes than evolutionary improvements
+    + Favor marginal changes to existing systems rather than throwing everything out and starting from scratch -- history shows us that that never works
+  + Effective altruists work on systemic changes that are more likely to be achieved
+    + /So this is where I disagree/
+    + /There's an implicit argument here that incremental changes are more likely to be achieved than revolutionary changes/
+    + /That's often, but not always true/
+    + /Sometimes a revolutionary change that fires the imagination can get more popular support than an incremental change that's only of interest to people who read the tax code for fun/
+  + Effective Altruists have chosen to take on the task of figuring out how to do the most good
+    + This is an enormous task
+    + Makes sense to start with the parts we *can* do right away, and then focus on the bigger systemic changes
++ Effective Altruists totally want systemic change -- the question is how best to achieve those changes
+* [[https://slatestarcodex.com/2015/09/22/beware-systemic-change/?comments=false][Beware Systemic Change]]
++ One of the most common critiques of Effective Altruism is that it focuses too narrowly in specific monetary interventions rather than fighting for systemic change
++ This has led to leaders in the EA movement writing about how the EA movement isn't opposed to systemic change, and is in fact in favor of it
++ However, Scott worries about systemic change
++ What does Scott mean by systemic change?
+  + Traditional charity is viewed as being universally good, or at least neutral
+  + Everyone agrees that the sick should be healed, the hungry fed, etc.
+  + If we can't do the above, it's just because we don't have enough resources to achieve our goals
+  + /I was with him through the examples on healing the sick and feeding the hungry, but I lost him at the Koch Brothers example/
+  + /It's not self-evident to me that the Koch Brothers would be willing to install CO2 scrubbers at their refineries and chemical plants if those scrubbers were paid for by a private party/
+  + Some political issues are universally accepted like this
+  + Nobody is for corporate welfare, but corporate welfare exists because there's not enough organization and attention to eliminate it
+  + /Again, I disagree with his specific example/
+  + /Everyone is against "corporate welfare", but few agree on what corporate welfare is/
+  + /One person's "corporate welfare" is another person's "subsidy to preserve our traditional way of life" -- this is especially true of agricultural subsides, for example/
+  + /This actually *reinforces* his broader point re: systemic change/
+  + These issues can be contrasted with things like increasing the minimum wage, or gun control
+  + On both of those issues, there are factions in favor and factions opposed
+  + Change isn't happening because the two factions have canceled each other out
+  + Moreover, the track record of EAs pursuing systemic change isn't that great
+    + Engels and Marx (as alluded to in the previous reading)
+    + Widespread liberal support for Stalin
+    + Eugenics
+  + The consequences of being wrong once can outweigh the effects of being right many times -- systemic change as asymmetric downside risk
++ Systemic change is controversial and its pursuit will tear the movement apart
+  + EAs got into a huge controversy over the _option_ of non-vegetarian meals at EA Global
+  + Can you imagine what would happen if they started tackling issues that were genuinely controversial?
++ Advocating for working on incremental changes that are widely regarded as universally good helps EA avoid a host of failure modes
++ EA currently has a strong moral message -- we should be wary of diluting it
+  + /The problem is that the moral message is one that appeals only to utilitarians/
+  + /For example, if you do not accept the notion that distance doesn't matter when doing good, if you think that it is morally more important to do good for those close to you, what appeal does EA hold?/
+  + /The other problem with the moral message argument is that it's vulnerable to those who question EA's perceived shunning of systemic change/
+  + /It's valid to ask, "If this cause is so morally justified, why are you 'only' nibbling at the margins? Why not effect systemic change in order to dramatically reduce the problem?"/
+* [[https://ea.greaterwrong.com/posts/3wvLSv6aYaGBKwf9S/how-not-to-be-a-white-in-shining-armor][How Not To Be A "White In Shining Armor"]]
++ One of the objections to EA is that EA approaches seem to only work for certain problems, like infectious disease
++ However, developing countries have many needs -- why don't EAs try to tackle things like economic growth, gender equity, economic inequality, etc
++ This objection commits the fallacy of viewing the developed-world donor as the only person who can help the developing-world beneficiary
++ EAs believe that progress must be locally driven
+  + Give money to "low-insulation" charities, which have a good track record
+  + Need to make sure that we're not consolidating power among local elites
++ Global health and nutrition
+  + Another approach is that we should focus on areas where we are confident that we know a lot and can make a significant impact
+  + Health issues are the most prominent of these areas
+  + Aid on health issues has a good track record
++ Another way of helping the global poor is direct cash transfers
+  + Direct cash transfers give complete control to locals
+  + GiveWell now ranks GiveDirectly as one of its top three charities
+* [[https://medium.com/@jacyreese/the-animal-free-food-movement-should-move-towards-an-institutional-message-534d7cd0298e][The Animal-Free Food Movement Should Move Towards An Institutional Message]]
++ Vegetarianism and veganism started out as fringe diets for the ascetic
++ In recent years, we have had movement to make veganism and vegetarianism more mainstream
+  + Celebrities are talking about how they're adopting vegetarianism
++ However, to do the most good, we should focus on institutional messaging, making it clear that society as a whole should change towards vegetarianism
++ Good Food Institute is already using institutional messaging -- promote a better food system
++ Another question is whether we should emphasize a reduction in consumption of meat or total elimination of meat
++ Historical precedent for institutional messaging
+  + We should look at other social movements when strategizing for social impact
+  + The animal-free food movement has a virtual unprecedented focus on indvidual consumer change
+  + One of the only other movements to have such a focus was the free-produce movement, a movement to buy "slavery-free" products, in order to reduce the economic viability of slavery
+  + The free-produce movement was influential in the early 1800s, but by the 1840s even its proponents had come to the conclusion that there were more effective ways to fight slavery
+  + Some in the environmental movement feel the same way about "green consumerism"
+    + Think that an emphasis on affecting individual choices makes activists complacent
+    + Environmental movement, as a result, has been moving towards more institutional messaging, focusing on systemic changes to energy and industry rather than individual choices
+  + One potential counterexample for institutional messaging is the success of the anti-tobacco movement, which largely used individual messaging
+    + /Did it? Tobacco companies have numerous restrictions on advertising, which other companies and industries do not have/
+    + /Tobacco companies had were sued by a coalition of state attorneys general, and had to pay massive multi-billion dollar judgments, which were put into anti-smoking efforts/
+    + /Also, a large part of why smoking has become "uncool" is that indoor smoking bans have banished smokers outside/
++ Avoiding the "collpase of compassion"
+  + "Collapse of compassion" refers to the low levels of compassion that many people feel towards large problems that affect large numbers of individuals
+  + People expect the needs of large groups to be overwhelming, and, as a result, engage in emotional regulation to prevent themselves from experiencing overwhelming levels of emotion
+  + We might be able to avoid collapse of compassion by making it clear that problems are solvable and there's a concrete path to success
+  + Taking collective action feels more meaningful than just changing our own diet
+  + On the other hand, people might see that institutional messaging is too aggressive or totalitarian-sounding for people to accept
++ Evoking "moral outrage" and expressing the seriousness of the issue
+  + Institutional messaging evokes more "moral outrage" than individual messaging
+  + Moral outrage: "a special type of anger, one that ignites when people recognize that a person or institution has violated a moral principle, and must be prevented from continuing to do so"
+  + Is a response to the behavior of others, never one's own
+  + Institutional messaging places the blame for for an issue on an outside institution or one that the member is only a small part of
+  + Moral outrage allows people to break from "system justification" -- an often irrational defense of the status quo
+  + Activist motivation is driven by emotions that are similar to, but broader than moral outrage
++ Institiutional messaging makes the audience view the issue as more serious, given that it's being deemed important enough to require society-wide action
++ Peer pressure
+  + Institutional messaging has more peer pressure built in
+  + Institutional messages require large demonstrations to deliver, which allow people to realize that they're not part of a small fringe group -- their group is larger and more organized than they thought it was
++ An argument that cuts both ways: we could be biased in favor of one of these strategies
+  + We're biased in favor of individual messaging because of the general psychological desire for instant gratification
+  + /Wait, what? I don't see this bias in my everyday experience/
+  + /Lots of movements start out with institutional messages, when individual messaging might work better/
+  + /In fact, I'd argue that EA is the exception in that it started out with a strong ethos of individual messaging, and is only now considering institutional messaging/
++ Counterargument: Individual messaging has a clearer call to action and promising spillover benefits
+  + Individual change is something that you can do right away, while institutional change is vague and long-term
+  + Clarity of individual focus could make the recipient more likely to act on a call to action
+  + Short-term change has a shorter feedback loop -- can measure the effects of your activism more quickly
+  + Given how small the animal-free food movement is, institutional change might be intractable
++ Mixed messaging
+  + There might be a way to combine both modes of messaging to capture the benefits of both
++ Implications of favoring institutional messaging
+  + The tentative preponderance of evidence is in favor of institutional messaging
+  + /I'm not so sure, based upon this piece alone/
+  + /This piece hasn't addressed any of the downsides of institutional change that Scott brought up in the previous piece/
+  + /There is a hidden assumption here that EAs can manage institutional change so that it won't go in a direction other than what they intend/
+  + Focusing on institutional messaging and interventions is the an important underappreciated conclusion in the EA for animals space
+  + While EAs shouldn't stop using individual messaging, institutional messaging probably has more marginal gain at this moment

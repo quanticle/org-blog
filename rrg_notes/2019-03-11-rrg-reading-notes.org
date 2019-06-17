@@ -1,0 +1,67 @@
+#+TITLE: 2019-03-11 RRG Notes
+#+OPTIONS: num:nil
+
+* [[https://www.greaterwrong.com/posts/34XxbRFe54FycoCDw/the-bottom-line][The Bottom Line]]
++ There are two boxes up for auction
++ One contains a valuable diamond, the other is empty
++ The boxes are covered with signs and portents, but no sign or portent is known to be perfectly reliable
++ Let's say that there's a clever arguer, hired by one of the box owners to argue that their box has the diamond
+  + The clever arguer starts by writing, at the bottom of the page, "And therefore that's why this box contains the diamond."
+  + Then, they go back and fill in all of the other arguments as to why the box might contain the diamond
+  + When the clever arguer comes to you, they recite their argument -- saying that the box is blue, it has certain markings, etc, and therefore it must contain the diamond
+  + However, the evidentiary entanglement between the box and the argument became fixed when the clever arguer wrote their conclusion at the bottom of the paper
++ Let's say there's another person, who is genuinely curious about the contents of the box
+  + This person writes down the distinguishing characteristics of both boxes
+  + Then, using their knowledge of the laws of probability, they write down the conclusion
+  + In this world, the conclusion is entangled not with the willingness of the box owner to pay, but with the actual signs and evidence on the boxes
++ Your effectiveness as a rationalist is determined by whether you write down your conclusion first or last
++ Note: this is intended as a check on your own thinking, not as a fully-general counterargument against others
+* [[https://www.greaterwrong.com/posts/ZiQqsgGX6a42Sfpii/the-apologist-and-the-revolutionary][The Apologist and the Revolutionary]]
++ Anosognosia is the condition of not knowing your own disability
++ People deny even clearly observable disabilities, like paralysis or blindness and come up with increasingly implausible excuses for why they can't e.g. move their limbs
++ Why do people have trouble admitting their disability?
+  + Patients might be psychologically incapable of coping with their disability, but anosognosia only occurs in patients who have strokes in the right hemisphere
+  + Patients might not have access to the part of the brain responsible for thinking about the affected area -- however anosognosic patients will make equally implausible claims about other parts of their body
+  + This points to anosognosia as being a failure in rationality, rather than a problem particular to a particular part of the body
++ Dr. Ramachandran posits two different interacting systems in the brain
+  + Apologist -- tries to fit data to the brain's existing theory
+  + Revolutionary -- initiates a "paradigm shift" when the enough contradictory evidence has accumulated to overthrow the brain's existing hypothesis
++ Normally these two systems work in balance
++ However, if a stroke takes the revolutionary offline, then the brain loses its ability to "update"
++ The really weird thing is that squirting cold water into the patient's left ear seems to temporarily "wake up" the revolutionary
+  + The patient will admit to their paralysis and will exhibit confusion that they ever denied their paralysis
+  + However, after some time, the effect fades and the patient will go back to not only denying their paralysis but also denying that they ever admitted that they were paralyzed
++ The reason this seems so strange is because we think of our intellect as being primarily propositional in nature, and therefore internally consistent
++ However, anosognosia shows that our intellects don't have to be internally consistent
+* [[https://www.greaterwrong.com/posts/SFZoEBpLo9frSJGkc/rationalization][Rationalization]]
++ Rationality is a forward flow from evidence to conclusion
++ Rationalization is a backwards flow that starts with the conclusion and assembles the evidence to fit that conclusion
++ These two words shouldn't be as close to each other as they are
++ When you're investigating something, make sure that you're weighing the evidence first, and then coming to the conclusion, and not the other way around
+* [[https://www.greaterwrong.com/posts/P3uavjFmZD5RopJKk/simultaneously-right-and-wrong][Simultaneously Right and Wrong]]
++ 1978 study on self-handicapping shows that people will voluntarily choose circumstances that make them perform more poorly if those circumstances allow them to "excuse" their poor performance
+  + /Hmmm... this is a sexy result from before 2005; I'm not sure how much I believe it/
+  + /[[https://1drv.ms/b/s!AplHlBHEPfr26Se37tO0dyqOvsjm][Leary (1986)]] contains a list of replications/
+    + /Gibbons & Gaeddert, 1984/
+    + /Kolditz & Arkin, 1982/
+    + /Tucker, Vuchinich & Sobell, 1981/
++ In order to handicap, subjects must have both an inaccurate and an accurate assessment of their own abilities
++ Need to know that they expect to perform well (in order to have self-esteem to handicap) and must know that their "true" expectation is lower than their ostensible expectation
++ This is a different version of the "belief in belief" problem, similar to the person who has to explain away experimental results disconfirming the presence of a dragon in their garage
++ Belief in religious faith and self-confidence seem to be two areas where we can be simultaneously right and wrong -- we can express a biased position on a superficial level while holding accurate beliefs at a deeper level
++ /This relates to the/ Apologist and Revolutionary /reading as another example of the intellect not being propositionally consistent/ 
+* [[https://www.greaterwrong.com/posts/Cq45AuedYnzekp3LX/you-may-already-be-a-sinner][You May Already Be A Sinner]]
++ The doctrine of Calvinism emphasizes predestination -- it's already determined whether you'll go to heaven or hell, and there's nothing you can do in this world to affect that outcome
++ The blessed live virtuous lives, and the damned live sinful lives, but the type of life a person leads has no bearing on their entrance to heaven; it's just something that happens to them after they've been blessed or damned
++ So knowing this, would you choose to live a virtuous life or a sinful life?
++ Amos Tsversky argues that one should live a sinful life -- the blessed/damned decision has already been made, so why not have an enjoyable sinful life, full of earthly pleasures?
++ However, people under a Calvinist doctrine often lead virtuous lives, under the impression that the choice to lead a virtuous life affects the probability of their soul being blessed or damned
++ In a similar experiment volunteers were told that there were two kinds of heart -- Type I and Type II
++ They were also told that people with Type II hearts had longer, healthier lives
++ One group of volunteers was told that people with Type II hearts had higher pain tolerance after exercise
++ The other group was told that people with Type II hearts had lower pain tolerance after exercise
++ The group that was told that people with Type II hearts had higher pain tolerance chose to keep their hands in ice water longer after excercising
++ In both the Calvinist predestination case and the Type II heart case, people believed on some level that their actions would be able to affect a predestined outcome
++ However, in both cases, that knowledge didn't rise to the level of conscious thought, and thus when asked, people got the causation reversed -- said that their actions were a result of predestined variables
++ Similar to self-handicapping literature -- in both cases people take an action to protect their self-image that will work if and only if the intent behind the action doesn't rise to the level of conscious thought
++ In both cases, the action is apparently successful, self-image is protected, and the mind remains unaware of its true motives

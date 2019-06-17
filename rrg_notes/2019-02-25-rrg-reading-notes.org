@@ -1,0 +1,321 @@
+#+TITLE: 2019-02-25 RRG Notes
+#+OPTIONS: num:nil
+
+* [[https://www.utilitarian.net/singer/by/1972----.htm][Famine, Affluence and Morality]]
++ As Peter Singer writes this essay, in November of 1971, people are dying in East Bengal from lack of food, shelter and medical care
++ These deaths are not unavoidable
++ Unfortunately, people have not made the necessary decisions to avoid these deaths
++ Overall there has been a total lack of response to the crisis in East Bengal
++ No government has given the sort of massive aid that would enable the refugees to survive for more than a few days
++ Even though Britain is among the top givers of aid to East Bengal, the amount it has given is less than 1/30th the amount it has spent on the Concorde
++ Australia, another top contributor to Bangladesh, has contributed less than 1/12 the cost of the new Sydney Opera House
++ There is nothing unique about the Bangladeshi situation, other than its magnitude
++ The way that people in relatively affluent countries react to situations like the Bangladeshi crisis cannot be justified
++ First assumption: is that death from lack of food, shelter, medical care, etc. is bad
++ Second assumption: if it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, we ought, morally, to do it.
+  + /The *real* assumption is that preventing bad things in in our power/
+  + /In practice, Goodhart is eternal, and by attempting to prevent bad things, you often make other bad things happen (or, equivalently, slow good things from happening)/
++ These principles seem uncontroversial, but if they were acted upon, they would immensely change the world
+  + Doesn't matter if the person you can help is 10 yards away or 10,000 miles away
+  + Doesn't matter if you're the only person who can help or among millions of people who could help
++ Why should we refuse to take distance into account when choosing whom we can help
+  + If we accept any principles of impartiality or universalizability, we cannot discriminate against someone merely because they are far away from us
+  + In theory, it might be possible to argue that you know the needs of the person who is closer to you more, and thus are better positioned to help someone who is close to you
+  + However, swift communication and transportation have largely obviated that argument
+  + /I don't think they have/
+  + /I think that swift communication gives the illusion of understanding, and allows people to overconfidently intervene in affairs that they don't fully understand/
+  + /Then, when those interventions end up creating a local backlash, these well-meaning interventionists stand back and ask, "Why do they hate us? We were only trying to help./
+  + /Example: [[http://www.spiegel.de/international/spiegel/spiegel-interview-with-african-economics-expert-for-god-s-sake-please-stop-the-aid-a-363663.html][food aid to Africa]]/
+  + /Also, how accepted is universalizability as a philosophical principle?/
++ Why shouldn't it matter that there are millions of others in the same position?
+  + The fact that others have done nothing says nothing about our moral obligations
+  + If everyone gave 5 pounds sterling to the Bengal Refugees Relief Fund, there would be no crisis in Bengal
+  + However, because others won't give 5 pounds, you're obligated to give more, since by giving more, you can do more good
+  + So why doesn't this become an indefinite obligation?
+    + Very few people are likely to give substantial amounts
+    + Therefore, shouldn't everyone who is giving give as much as possible, even to the point of immiserating themselves?
+    + The paradox arises only if we assume that the act of sending money is performed simultaneously and is unexpected
+    + If it is to be expected that everyone gives something, then no one has to give the maximum amount they're able
+    + If everyone is not acting simultaneously, then we know how much more is necessary to give, and people giving later can give only as much as is necessary to reach that amount
+    + /I don't understand this argument -- is he saying that the people who give to a charitable cause first are obligated to give more, with people who donate later obligated to give less and less as the total amount donated approaches the amount required?/
+    + /Then why should anyone be the first to donate, when they know full-well that if they wait, they can give less?/
+    + /Another objection to this argument is that he hasn't actually demolished the claim that this leads to an indefinite obligation/
+      + /Let's say that we donate and we fix the famine in Bengal/
+      + /Then there's a famine in Ethiopia, so we donate and fix that/
+      + /Then there's a smallpox outbreak (remember, smallpox isn't declared eradicated until 1980)/
+      + /Where does it end?/
+      + /By this logic, any investment in research, technological development, economic growth, etc. is morally wrong insofar as there are still people who are dying from lack of food, shelter and medicine/
+    + /Finally, his argument carries troubling echoes of "the white man's burden"/
+      + /At what point do we say, "Okay, it's time for you to fix your own problems?"/
++ The outcome of Singer's argument is that our traditional moral categories are upset
+  + Normally, giving to food aid is considered to be a "charitable" donation
+  + It's "superogatory" -- it's good to give, but no one will judge you morally for failing to give
+  + Singer redraws that boundary between obligatory and superogatory
++ This revision has radical implications
++ Is this too big a revision of our moral code
+  + In the past, society drew a distinction between duties (behaviors that we are obligated to do) and superogatory acts (which are good to do, but optional) in order to draw a line between behaviors that allow society to function, and other good behaviors in general
+  + However, the moral point of view requires us to look beyond our own society -- the prevention of the starvation of millions is at least as important as the upholding of property norms within our society
+    + /WHOA! Did... Singer really go there? Did he actually say that it's okay to steal as long as you're stealing from the rich and giving to the poor/
+    + /Hey, that big screen TV you have is unnecessary, let me take it, sell it on eBay and donate the proceeds to famine relief/
++ Is this a moral code that people are actually capable of upholding
+  + Sidgwick and Urmson argue that we need to have a basic moral code which is not too far beyond the capacities of ordinary people
+  + Otherwise there will be a general breakdown in compliance with the moral code
+  + However, this ignores the amount of influence that moral codes have on social norms and personal behavior
+    + In a society in which the maximum one is expected to give is 5% of their income, giving away half seems absurdly unrealistic
+    + However, if the norm in society held that no person should have more than what they need so long there exists somebody who has less than what they need, giving away only 5% of your income would seem narrow-minded
+    + /It also ignores the effect that society has on morality/
+    + /Moral codes are just as subject to memetic evolutionary pressure as anything else/
+  + Finally, this consideration only applies to what we should expect from others, not the standards that we hold ourselves to
++ There are a number of other points, more practical than moral, which have bearing on this issue
+  + Aid ought to be given by government, rather than private charity
+    + There is no evidence that private charitable giving reduces the likelihood that goverment will step in
+    + In fact, the opposite view -- that lack of giving indicates disinterest, and thus reduces the likelihood of government intervention, seems more likely
+    + Yes, one can claim that it is more important to campaign to get governments to intervene than it is to donate on one's own, but one ought also to practice what they preach
+  + Famine relief only increases the amount of starvation later, by leading to population growth
+    + /This is *such* a 1970s objection/
+    + If you think that, then you ought to be supporting organizations that encourage population control rather than famine relief directly
+    + But you still ought to be giving the same amount
+    + /Ironic, then, that the greatest form of population control appears to be capitalist economic growth/
+    + /Heck, the total-fertility-rate in Bangladesh has dropped to 2.1 (from 8!), over the past 30 years -- largely due to economic growth/
+  + How much should we be giving away
+    + The strong version of Singer's principle is that one should give until one has lowered themselves to the position of the person that they are giving to
+    + Singer thinks the strong version is correct
+    + The weak version of this argument is that we should give until further giving would cause us to sacrifice something morally significant
+    + Even with this weak form of the argument, we would have a radical reshifting of our lifestyles
+    + Practically, we ought to give only so much as is necessary to avoid slowing economic growth
+    + /The problem with that line of reasoning is that it's a very centralized, almost Marxist, way of thingking/
+    + /It presumes that the economy is this single giant machine in a room somewhere, with knobs that can be twiddled to adjust the ratio between "wasteful" expenditure, charitable donations and investment in the future/
+    + /The problem is that there is no hard-and-fast distinction between investment in the future and wasteful expenditure/
+    + However, these considerations are academic, insofar as today we give so little, we can increase the amount we give by massive amounts and still have lots left over for economic growth
+      + /Yeah, that's fair./
++ Do philosophers have a role to play in public affairs
+  + It is sometimes argued that public policy depends on assessments of facts, and philosophers, because they're not experts in factual matters, aren't qualified to comment on public affairs
+  + However, the famine is not one of these issues
+    + The existence of the famine is not in doubt
+    + Nor is it disputed that Western societies could help, either through direct aid or through investment in population control
+  + Therefore, this is an issue in which philosophers can take a position
+  + The issue is one that must be faced by everyone who has more money than is necessary to support themselves
+  + It is not enough to discuss, we must also act and work to bring the practice of our lives more in line with our philosophical theories
+  + /I actually disagree with this premise/
+  + /Singer presents the Bengal famine as if it were this thing that randomly happened/
+  + /But that's not the case -- the famine in Bengal was the result of a civil war that resulted in the independence of Bangladesh/
+  + /Remember, Bangladesh, at one point, was East Pakistan -- after decades of misrule, they broke away, with the help of Indian military assistance, and formed their own state -- this occured in 1971, not coincidentally/
+  + /So, I do think that you need to know the specific facts about what's going on before you decide to intervene -- after all, I think it's surely a relevant consideration that Bangladesh in 1971 was an active war zone!/
+  + /Moreover, Bangladesh isn't an isolated case/
+    + /The Ethiopian famine of the 1980s was a result, in large part, of the civil war/war of independence between Ethiopia and Eritrea/
+    + /Similarly, the famine going on now in Yemen is a result of the civil war there/
+  + /Time and again, development economists have said, there's usually enough food in a famine -- it's just that because of war, state failure, lack of infrastructure, etc the food isn't getting to the people who need it/
+  + /Donating food, in such circumstances, often makes things worse -- you just end up piling up more food in warehouses and airports, and when this food enters the market, it causes massive price fluctuations which causes farmers and distributors to go out of business, which then makes the place more vulnerable to famine in the future/
+  + /But, in order to know this, you need to understand the facts on the ground; not just the immediate fact of the famine, but also the historical, political, cultural, economic etc. context that led to the present moment -- precisely the sort of knowledge that philsophers are unqualified to talk about/
+  + /In a very real sense, Peter Singer has turned a nation of millions into a trolley problem/
++ Postscript
+  + While the famine in Bangladesh has ended, the world food crisis, is, if anything even more serious
+  + US no longer has huge grain reserves
+  + Increased oil prices have made fertilizer and energy more expensive in developing countries
+  + However, the case of aid remains as great today as it does in 1971
+  + It's just that Peter Singer would give much more to aid limiting population growth -- since that would have much more long term-impact
+  + The important thing is to give aid, and choose the aid that's the most effective
+  + /Yes, this is a laudable goal, but once again, the devil is in the details -- I'm not sure that giving aid is the most effective way of helping people/
+  + /It seems to me that giving aid is inherently subject to Goodhart's Law -- we choose measures as targets, and we seem to think that if only we can find the *right* measure, we can use it without it being subject to Goodhart's Law/
+  + /But no such measure exists -- at some level, people have to help themselves/
+    + /Yes, we can remove certain obstacles, but we have to be careful that our aid isn't locking in place an unsustainable local maximum/
+    + /For example, even though starvation is a *huge* problem in North Korea, I would *not* recommend giving North Korea food aid, because the government deliberately starves its people in order to use those resources for other things/
+  + /In philosophy, as in economics, one must be careful to consider unseen effects as well as seen effects/
++ /tl;dr: Peter Singer lives up to his reputation as master of repugnant conclusion/
+* [[https://www.effectivealtruism.org/articles/cause-profile-global-health-and-development/][Global Health and Development]]
++ Introduction
+  + In 2013, nearly 800 million people were living under the international poverty line
+  + Living in poverty has a significant negative impact on health
+  + People die of easily preventable illnesses, such as malaria, tuberculosis and diarrhoea
+  + This suffering is preventable but neglected -- only 0.31% of GNI is spent on foreign aid
++ The case for global health and development as an important cause area
+  + Global poverty causes a great deal of suffering for a huge number of people
+    + In 2013, 10.7% of the global population lived under the global poverty line of $1.90 a day
+    + This line is the minimum level of income required to fulfill basic needs -- food, clothing, shelter
+    + Millions of people die each year of preventable diseases, such as malaria or tuberculosis
+    + It is estimated that the damage done by these diseases in the least-developed-countries plus India is between 200 and 500 million DALYs per year
+      + /Okay, hang on. Why "least developed countries plus India"? Why not "least developed countries plus India and China"? Why not "least developed countries plus Brazil"?/
+  + There are well-evidenced ways of reducing poverty
+    + Poverty is relatively tractable if we focus on the immediate costs to health and quality of life
+    + Relatively simple and cheap interventions can prevent the most common illnesses, such as malaria, tuberculosis, diarrhoea and parasitic diseases
+  + Additional resources could do a great deal more in this area
+    + Global poverty gets a great deal of attention, but the total funding it receives is relatively small
+    + The UK government spends 0.7% of its national income on foreign aid, but spends nearly three times as much on defence
+      + /Okay, this is something that just occurred to me: why do these people *always* compare foreign aid spending to defence spending?/
+      + /I have seen hundreds of articles that say, in effect, "Oh we spend x million on foreign aid, but 2x million on defence"/
+      + /Why is defense the proper point of comaprison/
+      + /Why not social security? Or medicare? Do you really think that old people really *need* as much money from the government as they're getting? Do you really think that all the medical procedures that medicare pays for are as necessary as oral rehydration therapy for a dying Sudanese child? And we spend far far more on these social programs than we do on defense/
+        + /Or, to go to an even greater extreme, why even look at the government at all? Why not compare the spending on social programs with, say, the revenue that Facebook gets?/
+      + /All of the above is a bit hyperbolic, true; I merely wish to highlight the fact that using defence spending as a point of comparison to foreign aid spending panders to a particular set of liberal, upper-middle-class values, and, moreover, I've never seen the choice of a point of comparison questioned or justified/
+    + Individual donations are also rather small
+      + In the UK in 2015, people donated more to medical research, hospitals, religious charities and charities for children and young people than they did to overseas disaster relief
+      + The charities currently implementing the most effective global health interventions seem to have a clear need for more funds
+  + We have stronger evidence for interventions in this area than almost anything else
+    + Robust record of success in global health and development
+    + Outcomes are at least somewhat measurable
+    + Though other cause areas may have larger gains, there is also less certainty about what the actual benefit will be
+    + /This, to me, is the strongest argument in this article/
+    + /It boils down to: "Look, there might be other things that are better, which reduce poverty and improve life outcomes more. But, we don't know if any of those things actually work. Plus, reducing disease probably won't have horrible second order effects."/
+  + Cost-effectiveness analyses and RCTs
+    + Cost-effectiveness analyses attempt to quantify how much good can be done with a given amount of money
+    + The cost of eradicating smallpox was $1.6 billion
+    + A conservative estimate of the amount of lives saved is 60 million
+    + This works out to $25/life saved, which is extremely cost-effective given that people are willing to spend tens of thousands just to extend life by a few years
+    + The best health interventions aren't as effective as eradicating smallpox, but they are quite effective
+    + Recommended charities can save a life for between $900 and $7,000 per life saved, which is still very cost effective compared to health care spending in the developed world
+    + These cost effectiveness estimates are based on the results of randomized controlled trials (RCTs)
+    + An RCT involves giving an intervention to half the population, while giving the other half no intervention
+    + Outcomes are then compared
+    + Interventions in global health are backed up by more RCTs than any other cause area
+  + In summary, it is possible to have a large impact on global health and development because
+    + The problem of global poverty is large in scale
+    + Many of the problems associated with poverty, particulary its impact on health, are highly tractable
+    + The problem is relatively neglected, given its scale
+    + The evidence for interventions working is very strong
++ Concerns about prioritizing global health as a cause area
+  + Does foreign aid really work?
+    + While some foreign aid interventions are wasted, the average foreign aid intervention does a lot of good
+    + Even if all other aid spending was wasted the eradication of smallpox alone would be enough to justify all the foreign aid spent upto today
+    + /But how much of the eradication of smallpox was driven by foreign aid? Didn't national governments also have a big push?/
+  + Charity "begins at home"
+    + Additional resources can do a lot more good in developing countries than they can do at home
+    + Developing countries lack resources, and their problems are ones that we know how to solve
+  + Who are we to say what poor people need
+    + Global health interventions aren't necessarily paternalistic
+    + Concerns about paternalism seem less well-founded when people have clear and pressing needs, like poverty and preventable disease
+    + /"If people are dying of known preventable diseases, it seems hard to imagine how we could be “wrong” about the need to prevent this. There may well be other things that they need beyond surviving, but sorting this out first seems fairly uncontroversial."/
+    + /See, that's just it -- it can be "wrong", as was pointed out in the commentary on Peter Singer's drowning child essay/
+    + /It's possible that by coming in and "solving" every disease outbreak, you're creating an attitude where people don't attempt to come up with local solutions to their problems, because they're confident that powerful outsiders will intervene and save them/
++ Why might you /not/ chooose to prioritize this cause area
+  + There might be better ways to improve the lives of people living today
+    + Mental health problems might be creating even more suffering than poverty
+    + Investing in broader cause areas might improve the decision making of all humanity, improving our ability to solve not just this problem, but all problems
+    + We need to avoid the "streetlight fallacy" of investing in cause areas because it is easy to gather evidence for them, not because they are good
+  + We should prioritize reducing the suffering of non-human animals
+    + Over 50 billion animals currently live in conditions of extreme suffering before being slaughtered in factory farms
+    + There is even less spent on this than is spent on global poverty
+    + Comparing the two depends on the following judgment calls
+      + The significance of animal suffering relative to human suffering
+        + Perhaps human suffering is more morally signficant than animal suffering
+        + Perhaps freedom and dignity are more important for humans than they are for animals
+      + The indirect effects of poverty interventions vs. animal interventions
+        + Human societies are capable of development in ways that animal societies are not
+        + Therefore the indirect effects of human-focused interventions might be greater
+      + Importance of a strong evidence base
+        + Global health interventions have much more evidence behind them than animal welfare interventions
+  + We should prioritize the long-run survival of humanity
+    + If we think we can affect the long run future, we focusing on that might have a higher impact than focusing on more immediate problems
+    + How much weight should we give "future people"
+      + Should we give future not-yet-existing people the same moral weight as existent people?
+        + /No, please don't do this/
+        + /The consequence of this logic is that abortion and birth control both become morally wrong/
+      + If we don't give future people the same moral weight as existing people, then human extinction carries no longer term harms -- no moral harm done by causing people to fail to come into existence
+        + /To be honest, this is my view/
+        + /Also, if the extinction of 7 billion plus people isn't enough to cause you to take the threat seriously, I'm not sure that adding more hypothetical future people changes the calculation all that much/
+        + /I find it difficult to come up with a risk where I'm willing to say, "Yeah, this might wipe out 2/3s of humanity, but it's okay, because it won't cause *total extinction*."/
+      + How much weight should we give the non-identity problem
+        + Policies enacted today will determine which jobs people get and who they marry, therefore causing different people to be born in the future
+        + These policies might affect how good the lives of future people are
+        + How can we balance policies that make future people worse off, but also cause those same future people to be born?
+    + Can our actions have any real impact on the far future?
+      + We only have one history -- no way to do randomized controlled trials and see which sorts of interventions have long term impact and which do not
+      + However, there are reasons to be optimistic -- small changes in the values of a civilization could last a very long time, since people try to pass their values on to their desencdants
+        + /Depends -- if the change is genetically or memetically beneficial, then yes, small changes can persist for a long time/
+        + /If the change is not genetically or memetically beneficial, then it will either remain confined to a small group that can afford to pay the price for having that idea or it will die out completely/
+        + /Please don't overestimate your ability to effect deliberate change on the long-run trajectory of civilization; you're not the Second Foundation/
+    + How should we trade off fixing immediate problems against longer-term thinking
+      + Even if you think that longer term problems are the most important, maybe the best way of solving longer-term problems is by fixing immediate problems
+      + Make sure that current problems aren't around to affect future generations
+  + We might want to focus more on "systemic change"
+    + Poverty reduction and alleviation tackles only the symptoms of poverty, and not the root causes
+    + It's not clear whether focusing on the most immediately obvious problems will help us end poverty altogether
+    + Inequality might be caused by more fundamental problems, such as the politics of developing world countries
+    + However, current marginal efforts are still more effectively spent directly helping the poor
+    + /Well, the problem I worry about is that all of these direct interventions shove us into a local maximum/
+    + /Bednets, food aid, oral rehydration, etc. will certainly alleviate the worst of the worst of poverty/
+    + /But there's still a *huge* gap between "won't literally starve to death in the next week" and a "middle-class" lifestyle/
+    + /While it is clear that massive amounts of foreign aid can fix the former, it's not at all clear that they fix the latter; in fact, foreign aid might actually make fixing the latter more difficult/
+    + /Moreover, what happens when the aid goes away? If you stop providing bednets to an area, does it just sink back into poverty and malaria?/
+    + /On the other hand, systemic change can also backfire spectacularly/
+      + /China offers examples on both sides: Great Leap Forward vs. Deng Xiaoping's economic reforms/
++ Summary
+  + Global poverty causes a huge amount of suffering across the world
+  + One of the worse consequences of this is preventable diseases
+  + We have a number of highly effective interventions which can prevent and treat these diseases
+  + We have strong evidence that these interventions work and are cost effective
+  + In light of this, the objection that foreign aid doesn't work appears to be false
+  + Also, given the relative lack of resources in the developing world, our aid dollars accomplish more in developing countries than in developed ones
+  + It's plausible that we should further systemic change to solve these problems
+  + However, systemic change might be best effected by giving local participants the ability to better influence their own futures
+    + /This is actually a really good point, and I wish they'd elaborated on it more/
+    + /tl;dr: you can't think about political change when you're battling malaria chills/
+  + Whether you believe this to be the most important cause depends on
+    + Whether you believe there to be other ways to improve human lives
+    + How much marginal value you give to reducing human suffering
+    + Whether you believe it more important to focus on the long-term future of humanity
+* [[https://www.givewell.org/how-we-work/criteria][Givewell's Criteria for Top Charities]]
++ The top charities recommended to donors are characterized by:
+  + Evidence of effectiveness
+    + Programs should be studied rigorously and repeatedly
+    + Benefits should be expected to generalize to large populations
+    + Will the charity be able to execute well enough to deliver results found in academic studies?
+  + Cost effectiveness
+    + Estimate figures such as "cost per life saved"
+    + "Cost per total economic benefit to others, normalized by base income"
+    + People in the developing world have dramatically lower standards of living, and a dollar can help them more
+  + Room for more funding
+    + Top charities receive a significant number of donations as a result of GiveWell's recommendations
+    + Will the additional funds that GiveWell would direct to that charity enable that charity to do more goood?
+    + GiveWell has suspended recommendations of charities when they felt the charity couldn't use the incoming dollars efficiently enough
+  + Transparency
+    + Potential top charities are examined thoroughly and skeptically
+    + Givewell tries to publish detailed reviews as well as concerns related to their work
+    + Charities must be open to this investigative process
++ Why these criteria?
+  + Why evidence of effectiveness
+    + /To be honest, this one is self explanatory -- if you're donating to do good, you should actually verify that your donations are doing good, right?/
+    + Most of the available information about the effectiveness of charities is simplified, exaggerated or incomplete
+    + In order to judge how much good a donation will do, we need to answer the following questions
+      + What will the donation enable which wouldn't have otherwise happened
+      + Will this activity change people's lives for the better or will it run into unexpected challenges?
+        + /Wait a second... how can you predict an unexpected challenge?/
+      + Will it accomplish a large amount of good, relative to other things we could donate towards?
+    + While one can make an informed assessment of these questions by taking to time to get to know an organization and the field it operates in, not everyone has the time to do this
+    + GiveWell focuses on recommending charities that are verifiably outstanding, for whom a case can be made without relying on a lot of judgment calls
+  + Why the focus on global poverty?
+    + Developing world poverty is far more severe than developed-world poverty
+  + Why the focus on direct aid rather than root causes
+    + Root cause efforts are more suited to highly engaged donors who can take the time to do deep evaluations of the effectiveness of a charity
+    + Direct aid can empower people to make differences in their own communities
+    + Donors should focus on the areas where they're best able to help
++ Why so few charities
+  + GiveWell focuses on a relatively small portion of the charitable sector (charities working on direct health interventions in the developing world)
+  + Charities need to publish the appropriate statistics that allow for them to be assessed
+  + Evaluation process is time-intensive
+  + It's better to know a few charities really well than a large number of charities poorly
++ The process for identifying top charities
+  + Find eligible charities
+    + Search for charities that focus on the priority areas
+    + Charities will apply for recommendations
+  + Examine charities
+    + Deeply and critically question a charity's impact
+    + Find out where the strengths and weaknesses of the charity lie
+  + Follow up
+    + Track charities over time
+    + Because of GiveWell's track record in directing donations, charities are often open to engaging substantively with GiveWell
+    + /Hmmm... that *sounds* good, but how does GiveWell keep from being "captured" by these charities?/
+    + /Regulatory capture doesn't (just) occur with envelopes of cash being passed around in smoke filled back rooms/
+    + /It also happens when a regulator becomes hyperfocused on the current participants in a field, rather than the field itself/
+    + /By focusing on current charities, it's possible for an oversight organization such as GiveWell to adopt the charities' metrics as its own, thus overlooking other, possibly more effective charities, because that charity scores poorly on the metrics that GiveWell and its current charities have agreed upon/
+    + GiveWell writes about both positive and negative developments faced by charities
+* [[https://blog.givewell.org/2018/11/26/our-updated-top-charities-for-giving-season-2018/][Givewell's Updated Top Charities For Giving Season 2018]]
++ 3 top charities implementing programs whose goal is reducing deaths
+  + Malaria consortium's seasonal malaria chemoprevention (SMC) program
+  + Helen Keller International (HKI)'s vitamin A supplementation (VAS) program
+  + Against Malaria Foundation (AMF)
++ 5 charities implementing programs to increase income
+  + Evidence Actions's Deworm The World Initiative
+  + Schistosomiaisis Control Initiative
+  + Sightsavers' deworming program
+  + EDN Fund's deworming program
+  + GiveDirectly

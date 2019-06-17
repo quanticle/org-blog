@@ -1,0 +1,274 @@
+#+TITLE: 2019-02-04 RRG Notes
+#+OPTIONS: num:nil toc:nil
+
+* [[https://www.givingwhatwecan.org/post/2016/03/four-things-you-already-agree-with-effective-altruism/][Four Things You Already Agree With (that mean you're probably on board with effective altruism)]]
++ Four ideas you probably already agree with
+  + /I have learned to be very suspicious when someone says that an idea is self-evident/
+  + It's important to help others
+    + When people are in need and we can help them we should
+    + /And we already fail the self-evident test/
+    + /The capacity to help implies the obligation to help? Really? You just made that leap without any justification whatsoever./
+  + People are equal
+    + Everyone has an equal claim to being happy, healthy, fulfilled and free
+    + /Do they? I mean, I believe that they do, but I know that neoreactionaries would strongly disagree/
+    + /Heck, not even neoreactionaries -- most people would agree that criminals, for example, have given up their right to be free/
+  + Helping more is better than helping less
+    + We should save more lives, help people live longer, and help people live happier lives
+    + /The difficulty comes when those goals conflict/
+    + Imagine if you have enough medicine to save 20 people, and no reason to conserve -- would anyone choose to save only some of the people, instead of all 20
+    + /Yeah! Lots of people, in practice, would choose to withold medicine rather than give it to someone who was "undeserving", where "undeserving" can be defined as anything from, "Is a murderer," to "Is of the wrong ethnic group."/
+  + Our resources are limited
+    + We can only spend a certain amount of our resources on charity without causing strain on our own resources
+    + Choosing to spend time or money on one option is implicitly choosing to *not* spend it on other options
++ These four ideas are pretty uncontroversial
+  + /The more you say that, the less I believe it/
++ In fact, defending the opposite positions would probably be difficult and uncomfortable:
+  + Helping others isn't morally required or even that good
+  + It's okay to value people differently based on arbitrary differences like race, gender, ability, etc
+  + It doesn't matter if some people die even if it doesn't cost anything to save their lives
+  + We have unlimited resources
+  + /Okay, I'm not Obormot, but even I can come up with adequate defenses of the first three/
+    + /Helping others isn't morally required, or even that good/
+      + /Is helping others really the most moral thing you could be doing?/
+      + /What about paying attention to your own moral development?/
+      + /Maybe the most moral thing you could be doing is improving your personal moral worth, by living a particular lifestyle, or venerating God/
+    + /It's okay to value people differently based on arbitrary differences like race, gender, ability, etc/
+      + /Whether someone is or is not related to me is an "arbitrary difference", but you are *insane* if you believe that someone will give a stranger equal weight to their brother/sister/
+      + /And we can scale that up -- is it wrong to favor your cousin over a stranger? Is it wrong to favor your neighbor over a stranger? Is it wrong to favor someone from your town over a stranger? Is it wrong to favor someone from your country over a stranger from a foreign land?/
+      + /I might be committing the is-ought fallacy here, but I think it's definitely *not* self-evident that it's wrong to value people differently based upon "arbitrary differences", when the *vast majority* of people in the world do exactly just that/
+    + /It doesn't matter if some people die even if it doesn't cost anything to save their lives/
+      + /We live in a country which still practices the death penalty/
+      + /Not everyone has an absolute right to life/
+      + /If a convicted murderer on death row gets prostate cancer, which will kill him in 35 years, is it worth investing resources to treat the cancer when the murderer's execution is scheduled for 5 years from now?/
++ If these four ideas embody important values, then the way we're thinking about doing good is probably totally wrong
++ In order to be true to the value above, we need to think about how we can help the most people with the resources that we have
++ The difference in impact between causes is *huge* -- the most impactful charities can have hundreds of times of the impact of the least impactful
+  + It's the difference between helping one person and helping hundreds of people, for the same amount of money
+  + /Okay, but how are you defining "impact"/
+  + /Is it lives saved?/
+  + /What about a charity that brings art resources to people living in poverty?/
++ A charity chosen at random is probably not making as much impact as the most effective charities
+  + /There's a bit of confusion going on here between charities and cause areas/
+  + /A charity devoted to the arts might reach ten times fewer people than AMF, but that's because the arts charity is in a different cause area/
+  + /If you're going to compare charities, and claim that the best charities reach tens or hundreds of times as many people as a randomly chosen charity, you need to make sure that you're comparing a randomly chosen charity to the best charity within that cause area/
++ The charities that we donate to are, in effect, chosen at random -- we choose charities based upon what we have exposure to
++ Every worthy cause should be on the table
+  + Climate justice
+  + Animal sanctuaries
+  + Preventing easily treatable but unpronounceable diseases in places we've never heard of and will probably never visit
++ Trying to be cause neutral is really difficult
+  + It's hard to not favor causes that have had a personal impact on you or your family
+  + /Well, maybe that difficulty is a sign that your "self-evident" axioms really aren't all that self-evident/
++ However, if we care about treating people equally, we should care about treating their experiences equally
++ We need to treat _all_ death and suffering as a tragedy, not just the death and suffering that we happen to see
+  + /Man, I understand why rationalists have such problems with anxiety now/
++ Effective altruism is a way to better uphold the values that you already have
+  + /Uh... no/
+  + /Effective altruism is a way to change my values into a particular form of utilitarianism, which seems geared to give me an anxiety disorder/
++ EA asks us to face up to some hard choices, but we're making those choices anyway, whether we think about them or not
++ Even though it might feel difficult to not donate to a charity that seems worthy, you should always remember that you're trading off causes against one another
++ /Standard pitch for donating mosquito nets goes here/
+* [[http://dragice.fr/utilitarianism/faq.html#WHATIS][What Is Utilitarianism]]
++ Utilitarianism is a collection of philosophical positions which have 5 major characteristics in common
++ Utilitarianism is the doctrine that the morally right thing to do is that which maximizes _Utility_
++ Characteristics utilitarianism
+  + Universalism
+    + Moral principles are universal
+    + Same moral standards apply to all people and all situations
+    + Most philosophies since the Enlightenment have been universalist
+    + The utility of all people is important, and is in fact assumed to be equally important
+    + However, many people hold that the utility of people who are close to one, such as family and friends, matters more than the utility of people far away
+  + Consequentialism
+    + What matters, morally speaking, is the consequences of actions
+    + Actions aren't inherently good or bad in and of themselves, they are good or bad based upon their outcomes
+    + This is a fairly controversial point -- many people hold that there are actions which are wrong, regardless of their consequences
+  + Welfarism
+    + Good consequences are that which improve the well-being of specific people
+    + Well being is defined subjectively, and the definition differs between specific utilitarian philosophies
+    + A belief opposed to welfarism would hold that there are principles which are important, even if they don't benefit anyone in the particular situation being discussed
+  + Aggregation
+    + Utilitarianism is an aggregative philosophy
+    + What is good overall is the aggregation of what is good for each and every individual
+    + Aggregation is controversial, as it implies that the welfare of different people can always be compared
+  + Maximization
+    + Utilitarianism is the most famous maximalist philosophy
+    + Holds that if something is good, then it is better to have more of it
+    + A non-maximalist philosophy would hold that it can be wrong to do something even if it would reduce the total amount of wrong in the world
++ Given these characteristics, utilitarianism holds that
+  + Morality of actions is solely judged by how those actions maximize utility
+  + Utility is the welfare of individual people from the perspective of those people
+  + One person's welfare is as important as another's
++ Non-utilitarian philosophies hold that
+  + Actions can be right or wrong regardless of their consequences
+  + Some consequences are good, even if they do not increase the welfare of any individual
+  + We should promote welfare in some way other than maximization
+* [[https://www.utilitarian.net/singer/by/199704--.htm][The Drowning Child and the Expanding Circle]]
++ Imagine you're walking past a shallow pond and you see a child has fallen in
++ Do you have an obligation to rescue the child, even though it would result in your clothes getting ruined and you being late to school/work?
++ Most people would answer yes
++ Does it make a difference if the child is far away, in another country
++ If you can save a life at a trivial cost to yourself, don't you have the obligation to do so?
++ At this point, most people challenge the practicalities
+  + Can we be sure that the donation will actually get to those in need?
+  + Isn't the real problem something else, like growing world population
++ Hardly anyone, however, challenges the underlying ethics
+  + /I'll challenge the underlying ethics/
+  + /I do maintain that it makes a difference that the person whom you're trying to save is in another country/
++ The 20th century is the first century in which it's been possible to speak of a global community and global responsibility
++ For most of human history, there was simply no possible way for a person to make a difference for someone else living hundreds or thousands of miles away
++ Advances in communication and transportation have changed that
++ It's now possible to see and affect lives that are halfway across the world
++ Not only is it possible, we are affecting the lives of others and the natural world in which we live
+  + Ozone depletion
+  + Global warming
+  + The actions of a person in Los Angeles can have deleterious effects on a person in Adelaide
++ The modern world is also lacking in meaning and fulfillment -- capitalism's only message is consume, and earn more to consume more
++ We cannot see it as our end to acquire more and leave behind an ever larger heap of waste
++ Identifying with other, larger goals lends meaning to our lives, and reconciles ethics with self interest
++ If we can identify our self-interest with the larger interests of humanity and the natural world as a whole, then we are freed from the need to consume ever more in order to get ahead of our peers
++ /[[https://www.greaterwrong.com/posts/M8zgMmNCfpQxaKo8Y/some-reservations-about-singer-s-child-in-the-pond-argument#comment-GBLvB7JjtPYEYaq8y][LessWrong discussion of this essay]]/
+  + /The primary objection seems to be that Singer, through some inductive sleight of hand, has turned a definite, limited obligation into an indefinite unlimited obligation/
+  + /It's one thing to say that one day you come across a drowning child, and you're obligated to ruin your clothes in order to save him/her/
+  + /It's quite another thing to say, "Every day, when you walk past this pond, a different child is drowning, and every day, you jump in, without regard to your own clothes and needs in order to save this child."/
+  + /[[http://wiki.preventconnect.org/River-Story/][The Upstream Parable]] (linked from the aforesaid LW discussion)/
++ /Aside from the points raised in the LessWrong discussion, I find it funny that Singer is criticizing capitalism/
+  + /Like it or not, China's adoption of capitalism lifted something like 300,000,000 people out of poverty and into a middle-class lifestyle/
+  + /I have yet to see a charity that has lifted even 3,000,000 people out of poverty/
+* [[https://ea.greaterwrong.com/posts/toAMJ3cWQiWDheaKD/if-you-want-to-disagree-with-effective-altruism-you-need-to][If you want to disagree with effective altruism, you need to disagree with one of these three claims]]
++ Effective altruism is often motivated by referring to Peter Singer's pond argument
++ This is a mistake
+  + Associates EA with international development
+  + Makes it appear that if you can refute the pond argument, you can refute the arguments for EA
++ EA is justified by the "general pond argument"
+  + The original pond argument is:
+    + If you can help others a great deal without sacrificing something of similar significance, you ought to do it
+    + We can help the global poor a great deal by giving to effective charities
+    + Therefore, we ought to give to effective charities until it becomes a great sacrifice
+  + This leads to the objection of wondering whether international aid really helps the global poor
+  + However, one can deny the importance of international aid, and still accept the importance of EA
+  + As long as there are some actions which benefit others a great deal, but which cost ourselves little, EA will be important
+  + This leads to the "general pond argument"
+    + As long as there are actions which benefit others a great deal, but which cost us little, we should do them
+    + Some of these actions are not widely taken
+    + We can find out about these actions using evidence and reason
+    + Therefore, there are cost-effective and highly beneficial actions which we could be taking, but are not
+      + /Is he just assuming the conclusion?/
+      + /His first premise implies that these "pond-like" actions exist/
+      + /His second premise outright states that some of these actions are not widely taken/
+      + /So his conclusion is literally, "Cost effective and highly beneficial actions exist, and are not taken, because my premises state as much"/
+    + The mission of effective altruism is find these actions and funnel resources towards them
++ Why do we think there are going to be lots of these cost-effective actions?
+  + Global inequality
+    + College graduates in developed countries are 100 times as rich as the global poor
+    + That means that these people could do 100 times as much good by helping the poor than by helping themselves, just by transferring their income
+    + /Wait, what? How does that follow? Did you just assume that outcomes scale linearly with money?/
+    + Moreover, there are probably ways of helping that are more efficient than income transfer, so in reality the ratio is probably greater than 100x
+    + /Are there actually such ways helping? A lot of economics research has shown that if you want to help the poor, straight cash transfers are probably the best way/
+  + Moral concern for animals
+    + Animals have no political or economic power
+    + Historically, people have not cared about animals' interests
+    + By doing something simple like going vegetarian, you personally prevent about 100 animals from being killed each year
+  + The ability to affect the future
+    + There will be many more people living in the future than are alive today
+    + If you believe that we should have moral concern for future generations and believe that our actions today can affect them, then there relatively small actions that you could take today, which would have massive consequences for future generations
+    + /The problem there is determining which actions. There are lots of actions which *seem* good, but which have deleterious second or third order consequences/
+      + /For example: opposing sweatshop labor/
+      + /The first order consequence is good, but if the company closes the sweatshop rather than comply with better calls for better working conditions, people often end up going back to subsistence farming, which leaves them less well off/
+      + /So, yes, I agree that there are small actions that you could take today which will leave future generations much better off. The problem is determining what those small actions are/
+  + The possibility of leverage
+    + If you focus on finding the best ways to help others, you can often find ways of doing good which are more effective than just doing good things yourself
+    + If you think some action A is good, then you can probably get 10 people to do A
+      + /Whaaaaaaaa? No, that does not follow at all! Has this dude ever tried to organize anything? It absolutely does not follow that just because some action is good, you can get 10 people to do the good action with you/
+  + Poor existing methods
+    + Many current attempts to do good aren't very strategic or evidence-based
+    + There are probably ways to do good which are 10 or even 100 times better than what people normally focus on
+    + /Again, the argument jumps far beyond what the evidence supports/
+    + /I agree that current ways to do good aren't necessarily very strategic/
+    + /That does *not* imply that the "best" ways to do good, however "best" is defined, are 10 or 100 times better than current methods/
++ How /not/ to refute the importance of effective altruism
+  + To disagree with effective altruism, you need to disagree with one of the parts of the "general pond argument"
+  + Most critiques of EA fail to hit the mark
+  + Common failure modes
+    + Equating effective altruism with utilitarianism
+      + EA rests on a much weaker moral claim than utilitarianism
+      + EA merely says that you ought to do actions that are a great benefit to others with little cost to yourself
+      + In contrast utilitarianism says that you ought to do an action that's a major sacrifice, as long as it does slightly more good to others
+      + This is a much stronger claim
+      + /Is it? It seems to me that the difference between EA and utilitarianism is a mere difference in degree, not a difference in kind/
+      + Utilitarianism also denies that anything matters except welfare and that it's okay to violate rights in favor of the greater good
+      + /What? You're straw-manning utilitarianism here. There are variants of utilitarianism which do admit the notion of inviolable rights/
+      + /Heck, I'm *not* a utilitarian, nor am I especially supportive of EA, and even I don't strawman utilitarianism like this/
+    + Arguing that a specific action is not cost-effective and high-benefit
+      + This is not a general critique of EA
+      + It's a contribution to help EA find the best missions to support
+    + Saying that EAs think you should only support charities that have randomized controlled evidence behind them
+      + RCTs are just a tool
+      + There are probably other ways to identify effecitive charities
++ What types of criticism might hit the mark
+  + Deny the moral claim
+    + Implies that you would let a child drown in a pond in front of you
+    + /You monster/
+  + Show that there's an important moral difference between saving the child drowning in the pond and all the other cost-effective actions to save human life that you could be taking
+    + This is much more difficult than showing there's a difference between any specific action (like donating to charities) and saving the child in the pond
+    + /Wait, how does this claim follow?/
+    + /I don't have to show that all possible EA supported actions are different than saving a child drowning in the shallow pond, I just have to show that the all the proposed EA supported actions are different than saving a child drowning in the pond/
+    + /Otherwise, the claim becomes merely, "There exists some other action which is equally cost effective and morally obligatory as saving a child from drowning in a pond," which is a much weaker claim./
+    + /It's a motte-and-bailey argument. The motte is, "There exists at least one way of helping people which is very cost effective." The bailey is, "Go donate to AMF, or the worm charity, or wild-animal suffering research, because it is that way."/
+  + Accept that effective altruism is correct, but deny that the effective altruism movement will do much good
+    + /Porque no los dos? EA is incorrect *and* the movement won't end up doing much good/
++ Conclusion
+  + Discuss a wider range of actions than just donating to international health charities
+  + If we can communicate the idea that there exist cost-effective ways to save lives then we can make the case for EA in a much more robust fashion than by focusing on specific actions
++ /My thoughts/
+  + /Not only did this not address any of the objections from the discussion of Singer's pond argument on LessWrong, it managed to introduce new weaknesses/
+  + /That's some next level failure at logical reasoning/
+* [[http://mindingourway.com/on-caring/][On Caring]]
++ It's difficult to feel the size of large numbers
++ A billion feels just a bit bigger than a million, even though it's a thousand times bigger
++ This is related to scope insensitivity
++ It matters because sometimes the things you care about are really numerous
++ Billions of people live in squalor, with hundreds of millions of them deprived of basic needs and/or dying from disease
++ Even though the vast majority of them are out of sight, I still care about them
+  + /Why?/
+  + /This is a legitimate question -- why do you care? It just seems like a really good way of giving yourself anxiety issues/
+  + /Moreover, what moral force makes it *your* responsibility to help them?/
++ Knowing that, Nate Soares cares about every single individual on the planet
++ The problem is that the human brain is simply incapable of taking the amount of caring it can feel and scaling it up to encompass the entire planet
+  + /Maybe that's a sign that you shouldn't be doing that/
++ Caring about the world isn't about having a gut-feeling that corresponds to the level of suffering in the world
++ It's about doing the right thing anyway, even without having that feeling
++ We're playing for incredibly high stakes
+  + Billions of people suffering today
+  + Trillions or quadrillions of people who will exist in the future
++ When faced with stakes like these, your internal heuristics completely fail to grasp the situation
+  + /But here's the thing: let's say that your internal heuristics *do* grasp the situation/
+  + /Let's say that you *are* capable of feeling the entirety of human suffering/
+  + /What does that get you?/
+  + /Won't that just leave you a non-functional wreck, sobbing every minute of every day, because some peasant in Africa stepped on a nail and is now dying of tetanus?/
++ Saving one life feels just as good as saving the entire world
+  + /Saving one life actually probably feels better than saving the entire world, at least that's the impression I get from the interviews with Stanislav Petrov/
++ There's a mental shift that happens when you internalize scope insensitivity
+  + Notice that most charitable donations are made in a social context
+  + We agree that people should donate to charity, but when we see someone give _everything_ to charity, we think they're crazy
++ When some people internalize scope insensitivity, they freeze up
+  + See that there's no way that they can do anything to affect the world's problems
+  + Freeze up, since there are so many problems and so little time to affect them
+  + /Honestly, his description of Daniel's thought process reads more like the description of a mental breakdown or anxiety attack/
+  + /[[https://i.pinimg.com/originals/99/31/1b/99311bdb0950b348b0ba6fca983b9512.gif][Literally this t-shirt]]/
++ Most of us go through life understanding that we should care about people far away, but failing to care
++ But this is an error -- we should donate despite not caring
++ There is no way you can care enough to use "care" as a motivation to be altruistic
++ So, if you can't use how much you care as a heuristic and you can't use social pressure as a heuristic, what do you do?
+  + Not sure yet
+  + GiveWell, MIRI, FHI, etc are all efforts at answering this question
++ It's easy to look at virtuous people and conclude that they must have cared more than we did
++ But that's probably not the case
+  + /Uh, it actually probably is/
+  + /This is Nate Soares typical-minding again -- look, dude, just because you're an uncaring, unfeeling, perfectly rational and 100% Effective robot, doesn't mean that everyone is/
+  + /Martin Luther King? He *cared* about the plight of black people in the Jim Crow South. He cared, and he was *angry*. That's what motivated him to go out there every day, and put his life on the line, day in and day out, to try to get reforms pushed through/
+  + /Same with Mandela, Gandhi, Mother Teresa, etc. They all cared. None of them did this, "Oh, I can't possibly care enough, but I'm going to do the right thing anyway," dance that Nate is describing/
++ Nobody can care enough to comprehend the problems that we face
+  + /Sure, no one person can care enough. But maybe if enough people care just a little bit, then change can occur/
+  + /In my view, the biggest obstacle to real improvement in people's lives in the developing world isn't that strangers in West don't care enough about them/
+  + /In my view, the biggest obstacle is a mindset that today must be like yesterday and yesterday must be like tomorrow. Once people start caring, not about the world, but about themselves and their own situations, change proceeds rapidly/
++ Instead of relying on caring, we should rely on doing the multiplication, and then doing what the math tells us to do despite not caring

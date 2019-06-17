@@ -1,0 +1,81 @@
+#+TITLE: Artificial Intelligence and National Security
+#+OPTIONS: num:nil
+
+* Article Details:
++ Published By: Belfer Center for Science and International Affairs
++ URL: https://is.gd/TpCMDi
+
+* Executive Summary
++ AI research has demonstrated much more progress than anticipated over the past 5 years
+  + Most of this progress has been due to machine learning
+  + Experts anticipate that this progress will continue, or even accelerate
++ Most AI research advances are occurring in academia or the private sector
+  + Private sector funding for AI research dwarfs the US government's spending
++ Existing capabilities in AI have significant potential for national security
++ Future AI progress has the potential to be a transformative national security technology, on par with nuclear weapons, aircraft, computers and biotech
++ Advances in AI will affect national security by driving change in: military superiority, information superiority and economic superiority
+  + Military superiority: AI will create new capabilities and make existing capabilities more affordable
+    + Commercially available AI technology may give weak states and non-state actors access to long-range precision strike capabilities
+    + Activities that currently require lots of high-skill labor (such as Advanced Persistent Threat operations) may be automated, packaged and sold on the black market
+  + Information superiority: AI will enhance the collection, analysis and creation of data
+    + More sources from which to determine truth
+    + Easier to craft persuasive lies
+    + AI enhanced forgeries will erode the basis of trust of many institutions
+  + Economic superiority: AI could drive a new industrial revolution
+    + Dramatic decline in demand for labor -- might lead to up to a "third of all men between the ages of 25 and 54 being unemployed"
+    + This will reshape the relationship between labor and capital
+    + Growing automation could create a "resource curse" scenario for developed countries
+    + Population size will become less important for national power -- small countries with highly developed AI infrastructure will punch far above their weight
++ "Lessons learned" from four prior transformative military technologies: nuclear, aerospace, cyber, biotech
+  + Radical technological change begets radical government policy ideas
+    + National security implications of AI will be "revolutionary", not "different"
+      + _What's the difference between "different" and "revolutionary"?_
+    + Governments will consider and implement radical policy measures, perhaps as radical as in the early days of nuclear weapons
+      + _What radical policy measures did governments adopt in the early days of nuclear weapons?_
+  + Arms races are unavoidable, but they can be managed
+    + In 1899 nations voluntarily agreed to a treaty banning the use of weaponized aircraft
+    + This treaty was quickly abandoned in World War 1, as the advantages of aerial bombardment proved irresistible
+    + The report's authors predict something similar for artificial intelligence -- whatever treaties or agreements we have restricting or banning the use of AI in warfare will be quickly abandoned if and when an actual war breaks out
+    + Instead, we should pursue goals of keeping AI "safe"
+  + Government must both promote and restrain commercial activity
+    + Government must recognize the inherent dual-use nature of technology 
+      + British government sold the Soviet Union 45 copies of the Rolls Royce 'Nene' jet engine
+      + Soviet Union reverse engineered this engine and turned it into the Klimov VK-1 which powered the MiG-15
+    + The US has a huge advantage in private sector and academic AI research
+    + However, the relationship between private sector, academia and the government is fraught with tension
+  + Governments must formalize goals for technology safety and provide adequate resources
+    + In all cases studied, safety outcomes improved when governments created formal organizations tasked with improving the safety of their technology domains
+    + Organizations must have the necessary resources (human resources, money, time and political capital)
+    + US should stand up a formal organization tasked with investigating and promoting AI safety across the entire government and commercial AI portfolio
+  + As technology changes, so does the US's national interest
+    + Declining cost and complexity of bioweapons led US to change its strategy from aggressive development to voluntary restraint
+    + US has a strategic interest in shaping the cost, complexity and offense/defense balance of national security technologies
+    + As with stealth aircraft, targeted investments can allow the US to affect the offense/defense balance and build a long-lasting technological edge
++ 3 goals and 11 recommendations for US national security policy with regards to AI
+  + Goal: Preserve US technological leadership
+    + DoD should conduct AI-focused war games in order to identify potential disruptive military innovations
+    + DoD should fund long-term strategic analyses of AI technology
+    + Prioritize AI R&D spending in areas that can provide sustainable advantages and mitigate key risks
+    + Invest heavily in "counter-AI" capabilities for both offense and defense
+  + Goal: Support peaceful use of technology
+    + DARPA, IARPA, et. al. should be given increased funding for AI related basic research
+    + Department of Defense should release a request for information on dual-use AI technologies
+    + In-Q-Tel should be given additional resources to promote collaboration between the national security community and the commercial AI industry
+  + Goal: Manage catastrophic risks
+    + The National Security Council, the Defense Department and the State Department should study what AI applications the US should seek to restrict with treaties
+    + The Defense Department and the Intelligence Community should establish dedicated AI safety organizations
+    + DARPA should fund research on fail-safe and safety-for-performance technology for AI systems
+    + NIST and the NSA should explore options for countering AI-enabled forgery
+
+* Introduction and Project Approach
++ Over the past 5 years, researchers have achieved key milestones in AI technology significantly more quickly than expert projections
+  + AlphaGo beat a human Go champion 10 years before AI was predicted to be able to do so
+  + AI is starting to beat professional poker players
+  + Reliable voice recognition
+  + Image recognition superior to human performance
+  + Defeating a former US Air Force pilot in an air-combat simulator
++ Four key drivers between the exponential growth of AI technologies
+  1. Decades of exponential growth in computing performance
+  2. Increased availability of large data sets upon which to train large machine learning systems
+  3. Advances in the implementation of machine learning techniques
+  4. Significant and rapidly increasing commercial investment

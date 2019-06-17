@@ -1,0 +1,93 @@
+#+TITLE: A Crisis is a Terrible Thing To Waste
+#+OPTIONS: toc:nil num:nil
+
+* Publication Details
++ Published by: Brookings Insitutions
++ Publication Link: https://www.brookings.edu/wp-content/uploads/2019/01/fp_20190118_hass_a_crisis_is_a_terrible_thing_to_waste.pdf
++ Author: Ryan Hass
+* Introduction
++ When Nixon and Zhou Enlai signed the Shanghai Communique, there was no reason to believe that the US and China would have a successful rapproachment
+  + Korean War was still a fresh memory
+  + US had an ongoing struggle against a Communist state in the form of the Vietnam War
+  + China was locked in the throes of the Cultural Revolution
+  + There was no constitutency on either side pushing for closer relations
++ Today the US/China bilateral relationship is the most significant in the world
++ US and China are the two most consequential actors on the world stage
++ China has transformed itself from a weak, divided, poor country into the United States' foremost strategic competitor
++ The US/China relationship has reached a "tipping point"
+  + The basic assumptions and expectations from the last 40 years no longer hold
+  + Do not have a new set of expectations and assumptions to replace them
++ The current turbulence reflects both risks and opportunities
+* How did we get here?
++ There are three contrasts between the initial stages of the US-China relationship and today
+  + Information
+    + In the 1970s, China was still very much a closed society
+      + Scholars in the West confined themselves to historical and cultural assessments of China
+      + Assessments of contemporary events were distant and "birds-eye"
+      + The act of studying China in the US was freighted with the risk of appearing ideologically sympathetic to Communism
+    + Today China and the US have much more information about each others' internal state
+      + Information about events in China, even in remote areas, elicits real time reactions from the United States
+      + /I dispute this point. I don't think information about remote areas of China is as abundant as Hass thinks it is/
+      + /I would also question the quality of the information -- China is known to cook its books and its pervasive censorship of media and internet provides the state plenty of opportunities to make things seem different than how they're actually perceived at "ground level"/
+      + China specific expertise is no longer required for people to feel comfortable giving opinions of China's impact on their field
+        + Technologists look at China's technological advancements to argue that the US should be experiencing a new "Sputnik moment"
+          + /Leaving aside the fact that the "Sputnik moment" had as much to do with internal domestic politics as it did with actual launch of Sputnik/
+          + /The real Sputnik moment wasn't the actual launch of Sputnik but rather was the way JFK used it to portray the Eisenhower administration as being "soft" on national security/
+        + Grand strategists talk about China as the next challenger for US superiority
+  + The strategic nature of the relationship
+    + Until the 1990s, China was seen as a strategic asset to the US, not a competitor
+    + China was seen as a counterbalance to the Soviet Union
+    + After the end of the Cold War, China's rapidly expanding economy and military made it seem more a competitor than an ally
+  + Generational shift in policymakers
+    + Earlier generation of policymakers -- people like George H.W. Bush, Brent Scowcroft, Zbigniew Brzezinski, etc -- had specialization in China, and enjoyed prestige within their own parties
+    + While some viewed the relationship as a means to an end -- balancing the Soviet Union, none was specifically hostile towards China
+    + Felt that a strong US/China relationship was in the United States' strategic best interest
+    + Today there are no heirs to the old generation who advanced US/China relations
+      + Current senior officials have relatively little experience with China
+      + Less comfortable focusing on the broader strategic picture
+      + Less inclination to craft long-term strategy
+      + /How much of this, though, is cause, and how much is effect/
+      + /Very similar points can be made across the entirety of the US government/
+      + /It's hard to make long-term plans in any area when you don't know what funding levels are going to be like six months from now/
+    + As a result, the US doesn't really know what role China should play in US grand strategy
+      + /Insofar as the US even has a grand strategy at this point/
++ The path to the current relationship hasn't been a smooth upward climb
+  + In the early '80s, the US had an optimistic view of China
+  + Many saw Deng Xiaoping as a reformer
+  + There was a sense that China would go down the path of Taiwan and South Korea, both of which had shed their dictatorships in favor of democracy
+  + These hopes were shattered in 1989, when China used force to suppress student protests in Beijing
+  + Relations sank further when China attempted to influence Taiwanese elections in 1995-96, which led the Clinton administration to send two carrier strike groups into the Taiwan Strait
+  + /This is why China has been so single-minded in its focus on acquiring and developing anti-access/area-denial technologies (A2AD) -- Clinton's interveniton was humiliating for the Chinese leadership and underscored China's strategic vulnerability to US sea power/
+  + Following the Taiwan crisis, the Clinton administration pursued a strategy of "comprehensive engagement" to ensure that there were lines of communication which would help prevent future misunderstandings and conflict
+  + These efforts culminated in Clinton being the first American president to visit China in 9 years in 1998, followed by China's accession to the WTO
+  + Clinton sold the deal as a way that the US could use economics to force political liberalization in China
+    + However, the internal rationales that the administration used did *not* mention political liberalization as a rationale
+  + After China became a WTO member in 2001, the United States' focus became one of trying to integrate China into a "rules-based" international order
+  + This has had some significant successes
+    + China has cooperated much more than in the past on efforts to contain Iranian and North Korean nuclear programs
+    + Adhered to international agreements on weapons of mass destruction
+    + Cooperated with the US in addressing the global financial crisis of 2007
+    + Become a major contributor to the World Bank and International Monetary Fund
+    + Implemented steps to stop trafficking in endangered species and improved environmental protections
++ Now, however, China is seen as much as a competitor as a partner
+  + China's rise has dovetailed with a period of national self-doubt in the United States
+    + Defeats in Iraq and Afghanistan
+    + Growing economic inequality
+    + China is blamed (rightly or wrongly) for taking advantage of American markets at the expense of the American worker
+  + China has become more aggressive, both at home and abroad
+    + China has replaced a foreign policy of patience and modesty ("hide your strength and bide your time") for a bolder more aggressive foreign policy
+    + More coercive actions with regards to
+      + South China Sea
+        + Building island bases
+        + Pushing around (literally) Filipino fishing vessels
+      + Taiwan -- Chinese rhetoric has become more strident with regards to suggesting that China and Taiwan will be reunified, by force if necessary
+      + India -- Chinese and Indian soldiers getting into shoving matches along the de facto border in Arunachal Pradesh (specifically, the tri-border area around Doklam)
+      + US -- Xi Jinping has placed less importance on maintaining a stable relationship with the United States than his predecessors
+  + Elites in the US have lost confidence in the ability of the United States to influence the Chinese leadership
+    + Deeper engagement has not resulted in political liberalization
+    + There is a growing consensus that the US relationship with China has benefited China at the expense of the United States
++ Two caveats to this growing criticism of the United States' China policy
+  + Divergence between expert opinion and public opinion -- public opinion is largely split on whether China is a partner or a rival -- members of US public don't have as negative an opinion of China as US policymakers and analysts
+  + There continue to be significant dissenting voices in the US policymaking establishment against a more adversarial relationship with China
++ Nevertheless, there appears to be widespread agreement that US-China relations are at their most strained since Nixon's 1972 trip
+* Why Might This Time Be Different

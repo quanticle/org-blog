@@ -1,0 +1,29 @@
+* 2019-01-14 RRG Notes
+** [[https://www.greaterwrong.com/posts/veN86cBhoe7mBxXLk/categorizing-has-consequences][Categorizing Has Consequences]]
++ In Japan, people theorize that personality is based off blood type, much in the same way that we theorize it's based off astrological sign
++ This is strange because blood types were completely unknown before modern science
++ Blood type has never been a mysterious phenomenon
++ Simply by drawing a category, our minds try to find further similarities among members of that category
++ Our minds are so good at seeing similarities and patterns, we often find them where none actually exist
++ Drawing a boundary in [[https://www.greaterwrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace][thingspace]] is not a neutral act
+** [[https://www.greaterwrong.com/posts/yuKaWPRTxZoov4z8K/sneaking-in-connotations][Sneaking In Connotations]]
++ There is no hard distinction between observed characteristics and inferred characteristics
++ Definitions list the most salient characteristics of an object
++ They don't list all the minor connotations that come along with the definition
++ When someone pulls out a dictionary, they're usually not contesting whether the object or person under consideration matches the dictionary definition
++ They're usually trying to sneak in a secondary connotation by arguing that the object or person matches the primary characteristics of the dictionary definition
++ If the argument from a dictionary definition was valid, it'd feel hollow since it'd be a tautology
+** [[https://www.greaterwrong.com/posts/cFzC996D7Jjds3vS9/arguing-by-definition][Arguing "By Definition"]]
++ The cluster structure of thingspace doesn't change depending on how you define your words
++ If you're arguing correctly from cluster structure, you're taking characteristics of the definition, matching them to characteristics of the object or person, and then explicitly inferring forward to argue that the object or person has characteristics that you haven't observed
++ Arguing that something is true "by definition", on the other hand, is a tactic to try to make you forget what you've observed and make inferences based off category labels
++ In general, try to eliminate "by definition" from your vocabulary -- it's a sign of a flawed argument
+** [[https://www.greaterwrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary][Where To Draw The Boundary]]
++ There are no "perfect" definitions floating out there in the void, waiting for us to connect words to them
++ Instead, what we should be doing is figuring out how to draw similarity clusters so that they'll be most useful to us
+** [[https://www.greaterwrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes][Entropy and Short Codes]]
++ Short words are a conserved resource
++ Saying, "I can define words any way I like" obstructs the practice of carving reality at its joints
++ Use short words for things you'll need to say frequently and longer words for things you won't need to say as often
++ /I think Eliezer here is talking about when rationalists should come up with new jargon/
++ /He's saying that rationalists should come up with new, short, words only when we expect to be using them often/

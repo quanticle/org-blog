@@ -1,0 +1,223 @@
+#+TITLE: 2019-01-28 RRG Notes
+#+OPTIONS: num:nil
+
+* [[https://hotelconcierge.tumblr.com/post/162571849189/the-tower][The Tower]]
+** Part I
++ If you read the Bible, you'll see that the people of Babel didn't build tower of Babel to reach the heavens
++ They built the tower as a symbol, to bring people together
++ /The Tower of Babel was the *first* Schelling Point/
++ When God descended to Earth to see what people were up to, he found that they were of one language, and thus there was nothing that they couldn't do
++ So God scattered the people and gave them different languages, in order to weaken them
++ God was scared
+** Part II
++ The vast majority of amateur philosophy is just reinvention
++ Your thoughts about the meaning of life and ethics, etc have already been written down, debated, and worked over, probably thousands of years ago
++ That said, thinking about the questions of philosophy is still important -- it's still import to try to find the answer yourself, even if the answer you find is unsatisfactory, and isn't even original
++ The question is: why don't people choose to be happy?
+  + For example, take the wireheading scenario
+  + There exists a machine that will make you feel not just pleasure, but true happiness, forever
+  + The machine never stops working, has no side effects, and induces no tolerance, and isn't physically addictive in any way
+  + But once people start using it, no one ever stops
+    + /Okay, see this is Hotel Concierge trying to sneak a contradiction past us/
+    + /He's saying, denotatively, that the machine isn't addictive -- it's perfectly safe, you can stop at any time/
+    + /But connotatively, he's saying the exact opposite -- this machine is *incredibly* addictive, it is in fact the most addictive thing ever created, it makes black tar heroin look like black tea by comparison/
+    + /Now, both of these scenarios are logically valid. I can imagine a world where people hook themselves up to these machines and never stop. I can also imagine a world where people treat these machines as a sort of recreational drug -- they hook themselves up every once in a while, and then return to the "real world" afterwards. But these scenarios cannot be simultaneously true./
+  + Would you hook yourself up to such a machine?
+    + /Depends on which world I'm in/
+  + Alternative formulation of this scenario: what if you were offered a free trip to a virtual reality paradise. However, upon your return, all memories of the trip are erased, all skills unlearned, etc.
+  + Would you still go?
+  + Both of these choices are fundamentally the same: ecstasy that leaves no trace, compared with bland but tangible reality
+  + If you would spend one year in the Matrix, why not two? Why not twenty? Why not the rest of your life
+    + /Because my life isn't a slippery slope fallacy/
++ These concerns aren't theoretical
++ Kahneman has demonstrated that there's a big difference between the "experiencing self" and the "remembering self"
++ Except Kahneman doesn't take the concept far enough
+  + Kamikazes and suicide bombers don't die for their own remembering selves, they'll die for other remembering selves
+  + And this value has been valorized in one way or another since antiquity
+  + The remembering self doesn't want quality of life, it wants quality of death -- it wants a life that others will look back on and say was a good life
+  + The remembering self is entirely willing to sacrifice massive amounts of short term happiness for even a chance at a legacy
+  + Utilitarianism is really bad at capturing this impulse
+    + /Is it? Not all utilitarianism is hedonic utilitarianism!/
++ This ties into the notion of "memes" and "cultural evolution"
+  + Memory is a collection of memes
+  + The remembering self is our record of working towards the interests of certain memes and against others
+  + Our "free will" is merely us choosing from among the memes that surround us
+  + /Is this Jung? Is he restating Jung in different words, or is he pointing at something different?/
+** Part III
++ The first dichotomy, according to Freud, separates ego-instincts from object-instincts
+  + /Okay, but this is Freud, so we have approximately zero evidence that this corresponds to anything other than Freud's own analysis based on his own non-observations/
++ Ego-instincts are necessities
+  + Examples:
+    + Hunger
+    + Thirst
+    + Respiration
+    + Fatigue
+    + Crude sexual desire
+  + Newborns treat the entire world as an extension of their ego-instincts
++ Object-instincts are that which develop as we realize our abilities and begin to direct them outwards
+  + Freuds second dichotomy divides object instincts into to categories Eros: the love instinct and Thanatos: the death instinct
+  + Eros
+    + Not just love but more like belonging and acceptance
+    + The feeling of being truly recognized and accepted by another
+  + Thanatos
+    + Not death, but control - /ananke/
+    + /I don't know if he's using fancy Greek because it's legitimately a better way of expressing what he wants to express because he just likes the feeling of writing fancy Greek and lording it over his readers/
+    + Self-destruction is the ultimate expression of control
+    + Thanatos is the compulsion to learn and control
++ According to Freud, the id is what we want
++ The superego chooses how we go about wanting
++ How do we make those choices?
++ At first, ananke drives development
+  + The early developmental history of children is one of them assuming more and more control over themselves and their environment
++ Then, once we learn object permanence and develop memory, we become subject to operant conditioning
++ Operant conditioning is what allows social and civilizational memes to colonize our minds
++ These inculcated memes cooperate and compete for the real estate of the mind
++ This process of taking in memes and incorporating them into our existing mind is how semantic memory is created
+  + /Okay, this is all plausible, but I will note that his citations are to Wikipedia articles that have a bunch of flags on them for potential inaccuracy/
+  + /Who knows if any of what he's saying is even approximately true/
++ The final algorithm that governs our actions must simultaneously satisfy both Eros and Ananke to some extent in each moment
+  + /That is, from moment to moment, the id's desires and impulses can't be totally neglected/
++ However, the remembering self will use the superego's algorithm when looking back on its actions and assigning meaning to memories
++ It's the superego, not the id that answers the question, "Did I do what I really wanted?"
++ The remembering self doesn't really care which goal you pick, only that there is a goal
+  + This is why minimum wage jobs are so unsatisfying
+  + No one cares if you do well
+  + If you screw up, there's no correction, you're just fired and replaced with the next willing person
++ The way to a well-lived life is to pick a goal and pursue it
+  + The role of adolescence is to look around, explore, and find a goal
+  + The role of adulthood is to switch from explore to exploit and push towards the goal that you've chosen
+  + /I guess it would be beside the point here to say that modern adolescence is a cultural construction/
+  + /Yes, adolescence is culturally constructed, but that's the point -- our culture, for probably the first time in human history, allows the majority of people some kind of a choice in their life path/
+  + /As a result, we've come up with this new life phase -- adolescence -- to deal with the fact that you have to choose what you want to be/do in adulthood/
++ Yes, the goals are abitrary and meaningless, but the path to a well-remembered life is to have one
++ Happiness and meaning -- sometimes they overlap and sometimes they conflict
++ There's no right choice between happiness and meaning, but one should be careful to avoid the trap where one achieves neither
+  + The id is terrible at long-term hedonism
+  + The default superego is full of malignant memes that will leave you miserable, and will also leave your autobiography incoherent
++ The key word above is /default/
+  + We all have some degree of protection from malignant memes, either through isolation or through positive memes that have been inculcated in us by parents or society
++ However, most of us don't take enough precautions when dealing with new memes
++ Judaism is interesting, as a religion, because it tries to enforce memetic hygiene through its many arbitrary rules and its strictures against proselytizing
+  + Rules create an obstacle course that memes have to pass through before they're deemed acceptable 
+  + Strictures against proselytizing reduce exposure to foreign memes
++ A free flow of information reduces memetic hygiene -- it's the equivalent of a suppressed immune system
++ Secular humanism is a motte-and-bailey
+  + Milquetoast ideals
+  + Provide no guidance in day-to-day life
+  + Leave you vulnerable to whatever crypto-ideology is most virulent
+  + /I think his argument is itself a motte-and-bailey/
+  + /Secular humanism has no answer to what you should do when someone slaps your girlfriend's ass at the club? Really? That seems like a real strawman/
++ With a free flow of information, ever meme attains its most virulent form
+  + Free flow of information = low memetic defenses
+  + Thus the fastest, most virulent memes will attain the greatest success
+  + /So Facebook isn't cancer... it's AIDS/
++ Memetic selection is even less likely to induce cooperation between memes than natural selection
+  + Unlike genes in natural selection, memes aren't spread together in chromosomes
+    + /Genes aren't spread together in chromosomes either -- check your eukaryote privilege!/
+    + /Bacterial genes can and do spread one at a time -- this is how we discovered CRISPR-Cas9/
+  + A person can only spread one meme at a time, so there is a significant disincentive for memes to cooperate
+** Part IV
++ References Gwern's [[https://www.gwern.net/Culture-is-not-about-Esthetics][Culture is not about Esthetics]]
+  + The argument in /Culture is not abot Esthetics/ is that producing new fiction works should not be subsidized and may in fact be actually harmful
+  + People are primed towards novelty, and new fiction takes away from older works which are of significantly higher quality
+  + Every person has 500,000 hours -- shouldn't they spend those hours on what will bring them the most enjoyment?
+  + We shouldn't encourage the production of new fictional works, and indeed we should discourage it -- there is already too much fiction, and adding more to the pile only makes things worse
++ There are some flaws with this argument
+  + It assumes that you can rank art, along some kind of unified scale
+  + If people won't read sensationalist fiction, they'll read sensationalist non-fiction, and that's no better (in fact, it's probably worse)
+  + Moreover, what will all these people do in their spare time, if art is illegal? Art begets art, in reaction
+  + Fiction teaches moral lessons, insofar as it shows you how moral principles apply to everyday life, and allow you to imagine how you'd react in scenarios that you haven't yet encountered
+  + We face a lot moral dilemmas every time we interact with other humans, and modern literary fiction offers us a manual on how to navigate those dilemmas
+  + Modern works of art translate ancient principles into modern language, allow people to relate those principles to their times and circumstances
+  + Art is compressed communication
+  + The limitations of an artistic form strip out unnecessary information, and allow the artist to convey an impression of some kind of greater pattern to the viewer
+  + Art exists for its own sake, it exists to be understood
+** Part V
++ "Ease of having one's art understood" is the definition of privilege
+  + /Really? Because modern art is inscrutable as hell, and it's made and consumed by the most privileged people in society/
++ The academic notion of privilege fails because it emphasizes the experiencing self
+  + As it turns out, most people are happy, regardless of their circumstances
+  + So you can't use happiness as a marker of privilege
++ The remembering self is different
+  + Although happiness saturates with income after about $75,000 in the US, "life satisfaction" does not
+  + Independent of happiness, wealth buys freedom from routine
+  + And just as wealth can be spent on ways to acquire new experiences, it can also be spent on ways to express those experiences in novel ways
+  + Upper class people are described as "cultured" because they know a lot of culture, and can describe their experiences by referencing cultural artifacts in ways that uncultured people cannot
++ If the two parts of our lives are pleasure and being understood, then increasing wealth quickly saturates the former, but may never saturate the latter
++ This means that money is good -- money buys freedom
++ Absolute amounts of money, not just relative amounts matter, because money buys things and experiences that our remembering self can look back on as signifying a meaningful life
+  + /Is this true, though? Doesn't inflation eat away at much of this?/
+  + /At the very least the GDP figures he's talking about have to be inflation-adjusted GDP, otherwise the whole exercise is meaningless/
++ Belonging to the dominant race and sex grants the same sort of privilege as wealth, but by a different mechanism
+  + Wealth makes it easy for you to speak the cultural language
+  + Being of the same race, gender, sexual orientation, etc, makes it easier for others to listen
++ This ties into stereotypes
+  + Stereotypes are necessary to function
+  + If we didn't rely on stereotypes, we'd all be borderline autistic in our everyday interactions
++ Most racists are actually culturists -- they don't hate people because of their race, they hate people of a certain race because that race is associated with certain cultural characteristics
+  + Race and gender are social constructs, but the characteristics that correlate with race and gender are real
+  + Until we can learn to speak pheromone, all our interactions will be mediated by stereotypes
+  + This is why the standard "don't be racist" framing fails -- you can't tell people to get rid of a stereotype without replacing it with a more benign stereotype
++ Stereotypes and microaggressions (which are behaviors created from stereotypes) lead to harm, even they're positive
++ Cause harm against the remembering self even if they don't cause harm against the experiencing self
+** Part VI
++ If globalization is the primary phenomenon of the 21st century, then immigration will be the defining political conflict
++ Immigration used in a broad way -- talking about immigration of both people and ideas
++ Stereotyping applies just as much to low-class whites as it does to other minorities
+  + The "y'all" class
++ At the core of the rebellion that led to Trump was a need for respect -- an acknowledgement that they are also human beings struggling for their values
+  + /To be honest, in the US, this conflict has been going on since at least the Civil War/
+  + /The distinction between the South and the North in the Civil War was that the North ended up fighting a war for principle, and the South ended fighting a war for tradition/
+  + /So I don't think this phenomenon is as new as he's claiming it to be/
++ When conservatives talk about "the Gay Agenda", they're not talking about a conspiracy of gay people to force people into homosexual relationships
++ They're talking about the rhetoric that puts them on the "wrong side of history" -- rhetoric that claims that in a few years their objections will be irrelevant because they'll have been steamrolled by the grand tide of social progress
+  + /For an example of this, look at [[https://thingofthings.wordpress.com/2018/06/25/conservatives-as-moral-mutants/][Conservatives As Moral Mutants]]/
+  + /How much of this is the conservatives *actual* argument, and how much is the "obnoxious kind of steelmanning" that Ozy talks about in their post, [[https://thingofthings.wordpress.com/2016/08/09/against-steelmanning/][Against Steelmanning]]?/
+  + /I'm asking because I've seen this argument posed elsewhere -- people whose (political/cultural/social/etc) ideas I disagree are _really_ asking for respect! I have *not once* seen it posed by a member of the group that is being called out. In my experience, it's always been a way for apologists for the group that is being marginalized (for good or bad reasons) to oppose the marginalizaiton of that group/
+  + /To put it crudely, I will be convinced that conservative opposition to the "gay agenda" is "really about respect" when I hear it coming from someone wearing a MAGA hat/
++ This is especially relevant for the (/white/) working class, because in order to advance socially, they have to impress managers
++ So for them, changing views on social issues are a direct threat to their economic livelihood
+  + /Eh, again, I'm wondering how much of this is true/
+  + /Lots of liberals hire workers whose values they don't share/
+  + /I think he's falling into the Bay Area trap of thinking that the world is more politicized than it actually is/
++ The specific way that the media has talked about race and culture has made the problem worse
+  + Created a set of vague rules around "appropriation" and etiquette
+  + Loudly proclaimed that immigration is the end of white America
++ The point is that the left wants to prevent assimilation
+** Part VII
++ The easiest way to write "minority" characters is to make "a-racial" characters, and then use minority characters to play them
+  + Prevents potentially embarrassing misunderstandings
+  + Allows the minority characters to be legible to a mainstream audience
++ A better way to get minority characters is to hire minority writers
++ But the cultural criteria used to judge whether those minority writers are good is same cultural criteria used to judge whether white writers are good
++ This is how the upper-middle-class protects itself from change
++ They concede that minorities will immigrate, but set the conditions of social advancement such that one has to adopt an upper-middle-class value system, mindset and mannerisms in order to advance economically and socially
++ Affirmative action is good, but it tends to promote exactly the sorts of people who will perpetuate the upper-middle-class mindset
+  + Half of African Americans oppose gay marriage, but you'll never see the upper-middle-class talking about that
+  + /Except you totally will; you just have to look for it/
++ The debates about whose opinions should be heard at universities misses the point
++ No matter who wins that debate, the university and the people who go to universities win because it reinforces the idea that the only valid place to form an opinion is a university
++ Everyone understands that class is hereditary, but the strongest critiques of the the hereditary class system comes from those who benefit it the most
++ The old aristocracy has transmuted itself into the "media elite"
+  + Aristocrats used to be in the "service industry"
+    + /Wait, what? He's defining "service industry" as "any industry where the customer is right" and then using "writer, therapist, barber, sales" as his examples/
+    + /Are these all service-industry jobs? Or is he redefining words to connote that being courtier to a king is somehow analogous to working the sales floor at Best Buy/
+  + Once the industrial revolution erodes the old social classes, these aristocrats form a "meta-service industry", which tells other people what is correct or incorrect to read or write
++ This translates into schools, which are more concerned with teaching the correct answers to allow people to advance into the upper-middle-class than with teach practical skills such as how to cook or balance a checkbook
++ Even if this doesn't translate into people reaching the upper-middle class, the main criterion for employment in the service industry is the ability to be inoffensive
++ /In this way, maybe schools are doing exactly what they ought to be doing -- training workers for jobs/
++ /If he is correct that the majority of jobs are going to be in the "service industry", then perhaps teaching kids to be inoffensive is exactly the sort of things that schools ought to be doing
+** Part VIII
++ The neoreactionaries think that we are living in the end times
++ Think that democracy is a memetic virus that's tearing its way through civilization, and that civilization will soon fall
++ But the neoconservatives are wrong
++ This sort of coming apart is what the Tower of Babel is an allegory for
++ Civilization always comes together, and then it always comes apart
++ There is no way to impose one culture, one value system on all of humanity
++ There will always be people whose values are denied by that system, and they will always rebel
++ The neoreactionaries ideal homogenous nation would be no different, day to day, than the United States
+  + /Or, at least, it wouldn't feel much different, day-to-day/
++ Moreover, real diversity has benefits
++ The US has contributed far more to the world than homogenous ethno-states
++ That contribution has occurred because of the US's diversity, not in spite of it
++ However, just because this process of falling apart and coming together has occurred in the past, it doesn't mean that it will be pleasant to live through
