@@ -1,5 +1,5 @@
 #+TITLE: The Challenger Launch Decision
-#+OPTIONS: num:nil
+#+OPTIONS: num:nil; ^:nil; ':t
 
 + Author: Diane Vaughan
 + Publisher: University of Chicago Press
@@ -555,7 +555,53 @@
       + This evaluation was confirmed in interviews with Leon Ray, a Marshall Space Center engineer who sat on the SEB that evaluated the booster designs
         + Lockheed's design was thought to be better in theory, but wasn't proven
         + Thiokol's design was based on an existing rocket -- the Titan III rocket, which was seen as one of the most reliable rockets ever built
+  + NASA didn't consciously trade off cost and safety -- instead, NASA engineers and managers made decisions to satisfice cost and safety requirements based upon the best available information they had at the time
++ Cover-Up
+  + The cover-up cannot constitute evidence about the Challenger launch decision, since it took place chronologically after the disaster
+  + All organizations seek to control their public image and the desire to do so only increases in the face of a tragedy
+  + NASA's impounding of Challenger flight data was not part of a cover-up but was standard operating procedure in the aerospace industry
+  + NASA administrators seemed to vaccilate about the technical cause, even though there was evidence implicating the SRB as early as two days after the disaster
+    + NASA administrators wanted to allow the full fault analysis to complete
+    + Not all evidence is what it seems at first glance and NASA administrators judged it best to complete their analysis rather than go back and forth on the "true cause" of the disaster
+  + The difficulty in getting data out of NASA after the Shuttle disaster was due to organizational chaos inside the organization
+    + Although NASA had procedures for impounding data after a disaster, there were no other procedures in place
+    + Compounding the problem, NASA administrator James Beggs was on a leave of absence, and in his place was William Graham, a policy analyst with no experience running a major technical organization like NASA
+  + Compounding this was the massive amount of documentation around Challenger
+    + The Challenger documents fill a two-storey warehouse
+    + At the time of the disaster, these documents were scattered around the NASA bureaucracy
+    + Even as late as 1992, more documents related to Challenger were still being catalogued and sorted
+  + One thing that does support a cover-up theory is NASA's reluctance to make available cockpit recordings
+    + NASA defended this as an attempt to protect the privacy of astronauts' families
+    + In contrast to the rest of the disaster response, NASA's response with regards to the Challenger crew seemed to be a well-organized, politically sensitive operation designed to conceal rather than reveal
+  + To generalize the term "cover-up" to encompass all incidents in which information was slow in coming is mistaken, because there were a number of reasons for why information was slow
++ Young, Cook, Boisjoly and Feynman
+  + No one accused any of the NASA managers involved in the Challenger Launch Decision of being an amoral calculator
+  + Though the Presidential Commission documented many cases of economic pressure on NASA, no individuals were confirmed or even alleged to have placed economic considerations ahead of crew safety
+  + Even Roger Boisjoly, a whistleblowing engineer, was stymied when asked why NASA engineer and managers would, as a result of production pressure, vote to go ahead with a launch that had the potential to stop production altogether
 
+** Rule Violations
++ The first goal of a case study is to find out what you have a case of
++ If the Challenger Launch Decision were really a result of amoral calculations, there ought to be rule violations
++ In order to determine whether there were rule violations, we look at the following decisions
+  + The Criticality 1 Waiver
+    + In 1982, Marshall assigned the SRB joints a "Criticality 1" status, indicating that the joints were not redundant, as the design required
+    + However, just after the "Criticality 1" status was assigned, a waiver was issued by Lawrence Mulloy, allowing the subsequent launch to proceed
+  + The Launch Constraint Waivers
+    + In 1985, after extensive joint erosion was reported, NASA imposed a "Launch Constraint" on the SRB joints
+    + A Launch Constraint indicates a serious safety issue that justifies canceling a launch
+    + However, Lawrence Mulloy also waived the Launch Constraint, allowing the subsequent 5 launches to proceed without the joint problem being fixed 
++ At first glance, the Criticality 1 and Launch Constraint waivers represent clear evidence of amoral calculation
++ However, these waivers were not rule violations -- interpretation resulted from a misunderstanding of NASA's bureaucratic language
++ In the context of NASA, a waiver is a "formalized procedure that, upon approval of the technical rationale behind the request, allows an exception to some internal rule"
++ Waivers were common at NASA
+  + If waivers were the result of amoral calculation, it doesn't make sense for them to be recorded rather than covered up
++ Criticality 1 Waiver and Launch Constraint Waiver were the result of different procedures
+  + Although the Presidential Commission report uses the term "waiver" to describe both procedures, that's not how the internal NASA documentation describes them
+  + With regards to Launch Constraints, NASA reports use the word "lifted"
+  + Further investigation showed that the imposition and lifting of Launch Constraints was also a matter of routine bureaucratic procedure at NASA
++ The interesting thing is that NASA had rules that allowed one to bypass other rules
++ As a result, what would appear to be rule violations to an outsider were, to a participant, the result of standard operating procedure
++ Where one would expect rule violations, one found only conformity
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
