@@ -603,5 +603,27 @@
 + As a result, what would appear to be rule violations to an outsider were, to a participant, the result of standard operating procedure
 + Where one would expect rule violations, one found only conformity
 
+** From Current Event To Historical Ethnography
++ Two controversial actions that NASA outsiders had described as deviant were not deviant to insiders
++ Actions are never deviant in and of themselves -- deviance can only be posited in response a particular set of group norms
++ Commissions analysis of apparent rule violations was central to the accepted historical narrative around Challenger
++ However, the Commission didn't understand NASA terminology and procedures
++ Mistakenly identified C1 Waivers and Launch Constraint Criteria "waivers" as violations
++ Failed to compare decisions made with regards to the SRB with decisions made regarding other Shuttle components
++ In order to determine the true cause of the tragedy, we need to understand NASA culture
++ In order to understand NASA culture, we need to look at the actual documentation of the Challenger launch decision
+  + Interviewing, at an early stage is likely to be a waste of time -- won't know what questions to ask
++ The 5 volume Presidential Commission report gave a good view into NASA's culture prior to the disaster
++ According to the report, industry standards had been violated in the design of the Shuttle -- were these the true rule violations?
++ What was the role of competitive pressure?
++ How did competitive pressure not only shape the response to the rules, but also the rules themselves?
++ By the time Diane Vaughan was done reviewing the Presidential Commission report, the House Science and Technology committee had released its own report
++ Once again, she was struck by how decisions that appeared deviant to outsiders were in fact normal to insiders
++ Instead of focusing on rule violations, Vaughan expanded her analysis to all decisions that were made regarding the SRBs for the period of 1977-1985
++ The work became a historical ethnography -- attempt to elicit organizational structure and culture from documents created prior to an event
++ Apply the tools of the social historian and anthropologist to a thoroughly modern setting
++ The most significant findings of the ethnographic approach were the following
+  1. 
+
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]

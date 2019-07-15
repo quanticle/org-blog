@@ -1,10 +1,11 @@
 #+TITLE: A Crisis is a Terrible Thing To Waste
-#+OPTIONS: toc:nil num:nil
+#+OPTIONS: num:nil; ^:nil; ':t
 
 * Publication Details
 + Published by: Brookings Insitutions
 + Publication Link: https://www.brookings.edu/wp-content/uploads/2019/01/fp_20190118_hass_a_crisis_is_a_terrible_thing_to_waste.pdf
 + Author: Ryan Hass
+
 * Introduction
 + When Nixon and Zhou Enlai signed the Shanghai Communique, there was no reason to believe that the US and China would have a successful rapproachment
   + Korean War was still a fresh memory
@@ -18,6 +19,7 @@
   + The basic assumptions and expectations from the last 40 years no longer hold
   + Do not have a new set of expectations and assumptions to replace them
 + The current turbulence reflects both risks and opportunities
+
 * How did we get here?
 + There are three contrasts between the initial stages of the US-China relationship and today
   + Information
@@ -90,4 +92,23 @@
   + Divergence between expert opinion and public opinion -- public opinion is largely split on whether China is a partner or a rival -- members of US public don't have as negative an opinion of China as US policymakers and analysts
   + There continue to be significant dissenting voices in the US policymaking establishment against a more adversarial relationship with China
 + Nevertheless, there appears to be widespread agreement that US-China relations are at their most strained since Nixon's 1972 trip
+
 * Why Might This Time Be Different
++ While the relationship over the past 40 years has had cyclical swings, the overall trend has been towards broadening and deepening of the relationship
++ However, the US/China relationship may have entered a structural change towards a more adversarial relationship
++ Implicit compact governing relations between the two countries has frayed
+  + US implicitly had agreed to refrain from impeding China's development nor make statements about how China should govern itself
+  + China implictly had agreed to refrain from challenging the US for global leadership and displacing the US from Asia
++ Today, both sides hold that the other has violated the compact
+  + Washington experts see China's building of alternate institutions and naval buildup in the South China Sea as clear signs of a Chinese attempt to displace American hegemony in Asia
+  + A large body of Chinese experts see the US position as an impediment to China achieving its rightful destiny
+    + US tariffs are intended to slow or prevent the Chinese economy from overtaking the US economy
+    + US involvement in Taiwan and Hong Kong is seen as encouraging political dissent within China
++ The Trump administration has weaponized China as an issue in American domestic political discourse
+  + 2017 National Security Strategy mentioned China as a "strategic competitor" and "revisionist power"
+  + Contrast with the 2015 NSS, which mentioned a "stable, peaceful, and prosperous China"
+  + This rhetorical shift matches the mood of Trump's political base
+    + Many jobs have been lost to China
+    + Losses concentrated in areas that voted for Trump
+    + The rise of China has provided politicians an easy scapegoat upon which to shift blame for localized economic stagnation
+    + As a result, many Americans feel that China is the chief threat to American prosperity

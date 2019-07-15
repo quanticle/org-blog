@@ -19,3 +19,5 @@
 + [[file:outlines/the_tanks_of_august.org][The Tanks of August]]
 + [[file:outlines/ai_natsec.org][Artificial Intelligence and National Security]]
  
+* Programming
++ [[file:outlines/the_go_programming_language.org][The Go Programming Language]]
