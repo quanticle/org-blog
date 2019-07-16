@@ -7,6 +7,7 @@
 + [[file:reviews/the_us_militarys_dangerous_embedded_assumptions.org][The US Military's Dangerous Embedded Assumptions]]
 + [[file:reviews/trust_me_im_lying.org][Trust Me I'm Lying: Confessions of a Media Manipulator]]
 + [[file:reviews/why_i_didnt_like_the_last_jedi.org][Why I Didn't Like /The Last Jedi/]]
++ [[file:reviews/a_crisis_is_a_terrible_thing_to_waste.org][A Crisis Is A Terrible Thing To Waste]]
 
 * Outlines (Completed):
 + [[file:outlines/trust_me_im_lying.org][Trust Me I'm Lying]]
