@@ -2,16 +2,18 @@
 #+OPTIONS: num:nil; ^:nil; ':t
 
 * Publication Details
-+ Published by: Brookings Insitutions
++ Published by: Brookings Institution
 + Publication Link: https://www.brookings.edu/wp-content/uploads/2019/01/fp_20190118_hass_a_crisis_is_a_terrible_thing_to_waste.pdf
 + Author: Ryan Hass
 
 * Introduction
-+ When Nixon and Zhou Enlai signed the Shanghai Communique, there was no reason to believe that the US and China would have a successful rapproachment
++ When Nixon and Zhou Enlai signed the Shanghai Communique, there was no reason to believe that the US and China would have a successful rapprochement
   + Korean War was still a fresh memory
   + US had an ongoing struggle against a Communist state in the form of the Vietnam War
+    + /But note: that communist state was actually opposed to China!/
+    + /Vietnam was allied with the Soviet Union, whom China opposed/
   + China was locked in the throes of the Cultural Revolution
-  + There was no constitutency on either side pushing for closer relations
+  + There was no constituency on either side pushing for closer relations
 + Today the US/China bilateral relationship is the most significant in the world
 + US and China are the two most consequential actors on the world stage
 + China has transformed itself from a weak, divided, poor country into the United States' foremost strategic competitor
@@ -59,7 +61,7 @@
   + There was a sense that China would go down the path of Taiwan and South Korea, both of which had shed their dictatorships in favor of democracy
   + These hopes were shattered in 1989, when China used force to suppress student protests in Beijing
   + Relations sank further when China attempted to influence Taiwanese elections in 1995-96, which led the Clinton administration to send two carrier strike groups into the Taiwan Strait
-  + /This is why China has been so single-minded in its focus on acquiring and developing anti-access/area-denial technologies (A2AD) -- Clinton's interveniton was humiliating for the Chinese leadership and underscored China's strategic vulnerability to US sea power/
+  + /This is why China has been so single-minded in its focus on acquiring and developing anti-access/area-denial technologies (A2AD) -- Clinton's intervention was humiliating for the Chinese leadership and underscored China's strategic vulnerability to US sea power/
   + Following the Taiwan crisis, the Clinton administration pursued a strategy of "comprehensive engagement" to ensure that there were lines of communication which would help prevent future misunderstandings and conflict
   + These efforts culminated in Clinton being the first American president to visit China in 9 years in 1998, followed by China's accession to the WTO
   + Clinton sold the deal as a way that the US could use economics to force political liberalization in China
@@ -90,7 +92,7 @@
     + There is a growing consensus that the US relationship with China has benefited China at the expense of the United States
 + Two caveats to this growing criticism of the United States' China policy
   + Divergence between expert opinion and public opinion -- public opinion is largely split on whether China is a partner or a rival -- members of US public don't have as negative an opinion of China as US policymakers and analysts
-  + There continue to be significant dissenting voices in the US policymaking establishment against a more adversarial relationship with China
+  + There continue to be significant dissenting voices in the US policy-making establishment against a more adversarial relationship with China
 + Nevertheless, there appears to be widespread agreement that US-China relations are at their most strained since Nixon's 1972 trip
 
 * Why Might This Time Be Different
@@ -98,7 +100,7 @@
 + However, the US/China relationship may have entered a structural change towards a more adversarial relationship
 + Implicit compact governing relations between the two countries has frayed
   + US implicitly had agreed to refrain from impeding China's development nor make statements about how China should govern itself
-  + China implictly had agreed to refrain from challenging the US for global leadership and displacing the US from Asia
+  + China implicitly had agreed to refrain from challenging the US for global leadership and displacing the US from Asia
 + Today, both sides hold that the other has violated the compact
   + Washington experts see China's building of alternate institutions and naval buildup in the South China Sea as clear signs of a Chinese attempt to displace American hegemony in Asia
   + A large body of Chinese experts see the US position as an impediment to China achieving its rightful destiny
@@ -112,3 +114,122 @@
     + Losses concentrated in areas that voted for Trump
     + The rise of China has provided politicians an easy scapegoat upon which to shift blame for localized economic stagnation
     + As a result, many Americans feel that China is the chief threat to American prosperity
++ The Chinese, however, are not entirely blameless
+  + Willfully disregarding international market norms
+  + Industrial policy
+  + Market access restrictions
+  + Technology transfer requirements
++ Both sides assign lower value to interdependence than they used to
+  + Past American administrations viewed interdependence as a stabilizing force
+  + Trump administration sees interdependence as working to China's advantage at the expense of the United States
+  + Xi Jinping as accepted greater friction with the United States as an acceptable cost of having a more assertive foreign policy and statist economic policy
++ US/China competition has assumed an ideological dimension
+  + Previously, absence of US/China ideological competition stood in contrast to US/Soviet Union ideological competition
+  + While the ideological competition is less intense than it was between the US and the Soviet Union, there is an acknowledged difference in ideologies
+  + US policy communities have seized on statements by Xi Jinping about a "China model"
+    + State-led economics
+    + Authoritarian governance
+  + While there is scant evidence that China seeks to export its model, measures in the PRC may be providing inspiration to other authoritarian regimes
+  + The adoption of measures similar to the Chinese government normalizes China's governance model and allows China to further tighten control over its society in the name of stability
+
+* What is at stake
++ The decline in US-China relations presents both risks and opportunities
++ Risk:
+  + Prolonged period of confrontation, possibly leading to conflict
+  + Even if armed conflict does not occur, there will be less scope for cooperation on matters that affect both countries
+  + Might lead to further efforts to decouple economies, leading to slower economic growth and higher inflation
+    + /On the other hand, maybe slower economic growth and higher inflation is worth it if the gains from said economic growth are more evenly distributed/
+    + /Arguably, somewhat higher inflation is *good* for Americans, as it would ease the pressure on borrowers/
+  + The catastrophic risk is that ongoing tensions between China and the US escalate like tensions between Germany and Great Britain in the run-up to World War 1
+
+* What can be done
++ Leaders in Washington and Beijing should use this time to examine their assumptions about the type of relationship they want to have with the other power
++ Shared strategic imperative that brought both countries together no longer exists
++ No longer a belief in the mutual benefits of deepening ties
++ Four questions for the US policy community:
+  1. What is the objective of US policy towards China
+     + We must abandon the thought that we can impose our will on China
+     + Unrealistic to assume that China will become more like the US
+     + Unrealistic to assume that the US will get a vote or veto in Chinese policy
+     + By the same token, Chinese attempts at manipulating US internal policy debates should also be seen as unacceptable
+     + So what is reasonable?
+       + We should expect China to take more responsibility for dealing with transnational threats -- doing so is in China's best interests as well as ours
+       + Reasonable to expect China's economy to become more market oriented -- greater economic growth is something that the Chinese government desires as it pursues modernization
+         + /Is this true, though?/
+         + /It seems to me that Xi Jinping, like Donald Trump, is willing to forego economic growth in order to pursue other geopolitical objectives/
+     + It will not serve the US to paint the Chinese as an adversary
+     + Instead the US should out-compete China
+       + /If we're in competition with them, they're our adversary/
+     + The US should work with China to share the load of handling global challenges
+       + /The problem is that China has displayed no proclivity towards "handling global challenges"/
+       + /China is content to let the US handle global trouble-spots/
+       + /Moreover, the current Chinese foreign-policy worldview is a strictly Westphalian model -- states are considered to be completely sovereign, and no state has the right to interfere in the internal affairs of another state, no matter how horrendous/
+       + /I see very little evidence to suggest that a world under Chinese hegemony would be more respectful of human rights or would be better able to deal with transnational threats/
+  2. Can the United States live with a rising China?
+     + There is a growing chorus of policy-makers who suggest that in order to preserve US prosperity, the US must restructure itself to stymie China
+     + If such views gain sustained expression in American policy, it is likely that Beijing will abandon whatever conciliatory posture it currently has and will adopt a more hostile approach to the US and its partners
+     + The US needs to determine what it will gain and lose by attempting to torpedo Chinese growth
+     + Will also need to determine whether it can achieve this objective at acceptable cost
+     + A Chinese downturn will hurt US growth and prosperity as well
+     + The US needs to ask itself whether it benefits more from a strong and capable China or an internally weak and externally insecure China
+     + In the recent past, when China was more insecure, it employed a more disruptive foreign policy
+       + Stoked nationalism over Taiwan
+       + Cultivated closer ties with North Korea
+     + The US needs to determine whether it can gain support for a more China-hostile strategy from its allies
+       + During the Cold War, Western Europe's trade ties with the Soviet bloc were minimal
+       + In contrast, every country on the Pacific rim counts China as its #1 or #2 trading partner
+       + It's very well possible that a more overtly hostile China strategy would dissuade our allies, leading to the US becoming less able to influence Chinese policy
+  3. Where should China have a greater say on matters of global governance?
+     + Every rising global power has sought to adapt the international system to accommodate its new status
+     + The US, so far, has been more inclined to obstruct increasing Chinese influence in international institutions
+     + The US would gain more support from its allies if it supported China taking a role in international instutions commensurate with its power
+     + The US could then insist that China use its power in a way that supports existing institutions, rather than undermining them
+       + /On the other hand, China could then use its power to render said institutions ineffective/
+     + If the US continues to reflexively obstruct China from gaining a greater voice on the world state, all it will do in the long term is isolate itself
+       + /I think that depends on whether, in the long term, other countries find China's growth more appealing than the US/
+       + /I don't think US isolation is as inevitable as Haas says it is, especially once other countries find out about the downsides of Chinese investment and expansion/
+  4. What are both sides' visions for regional order in Asia?
+     + The US and China should understand each others' expectations and ambitions in Asia
+     + We need a sustained, authoritative, bilateral dialogue
+     + The Asia-Pacific is where US and Chinese interests intersect most directly and where relative power is shifting most rapidly
+     + 70 years of uncontested US supremacy in the Pacific is giving way to a more even distribution of power
+     + Both sides need to shrink the gap in expectations in order to prevent conflict
+     + The US needs to make its objectives clear to China
+       + Committment to open markets
+       + Ensure that all states are respected, regardless of power
+       + Determination to apply global norms evenly across the global commons
+       + /Let's be clear: these aren't US objectives. These are the objectives of a very particular Obama/Clinton policy-wonk class within the US/
+       + /There are lots of others within the US who would be happy to see a more confrontational stance towards China/
+       + /Equally, there are others (though, a smaller group) who would like to see the US "give up" on maintaining control over the Pacific/
+     + The US should make it clear that China's growing power does not exempt it from the rules that bind other actors in the region
+       + /Forgetting, conveniently, that those rules were created by the US itself/
+       + /Forgetting conveniently, that the US chooses to ignore its own rules all the time/
+     + The US should resolve to oppose the establishment of spheres of influence (regions where a power enjoys special and exclusive privileges in any part of Asia)
+       + /Forgetting, conveniently, that the US gets a giant naval base at Yokosuka, and several giant army bases in Korea/
+       + /Forgetting, conveniently that the US owns the island of Diego Garcia/
+  5. What role should other powers in the region play?
+     + /You said there would be four questions!/
+     + The US should assign a high priority to fortifying its partnerships and drawing support for its vision for the future of the region
+     + Strengthen regional support for a common set of rules and norms
+     + This will not constrain China's growth, so long as China operates within the existing rules-based regional architecture
+       + /So it will constrain China's growth/
+       + /He forgets that the entire rules-based regional architecture was designed by the US in the '90s to constrain China/
+     + If China steps beyond the rules, committing to a rules-based order will allow the US to coordinate more effectively with its allies in opposing China
+     + China will object to the maintenance of these alliances
+     + The US should be clear with Beijing about the full range of threats they are organized to address
+     + Doing so will enable Beijing to see the non-negotiable nature of the alliances and will push Beijing towards regional challenges where it can have influence
+       + /tl;dr: Go bother India/
+
+* Conclusion
++ The US-China relationship has evolved considerably over the past 40 years
++ The sharp deterioration in bilateral relations in the past few months likely represents a structural shift in the relationship
++ The sooner that leaders on both sides recognize that this shift isn't just due to the vagaries of an unconventional US President, the sooner we'll be able to reset the relationship
++ There is no constituency within the US that wishes a return to the pre-Trump US-China relationship
++ The task is to re-imagine the US-China relationship in a manner that allows for peaceful coexistence while attracting durable bipartisan support
++ America needs to understand its strengths vis-à-vis China
+  + Global alliance network
+  + Unmatched power projection
+  + Deep capital markets
+  + Culture of innovation
++ America can outcompete China over the long-run
++ A competitive, but stable relationship with China is more conducive to American security and prosperity than outright hostility
