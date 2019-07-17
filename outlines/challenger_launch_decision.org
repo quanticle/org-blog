@@ -623,7 +623,81 @@
 + The work became a historical ethnography -- attempt to elicit organizational structure and culture from documents created prior to an event
 + Apply the tools of the social historian and anthropologist to a thoroughly modern setting
 + The most significant findings of the ethnographic approach were the following
-  1. 
+  1. A 5-step decision-making process in which deviation of the SRB from predicted performance was redefined as an acceptable risk
+     + The dominant belief about the SRB joint was that it was safe to fly
+     + Although there existed differences of opinion about what to do about the deviation from expected performance all parties agreed that the joint was flight-ready
+  2. Decision-making in the SRB work-group conformed to NASA rules
+     + Post-tragedy accounts stated that NASA managers ignored engineers and violated safety rules
+     + Instead what Diane Vaughan found was that managers depended on engineers for risk assessements
+     + Far from suppressing information, NASA managers conformed to NASA regulations about what information should be passed up the hierarchy
++ The attention to rule violations deflected attention from the fact that NASA managers and engineers alike had developed a worldview that allowed them to carry on as if nothing was wrong, even when faced with continual evidence that something was wrong
++ This is the problem of /normalization of deviance/
++ Three factors explain normalization of deviance
+  + Work group culture
+  + Culture of production
+  + Structural secrecy
+
+** Risky decisions and the normalization of deviance at NASA
++ Risk is not a fixed attribute of an object
++ Risk is constructed by individuals from past experience and present circumstances
++ Example: a professional butcher does not see the same level or risk in a carving knife as a parent catching their toddler reaching for the same type of knife
++ From their assumptions, expectations and experience, individuals construct a worldview, through which they assess risk
++ Worldviews tend to become self-confirming, because people tend to seek out confirmatory evidence and avoid contradictory evidence
++ People push aside contradictory evidence until they encounter something "too fascinating to ignore, too clear to misperceive, too painful to deny, which makes vivid still other signals they do not want to see, forcing them to alter and surrender the worldview they have so meticulously constructed"
+  + /Meta-note: that's just some beautiful phrasing right there/
++ Under conditions of uncertainty the potential variation in levels of risk assessment grows even more
++ Organizations creating potentially hazardous technical artifacts have a responsibility to determine not just whether risk is present, but how much risk
++ Experts are not immune to the power of worldview
++ On the contrary, due to their training and experience, experts can have a false confidence in their own beliefs even as those beliefs are influenced by their worldview in powerful and unacknowledged ways
+
+*** The production of culture, the culture of production and structural secrecy
++ A /culture/ is a set of solutions created by a group of people to meet specific problems that they face in common
++ These solutions are passed on as the rules, rituals and values of the group
++ It's a fallacy to assume that groups have a single culture
+  + Small groups have a single culture
+  + Most organizations, however, are segmented and have potentially as many cultures as subunits
+  + Cannot be assumed that those cultures are linked to each other or to the larger organization
+  + Although some uniform values may permeate the entire organization, it remains to be seen how far those values permeate any given subunit
++ Rules rituals and beliefs (i.e. culture) may arise in work-groups, apart from formal organizational sub-units
+  + Work group: people in an organization who interact because they have a particular task in common
+  + An organization may have many work groups that cross-cut its internal organization
+  + While work group culture may be far from harmonious, work groups do form certain ways of thinking about the problem that they are attempting to solve that form a culture
+  + The work group's culture informs the worldviews the participants bring when the interpret information
++ How did work group culture inform the decision to launch the Challenger?
+  + Early on in the Shuttle program, there was evidence of deviance in the performance of the SRB joint
+  + This led to the following sequence of events:
+    1. Signal of potential danger
+    2. Official act acknowledging escalated risk
+    3. Review of evidence
+    4. Official act indicating normalization of deviance: accepting risk
+    5. Shuttle launch
+  + The SRB work group normalized the deviant behavior of the SRB joints
+    + Deviant behavior was initially noticed
+    + This behavior was reinterpreted as within the acceptable norm for joint behavior
+    + Then the behavior was labeled an acceptable risk
+  + By this process the SRB work group redefined evidence that deviated from the previously accepted standard so that it became the standard
+  + The method of dealing with the SRB joint deviance established a precedence
+    + Problem is not serious
+    + Solution is to correct the existing design rather than redesign the joint
+  + This pattern of decision making repeated itself whenever there were further problems with the SRB joints
++ What was the basis by which the SRB work group culture rationalized its decisions?
+  + The work group believed the joints had redundancy
+  + Unless there was erosion by hot gases, the primary O-Ring would seal the joint
+  + Even if the primary failed, the secondary would seal the joint
++ Although there was certainly dissent, all participants in the work group thought the SRB joints were an acceptable flight risk
++ Even in 1985, when there were further signals of danger that promoted NASA to invest in a redesign, the work group (including the Thiokol engineers who voiced objections in the pre-launch teleconference) continued to recommend launching with the existing joint design
++ The above 5-step process illustrates /how/ deviance was normalized, but doesn't tell us why
+  + We know that organizations, NASA included, are capable of identifying and correcting technical problems
+  + Why didn't that capability come into play with the SRBs?
+    + Culture of production
+      + Environmental contingency that affected the SRB work culture
+      + Norms and beliefs originating from
+        + Aerospace industry
+        + NASA
+        + Culture of Marshall Space Center
+      + Legitimated work group decision-making
+    + Structural secrecy
+      + 
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
