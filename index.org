@@ -21,4 +21,4 @@
 + [[file:outlines/ai_natsec.org][Artificial Intelligence and National Security]]
  
 * Programming
-+ [[file:outlines/the_go_programming_language.org][The Go Programming Language]]
++ [[file:programming_stuff/the_go_programming_language.org][The Go Programming Language]]
