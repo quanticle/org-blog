@@ -1,5 +1,5 @@
 #+TITLE: Artificial Intelligence and National Security
-#+OPTIONS: num:nil
+#+OPTIONS: num:nil; ^:nil; ':t
 
 * Article Details:
 + Published By: Belfer Center for Science and International Affairs
@@ -29,9 +29,9 @@
 + "Lessons learned" from four prior transformative military technologies: nuclear, aerospace, cyber, biotech
   + Radical technological change begets radical government policy ideas
     + National security implications of AI will be "revolutionary", not "different"
-      + _What's the difference between "different" and "revolutionary"?_
+      + /What's the difference between "different" and "revolutionary"?/
     + Governments will consider and implement radical policy measures, perhaps as radical as in the early days of nuclear weapons
-      + _What radical policy measures did governments adopt in the early days of nuclear weapons?_
+      + /What radical policy measures did governments adopt in the early days of nuclear weapons?/
   + Arms races are unavoidable, but they can be managed
     + In 1899 nations voluntarily agreed to a treaty banning the use of weaponized aircraft
     + This treaty was quickly abandoned in World War 1, as the advantages of aerial bombardment proved irresistible
@@ -79,3 +79,54 @@
   2. Increased availability of large data sets upon which to train large machine learning systems
   3. Advances in the implementation of machine learning techniques
   4. Significant and rapidly increasing commercial investment
++ These trends will drive progress in AI for at least another decade
++ Most near-future progress will be around narrow AI
++ Most experts feel like general AI, AI with the scale and fluidity of a human brain, is assumed to be several decades away
++ Rapid progress in AI will most likely affect national security
+  + Defense Department leaders believe that we are at an "inflection point" in AI technology
++ US government has sponsored several studies on the future of AI and its significance for national security and governance
++ However, these studies have all focused on short-term, immediate impacts; little to no work on assessing longer term, more transformative aspects of AI
++ Project approach
+  1. Analyze possible technology development scenarios related to AI and explore how they might transform national security
+     + Greater diversity in potential applications of AI
+     + Greater analysis of the implications of advances of AI beyond the next 5 years
+     + Evaluating management paradigms for AI in a historical context
+  2. Evaluate prior tranformative military technologies to develop "lessons learned" for designing responses to the emergence of AI
+     + AI is likely to be a transformative military technology
+     + On par with aircraft and nuclear weapons
+     + Four prior technologies considered
+       + Nuclear
+       + Aerospace
+       + Cyber
+       + Biotech
+     + For each case, focus on the early decades of the technology, when technology management strategies had to be developed under significant uncertainty
+     + Evaluate the results of those efforts against the following 3 goals:
+       1. Preserve US technological leadership
+       2. Support peaceful uses of the technology
+       3. Manage catastrophic risk
+     + These goals are not always in alignment
+
+* Part 1: The Transformative Potential of Artificial Intelligence
++ Analyze implications across three dimensions:
+  1. Military superiority
+  2. Information superiority
+  3. Economic superiority
++ Military Superiority
+  + Robotics and autonomy
+    + Delegation of human control to autonomous systems has been on an upward trajectory since the first autonomous systems were developed in World War 2
+    + The first autonomous systems were the Norden bombsight and the V1 "buzz-bomb", which were the first systems to link computing systems to lethal force
+      + /Is that so? Don't battleship fire-control systems predate those?/
+    + "Fire and forget" missiles guide a missile to its target without further operator interaction following initial target selection and fire authorization
+    + The US military has developed directives restricting the development of certain autonomous capabilities
+    + Notably, the guidelines specify that a human always has to be "in the loop" and directly make decisions for all uses of lethal force
+      + /Though, this guideline is looser than one might think/
+      + /For example: look at the Aegis and Patriot air/missile defense systems/
+      + /Both are designed to operate in a fully automatic mode, where the system automatically prioritizes and engages targets within a particular sphere of influence at inhuman speed/
+      + /In this case, the fact that a human is "in the loop" means little, because the human won't necessarily have a chance to react and override before the system has identified and prosecuted a target/
+    + The market for both commercial and military robotics is increasing exponentially and unit prices are falling significantly
+    + Some are saying that robotics is poised for the same cycle of rapid price decline and adoption growth that personal computers achieved during the '80s and '90s
+    + Expanded use of machine learning, combined with market growth will greatly expand robotic systems' impact upon national security
+      + We're about to experience a "Cambrian explosion" of robotics
+      + Improvements in utilization of machine learning technologies
+      + Improvements in the ability of robots to apply these techniques to intelligently make decisions in real time based upon sensor data
+    + Increased utilization of robotics and autonomous systems will augment the power of both non-state actors and nation-states
