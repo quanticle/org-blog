@@ -53,8 +53,8 @@
     + As with stealth aircraft, targeted investments can allow the US to affect the offense/defense balance and build a long-lasting technological edge
 + 3 goals and 11 recommendations for US national security policy with regards to AI
   + Goal: Preserve US technological leadership
-    + DoD should conduct AI-focused war games in order to identify potential disruptive military innovations
-    + DoD should fund long-term strategic analyses of AI technology
+    + DOD should conduct AI-focused war games in order to identify potential disruptive military innovations
+    + DOD should fund long-term strategic analyses of AI technology
     + Prioritize AI R&D spending in areas that can provide sustainable advantages and mitigate key risks
     + Invest heavily in "counter-AI" capabilities for both offense and defense
   + Goal: Support peaceful use of technology
@@ -91,7 +91,7 @@
      + Greater diversity in potential applications of AI
      + Greater analysis of the implications of advances of AI beyond the next 5 years
      + Evaluating management paradigms for AI in a historical context
-  2. Evaluate prior tranformative military technologies to develop "lessons learned" for designing responses to the emergence of AI
+  2. Evaluate prior transformative military technologies to develop "lessons learned" for designing responses to the emergence of AI
      + AI is likely to be a transformative military technology
      + On par with aircraft and nuclear weapons
      + Four prior technologies considered
@@ -111,22 +111,200 @@
   1. Military superiority
   2. Information superiority
   3. Economic superiority
-+ Military Superiority
-  + Robotics and autonomy
-    + Delegation of human control to autonomous systems has been on an upward trajectory since the first autonomous systems were developed in World War 2
-    + The first autonomous systems were the Norden bombsight and the V1 "buzz-bomb", which were the first systems to link computing systems to lethal force
-      + /Is that so? Don't battleship fire-control systems predate those?/
-    + "Fire and forget" missiles guide a missile to its target without further operator interaction following initial target selection and fire authorization
-    + The US military has developed directives restricting the development of certain autonomous capabilities
-    + Notably, the guidelines specify that a human always has to be "in the loop" and directly make decisions for all uses of lethal force
-      + /Though, this guideline is looser than one might think/
-      + /For example: look at the Aegis and Patriot air/missile defense systems/
-      + /Both are designed to operate in a fully automatic mode, where the system automatically prioritizes and engages targets within a particular sphere of influence at inhuman speed/
-      + /In this case, the fact that a human is "in the loop" means little, because the human won't necessarily have a chance to react and override before the system has identified and prosecuted a target/
-    + The market for both commercial and military robotics is increasing exponentially and unit prices are falling significantly
-    + Some are saying that robotics is poised for the same cycle of rapid price decline and adoption growth that personal computers achieved during the '80s and '90s
-    + Expanded use of machine learning, combined with market growth will greatly expand robotic systems' impact upon national security
-      + We're about to experience a "Cambrian explosion" of robotics
-      + Improvements in utilization of machine learning technologies
-      + Improvements in the ability of robots to apply these techniques to intelligently make decisions in real time based upon sensor data
-    + Increased utilization of robotics and autonomous systems will augment the power of both non-state actors and nation-states
+
+** Military Superiority
++ This section analyzes the impact of artificial intelligence on the military and military systems
++ Robotics and autonomy
+  + Delegation of human control to autonomous systems has been on an upward trajectory since the first autonomous systems were developed in World War 2
+  + The first autonomous systems were the Norden bomb sight and the V1 "buzz-bomb", which were the first systems to link computing systems to lethal force
+    + /Is that so? Don't battleship fire-control systems predate those?/
+  + "Fire and forget" missiles guide a missile to its target without further operator interaction following initial target selection and fire authorization
+  + The US military has developed directives restricting the development of certain autonomous capabilities
+  + Notably, the guidelines specify that a human always has to be "in the loop" and directly make decisions for all uses of lethal force
+    + /Though, this guideline is looser than one might think/
+    + /For example: look at the Aegis and Patriot air/missile defense systems/
+    + /Both are designed to operate in a fully automatic mode, where the system automatically prioritizes and engages targets within a particular sphere of influence at inhuman speed/
+    + /In this case, the fact that a human is "in the loop" means little, because the human won't necessarily have a chance to react and override before the system has identified and prosecuted a target/
+  + The market for both commercial and military robotics is increasing exponentially and unit prices are falling significantly
+  + Some are saying that robotics is poised for the same cycle of rapid price decline and adoption growth that personal computers achieved during the '80s and '90s
+  + Expanded use of machine learning, combined with market growth will greatly expand robotic systems' impact upon national security
+    + We're about to experience a "Cambrian explosion" of robotics
+    + Improvements in utilization of machine learning technologies
+    + Improvements in the ability of robots to apply these techniques to intelligently make decisions in real time based upon sensor data
+  + Increased utilization of robotics and autonomous systems will augment the power of both non-state actors and nation-states
+    + We've already seen this with cyber-security
+    + Countries that, before, didn't have the budget to field extensive cyberwarfare capabilities can now field cyberwarfare capabilities on par with global powers
+    + These capabilities are increasingly becoming affordable to the point where even non-state actors can use them
+    + Robotics will allow a similar cost reduction for physical attack
+  + In the short term, advances in AI will allow more autonomous robotic support to warfighters and will accelerate the shift from manned to unmanned combat missions
+    + Initially, these advances will benefit large, well-funded and technologically sophisticated militaries
+    + As prices decline, these advances will trickle down to less-well-funded, less-sophisticated militaries and eventually non-state actors
+    + We've already seen ISIS make use of hobbyist drones to conduct attacks
+    + Although advances in robotics may increase the absolute power of all actors, the relative power balance may or may not shift
+  + The size, weight and power constraints that limit advanced autonomy will eventually be overcome, just as a supercomputer from the '90s is less powerful than a cell phone today
+    + /I'm not so sure about this -- this seems to be another instance where people outside the technology haven't caught on to the fact that Moore's Law has ended/
+    + Automobile companies expect to start selling fully autonomous vehicles in 2021
+      + /I'm not so sure about this prediction either -- it's mid-2019 and I haven't seen a lot of progress lately towards full autonomy/
+    + These cars will have large, power-hungry, sophisticated computers, but over time prices will fall and sizes will shrink
+      + /Again, the basis for this appears to a faith in continuing progression of Moore's Law/
+  + Over the medium to long term, robotic and autonomous systems are likely to match an increasing set of the technological capabilities that have been proven by nature
+    + Biology is full of intelligent autonomous systems
+    + Biology provides us with "existence proofs" for the potential of robotics
+    + Every animal has a suite of sensors, tools for interacting with its environment, and a relatively high-speed processing and decision-making center
+    + A city pigeon has more processing capability, flight agility and power efficiency than any comparable drone
+    + While we don't know what the ultimate capability of robotics is, the capabilities of biological systems provide us with a set of lower-bounds
+  + Over time, these capabilities will transform military power and warfare
++ Cybersecurity and Cyberwar
+  + Top US national security officials believe that AI will have a transformative effect on cybersecurity and cyberwar
+  + As with all automation, AI will reduce the numbers of humans required to perform specific tasks
+    + During the Cold War, the East German Stasi had a staff of 102,000 surveilling a population of 17 million
+    + Today, a totalitarian government can achieve full surveillance of the digital activity of a population of billions with only a few thousand staff
+  + AI will be useful for bolstering cyber-defense
+    + AI can automate probing for defense and monitoring cyber-systems
+    + AI can be trained to automatically spot potential vulnerabilities in code
+    + AI might be trained to automatically detect and respond to anomalous behavior
+    + /The important thing to do is to ensure that these autonomous responses don't introduce further vulnerabilities of their own/
+  + This same logic suggests that AI can also improve cyber-offense
+    + Attack approaches that are currently constrained by a lack of skilled labor, might be, in the future, only constrained by capital
+    + The most challenging type of cyber-attack today is the "Advanced Persistent Threat"
+      + Adversary actively hunts for weaknesses in the target's security (rather than trying a specific fixed set of attacks)
+      + Waits for the target to make a mistake
+      + Currently this requires a large amount of highly skilled staff
+      + With AI, scanning for vulnerabilities can be automated
+      + In the future, a less-sophisticated state or non-state actor might be able to buy an AI-powered APT kit which provides them with the same capabilities as the NSA or GCHQ
+  + In the near term, bringing AI into cyberwarfare will benefit powerful nation-state actors, but in the long term its effects on the balance of power are hard to forecast
++ Potential transformative scenarios -- ten scenarios that illustrate the transformative potential of AI on military superiority
+  1. Lethal autonomous weapons form the bulk of military forces
+     + As autonomous weapons have become more capable, militaries have been willing to delegate more authority to them
+     + The Russian military already has a plan to make 30% of the Russian armed forces consist of remote-controlled and autonomous robotic forces by 2030
+       + /Like with all Russian plans, I'll believe it when it happens/
+     + Other countries facing demographic and security challenges will likely set similar goals
+       + Japan
+       + Israel
+     + While the US has enacted restrictions on autonomous systems wielding military force, other countries and non-state actors may not exercise the same restraint
+  2. Disruptive swarming platforms render some platforms obsolete
+     + For the price of a single high-end combat aircraft, a military could acquire a million quadcopter drones
+       + /And for the price of a single high-end fighter aircraft, a military could acquire a million World War 1 era wood and fabric biplanes too/
+       + /Once again, this section presumes the cost declines and increases in sophistication that apply to computer processors will continue for computer processors and will replicate to other forms of hardware/
+     + Given the continuing trend of price declines, at some point in the future, drones might cost less than some ballistic munitions
+     + While these drones currently have significant limitations, they become more sophisticated every year
+     + How would an aircraft carrier respond a swarm of goose-like drones?
+       + A goose can cover a range of 1500 miles in 24 hours
+       + What happens when an adversary launches thousands of these
+       + /Three words: falcons kill geese/
+       + /The problem with drones against the carrier is *exactly* the same problem as with e.g. Russian bombers swarming a carrier battle group with cruise missiles/
+       + /And the solution is exactly the same: target the archers, not the arrows/
+       + /If this swarm is truly autonomous, swarm members are going to be exchanging lots of data with the rest of the swarm, as they report their location and sensor readings to each other/
+       + /These readings can be jammed, hacked, or used to vector in active countermeasures/
+       + /If the swarm is centrally controlled, there will be a central control system which can be targeted by e.g. airstrike or cyberattack/
+       + /This is what "multi-domain" battle is really about -- responding to threat in one domain with a countermeasure from another domain/
+       + /In the worst case, the carrier has "combat air patrol" drones, faster and more maneuverable than the hunter drones (since they'll be operating at shorter ranges) which will detect and eliminate the hunter drones as the hunter drone attack the aircraft carrier/
+     + /My prediction is that we'll actually seen military drones *increase* in price/
+       + /Early aircraft were very cheap, and were often treated as disposable/
+         + /Simple wood/fabric airframes/
+         + /Cheap automobile or motorcycle engines/
+         + /Obsolete machine guns repurposed from old ground vehicles/
+         + /Unsophisticated avionics and navigation -- early aircraft only had an engine RPM meter and an altimeter; the remainder of the avionics consisted of the pilot's eyes, ears and inner ear/
+       + /But under competitive pressure, aircraft have steadily become more and more sophisticated and expensive/
+         + /Wood/fabric frames → metal frames/
+         + /No avionics → fly-by-wire & GPS guidance/
+         + /Repurposed motorcycle engines → jet engines capable of sustained supersonic flight without afterburner/
+         + /Stealth & electronic countermeasures/
+         + /Etc/
+       + /Unlike this article, I don't think it's realistic to assume that drone prices will continue to decline while drone performance goes up -- I think the relevant analogy is the development of fighter aircraft, which saw relatively cheap and unsophisticated aircraft giving way to increasingly sophisticated and expensive models/
+  3. Robotic assassination is common and difficult to attribute
+     + Small autonomous robots could be configured to inject poison
+     + Larger robots could be configured with guns and biometric technology to scan for a particular target and open fire
+  4. Mobile robotic IEDs give terrorists some of the same capabilities as precision-guided munitions
+     + Currently, only sophisticated nation-states have the ability to deliver explosives to a precise target from many miles away
+     + Low-cost autonomous vehicles could give the same capability to non-state actors
+     + /Example scenario:/
+       + /"Kidnap" a self-driving car which already has authorization to enter a secure area/
+       + /Stuff with explosives/
+       + /Wait until the staff or the car's owner call for the car/
+       + /Result: you have a car-bomb that the target calls for, and grants authorization to get past security measures/
+  5. Military power grows disconnected from population size and economic strength
+     + Countries with small, elderly populations may field robotic "manpower" that magnifies the impact of their human population
+     + Countries that have an advantage in AI will be able to field greater numbers of robotic warfighters, which can offset or even negate unfavorable demographics
+  6. Cyberweapons are frequently used to kill
+     + More physical systems are linked to the Internet
+     + Growth of AI will make it easier to find and exploit vulnerabilities
+  7. Most actors in cyberspace will have no choice but to enable relatively high-levels of autonomy
+     + Systems that are autonomous will execute and react faster than systems with humans in the loop
+     + Need autonomous machines to move at "machine speed"
+  8. Unplanned interactions of autonomous systems will cause "flash crashes"
+     + Autonomous systems can make decisions much more rapidly than the humans who restrain them
+     + Because of this high speed unexpected interactions can spiral out of control rapidly
+     + Even systems which normally operate much more reliably than humans will have occasional crashes
+     + This is especially worrisome given the adversarial nature of espionage and warfare
+       + /What happens when an adversary knows that US banks use certain trading algorithms (via cyber-espionage) and deliberately executes a series of trades to trigger a flash crash?/
+       + /What happens when an adversary does the same thing with e.g. a missile defense system?/
+  9. Involving machine learning in military systems will create new types of vulnerabilities and cyberattacks that target the training data of those systems
+     + Machine learning requires high quality data sets
+     + What happens when an adversary "poisons" the training data, so that the system recognizes a friendly asset as hostile, under circumstances that the adversary knows about, but you don't?
+     + What happens when an adversary "poisons" the training data so that hostile agents are not recognized at all (again, under circumstances that the adversary controls)
+     + Hacking of robotic systems poses the risk of mass fratricide -- large numbers of US troops being attacked by "friendly" autonomous weapons
+       + Unexpected environmental interactions
+       + Enemy action
+       + Simple malfunctions or software errors in central control systems
+     + /This goes back to the old saw about machine learning -- the machine is learning, but you don't know *what* it's learning/
+     + /We already have attacks that exploit known vulnerabilities in machine learning algorithms (like stickers placed on stop signs which cause machine learning algorithms to misclassify them as speed-limit signs)/
+     + /It's not a huge leap to imagine adversaries attempting to deliberately poison training data to inject those kinds of vulnerabilities/
+  10. Theft and replication of military and intelligence AI systems *will* result in cyberweapons falling into the wrong hands
+      + In aerospace, stealing the blueprints for a weapon does not give you access to the weapons
+      + You still need sophisticated manufacturing and materials science to actually build the thing you stole the plans for
+      + In cyberwarfare, stealing the source code is both stealing the blueprints for the weapon and the weapon itself
+      + Moreover, the negligible cost of modifying and replicating software means that if an adversary has stolen one instance of a weapon, they can build new versions relatively cheaply
+
+** Implications for Information Superiority
++ This section analyzes the impact of artificial intelligence on intelligence systems (spies)
++ Collection and analysis of data
+  + US intelligence agencies are currently awash in more data than they can usefully analyze
+    + The amount of data created doubles every 24 months
+    + The amount of data created in the next two years will be equal to that created in the entire prior history of humanity
+    + Many more needles, buried in lots more hay
+  + Computer assisted intelligence analysis, leveraging machine learning will soon deliver remarkable capabilities, such as being able to photograph and analyze the entire surface of the earth each day
+    + Machines already outperform humans at image recognition
+    + These image recognition algorithms are already being used on satellite images
+    + Machine learning algorithms are well suited for dealing with unstructured sensor data, so we will see broader applications of them in the future
++ Creation of data and media
+  + AI can be used to produce data as well as analyze it
+    + Realistically changing facial expressions and speech-related mouth movements of an individual on video in real time 
+    + Generating realistic-sounding synthetic voice recordings for individuals
+    + Producing realistic fake images based upon text descriptions
+    + Producing written news articles based upon structured data
+    + Creating a 3D representation of an object based upon one or more 2D representations
+    + Automatically produce realistic sounds for a silent video
+  + In the future, it will be possible for even amateurs to produce photo/video realistic forgeries at scale
+    + Today these fakes can fool the untrained eye/ear
+    + In the future, they'll be good enough to even fool some kinds of forensic analysis
+  + These forgeries will erode social trust as otherwise reliable evidence becomes uncertain
+    + /This will have an impact on so-called "open source" intelligence, which relies on witness recordings with e.g. smartphones/
+    + /What do you do when there are as many fake videos coming out from a war zone as real ones?/
+    + Evidence will have to be authenticated using cryptographic means
++ Potential transformative scenarios
+  1. Supercharged surveillance brings about the end of guerrilla warfare
+     + Plausible winner-take-all effect for surveillance, particularly for nation-states
+     + Terrorist and guerrilla organizations will struggle to communicate and plan attacks without leaving telltales for AI to pick up
+     + Cheaper, more sophisticated sensors will make it difficult for terrorists to move undetected through society
+     + /On the other hand, we've discussed above about the potential vulnerabilities of AI/
+     + /What happens when the guerrillas discover a flaw in the AI algorithm that allows them to move undetected, or even aids them/
+  2. A country with a significant advantage in AI-based intelligence analysis gains a decisive advantage in strategic decision-making and shaping
+     + AI has the potential to fuse many sources of data into a single, unified system for supporting decisions
+     + Some experts state that the advantage from having such a system could be comparable to the advantage gained by the Allies when they broke the Axis' Enigma and Purple codes
+     + /Eh, this assumes that the humans in charge will actually listen to the AI/
+     + /They already ignore, in many cases, what their human intelligence services are telling them -- why would they be more inclined to believe AI-powered intelligence services?/
+     + /Moreover, this again seems to ignore the potential adversary threat, which is weird because the previous section was all about the adversary threat/
+     + /What happens when the other side has an AI too, and their AI is feeding your AI carefully crafted misinformation designed to lure you into a war you can't win?/
+  3. Propaganda for authoritarian and illiberal regimes becomes increasingly indistinguishable from truth
+     + What happens when state-produced propaganda has the exact same telltales as a samizdat video?
+     + Did that terrorist attack really happen?
+  4. Democratic and free-press difficulty with fake news gets dramatically worse
+     + Right now, fake news is a problem insofar as it fools voters
+     + In the future, fake news will be a problem insofar as it fools journalists and policymakers
+     + /Joke's on you: whether they believe the news or not has little or no bearing on journalists' willingness to propagate it/
+     + /Clickbait is clickbait, and journalists are already more than willing to broadcast fake news even as they know the news is fake or of low quality/
+     + /I don't actually think things will get much worse, insofar as I believe that we're already pretty close to a worst case scenario/
+  5. Command and Control organizations face persistent social engineering threats
+     + Those giving orders will struggle to determine whether their orders are real
+     + 
