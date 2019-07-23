@@ -121,4 +121,93 @@
     + Value may be anything at all
     + Accessing the map for a key that does not exist returns the zero-value for its type (for ~int~ that value is 0, which is why we're able to immediately increment it)
     + Create new maps with ~make~ built-in, which has other uses as well
-  + 
+  + ~bufio~
+    + ~bufio~ has a useful type, ~Scanner~ which reads input and automatically chunks it by line
+      + ~Scan()~ reads the next line from the input stream and removes the newline
+      + ~Text()~ retrieves the next line
+  + ~fmt~
+    + Formatted output
+    + ~Printf()~ is basically the same as ~printf~ from C
+    + ~Printf()~ types:
+      + ~%d~: decimal integer
+      + ~%x, %o, %b~: integer in hexadecimal, octal, or binary
+      + ~%f, %g, %e~: floating point number, extra-precision floating point, floating point in exponential format
+      + ~%t~: boolean (true or false)
+      + ~%c~: /rune/ (Unicode code point)
+      + ~%s~: string
+      + ~%q~: quoted string ~"abc"~ or run ~'c'~
+      + ~%v~: Any value in "natural" format
+      + ~%T~: the type of any value
+      + ~%%~: a literal percent symbol
++ Update the duplicate lines program to handle either standard input or a list of files:
+  #+begin_src go
+    import (
+        "bufio"
+        "fmt"
+        "os"
+    )
+
+    func main() {
+        counts := make(map[string]int)
+        files := os.Args[1:]
+        if len(files) == 0 {
+            countLines(os.Stdin, counts)
+        } else {
+            for _, filename := range files {
+                f, err = os.Open(filename)
+                if err != nil {
+                    fmt.Fprintf(os.Stderr, "dup2: %v\n", err)
+                    continue
+                }
+                countLines(f, counts)
+                f.Close()
+            }
+        }
+        for line, n := range counts {
+            if n > 1 {
+                fmt.Printf("%d\t%s\n", n, line)
+            }
+        }
+    }
+
+    func countLines(f *os.File, counts map[string]int) {
+        input := bufio.NewScanner(f)
+        for input.Scan() {
+            counts[input.Text()]++
+        }
+    }
+  #+end_src
+  + ~os.Open()~ returns two values:
+    + File ~*os.File~
+    + ~err~ -- the standard error value
+    + If ~err~ is nil, the operation completed without errors
+    + If ~err~ is not nil, it should be handled somehow
+  + Everything created by ~make~ is a reference
+  + We can pass the ~map~ we get from ~make~ to ~countLines~ and any updates to the map will also be visible from ~main~
++ Instead of reading lines in a streaming fashion, we can read entire files into memory at once:
+  #+begin_src go
+    import (
+        "fmt"
+        "io/ioutil"
+        "os"
+        "string"
+    )
+
+    func main() {
+        counts := make(map[string]int)
+        for _, filename = range(os.Args[1:]) {
+            data, err := ioutils.ReadFile(filename)
+            if err != nil {
+                fmt.Fprintf(os.Stderr, "dup3: %v\n", err)
+                continue
+            }
+            for _, line := string.Split(string(data)) {
+                counts[line]++
+            }
+        }
+
+        for n, line := range counts {
+            fmt.Printf("%d\t%s\n", n, line)
+        }
+    }
+  #+end_src
