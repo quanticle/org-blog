@@ -1,5 +1,5 @@
 #+TITLE: Emacs Tips
-#+OPTIONS: toc:nil; num:nil; ^:nil; ':t
+#+OPTIONS: num:nil; ^:nil; ':t
 #+STARTUP: overview
 * Configuration
 + Set up MELPA:
@@ -456,7 +456,9 @@ To disable TOC on export:
   + ~:html-head~
     #+begin_src html
       <link href=\"/page.css\" rel=\"stylesheet\">
+      <link href=\"/htmlize.css\" rel=\"stylesheet\">
     #+end_src
+    + [[https://raw.githubusercontent.com/fniessen/org-html-themes/master/styles/readtheorg/css/htmlize.css][htmlize.css]] is necessary to make syntax highlighting work: 
 + To make cross-page links work: ~(setq org-link-file-path-type 'relative)~ -- this makes ~file:~ links relative in org, which makes them relative links in the HTML export
 ** Horizontal rule
 + To add a horizontal rule in the export of an org file: ~-----~ (five dashes)
