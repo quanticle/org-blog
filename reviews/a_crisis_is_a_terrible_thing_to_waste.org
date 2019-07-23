@@ -1,6 +1,8 @@
 #+TITLE: Review: A Crisis Is A Terrible Thing To Waste
 #+OPTIONS: toc:nil; num:nil; ^:nil; ':t
 
+Outline: [[file:../outlines/a_crisis_is_a_terrible_thing_to_waste.org][A Crisis Is A Terrible Thing To Waste (Outline)]]
+
 * Summary
 In /[[https://www.brookings.edu/wp-content/uploads/2019/01/fp_20190118_hass_a_crisis_is_a_terrible_thing_to_waste.pdf][A Crisis Is A Terrible Thing To Waste]]/, Ryan Haas argues that the the recent tensions between the US and China represent a structural shift in the US-China relationship. Instead of thinking of the current low ebb in relations as the result of the particular leadership style of Donald Trump, we must acknowledge that the US-China relationship no longer has the same logic that it had for the past 40 years, and we must forge a new set of principles for dealing with China if we are to avoid conflict.
 

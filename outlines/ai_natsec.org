@@ -307,4 +307,100 @@
      + /I don't actually think things will get much worse, insofar as I believe that we're already pretty close to a worst case scenario/
   5. Command and Control organizations face persistent social engineering threats
      + Those giving orders will struggle to determine whether their orders are real
+     + AI can be used to produced counterfeit DoD directives
+     + Fake evidence of war crimes
+  6. AI-controlled forged media poses risks for economic and government stability
+     + On April 23, 2013 hackers took control of the AP's official Twitter account and tweeted that there had been a terrorist attack on the White House
+     + In two minutes, the US stock market lost nearly $136 billion in value, until the hack was revealed
+     + This attack could have been much worse if the attackers had access to cheaply-forged "corroborating" photos and videos generated using AI techniques
+     + This is not a new threat -- we've seen photos of Syria used to claim that Israel was committing war crimes in Gaza
+       + /This means that organizations like Bellingcat will be even more important/
+       + /Right now, the standard journalistic procedure is to verify media against itself, since forged media is often not internally self-consistent/
+       + /AI allows us to make forged media that displays the same level of internal self-consistency as "real" reporting/
+       + /Therefore, it will be more important to verify different pieces of information against each other -- if an event is real, you'll see more than one camera angle, more than one source, etc/
+       + /Journalism will become more difficult but I don't think it'll become impossible; if anything Bellingcat serves as an existence proof of what new journalism could look like/
+     + Even if governments produce countervailing evidence, they could struggle to squash false understandings in a population
+       + /This will be doubly true of government-on-government scenarios/
+       + /Example: There is a large conspiracy theory in India that believes that it was actually India which shot down a Pakistani jet during the recent conflict/
+       + /This conspiracy theory holds despite there being clear photographic evidence that the jet that was shot down was a MiG-21 (which India flies, but not Pakistan)/
+
+** Implications for Economic Security
++ Innovation supercharger
+  + AI has the capacity to improve the pace of innovation and invention itself
+    + Automation of scientific experiments -- AIs can be trained to look for correlations, generate hypotheses and test them using robotic equipment
+    + Synthesizing findings from thousands of scientific papers -- an AI used natural language processing algorithms to analyze thousands of research papers and found 5 new genes related to neurodegenerative disease
+      + /Another [[https://blogs.sciencemag.org/pipeline/archives/2019/07/15/machine-mining-the-literature][example]]: Data-mining scientific literature to find new thermoelectric material candidates/
+    + Optimizing engineering designs -- AI can optimize existing designs, such as car engines
+  + AI can therefore operate as an "innovation supercharger" allowing nations that are ahead in AI to accelerate their research in other fields
++ Automation and Unemployment
+  + The 2016 White House Report on Artificial Intelligence, Automation and the Economy found that automation threatens millions of jobs and that AI driven automation may result in more permanent disruptions than past innovations
+    + Speed of economic disruption is much faster
+    + Pace of benefits is slower than pace of harms -- jobs are lost today, AI driven benefits arrive tomorrow
+    + What happens when a large portion of the workforce (up to a third, by some estimates) becomes unemployable
+    + Even during the Great Depression, US unemployment was only 25% -- 1/3 unemployment is something that we've never experience
+      + /I'm skeptical/
+      + /We have to remember that unemployment only counts those who are out of work and are *actively looking* for a new job/
+      + /My hypothesis is that "unemployment", as defined above, has a hard cap of about 25% (maybe less, after analyzing data from the Great Recession)/
+      + /Once unemployment goes higher than that, people start dropping out of the labor force/
+    + What happens when AI-driven mechanization makes large numbers of wokers uncompetitive at *any* price, much like what happened to horses after gasoline/diesel engines were developed?
+      + Human farm laborers got jobs in factories when farms became mechanized
+      + Horses could not
+  + If automation renders large numbers of workers permanently displaced, wealthy countries could encounter the same "resource curse" problem that poor countries have
+    + "Resource curse" -- large deposits of natural resources in countries with poor governing institutions act as a brake on development rather than an accelerant
+      + Extractive industries promote inequality and poor governance
+        + Industries such as mining tend to be capital-intensive and labor-light
+        + Small group of capital owners extract almost all of the value
+      + Redistribution of revenues risks corruption
+        + While the government *can* tax extractive industries in order to provide public goods, in practice, this leads to corruption
+        + Capital owners identify who is taxing them and lobby and co-opt the institutions which serve to regulate and tax them
+        + Inequality promotes civil conflict
+    + AI has the potential to turn *every* industry into a capital-intensive/labor-light industry like mining
++ Potential transformative scenarios
+  1. Automation induced "resource curse" plagues developed economies
+     + In the first industrial revolution, initially most of the returns went to capital over labor
+     + Workers were only able to capture benefits of industrial revolution when they organized into units (unions) which were able to affect production
+     + In "resource curse" countries, the vast majority of workers lack the ability to meaningfully impact economic production -- only the small fraction of workers in the extractive industry have the power to affect production
+     + Therefore, the owners of capital only redistribute the minimum amount needed to establish political or military governing coalitions
+     + If automation renders large swathes of the labor force permanently redundant, similar dynamics could take hold for highly automated economies
+  2. A country with a lead in AI develops a self-reinforcing technological and economic edge
+     + AI improves innovation in every other sector of the economy
+     + This can lead to a breakaway scenario where a small edge in AI today compounds into an unassailable lead after a few decades
+     + Look at how a small edge in industrialization allowed Great Britain to conquer 25% of the globe
+     + /This assumes that AI innovation can't be stolen/
+     + /Great Britain was able to conquer the world because of a combination of institutional innovation (joint-stock limited-liability corporations) and technological innovation/
+     + /While the technological innovation could be stolen, the institutional innovations could not, and IMHO that's why Britain won/
+  3. AI enabled sabotage emerges as a new type of weapon
+     + As seen above, even today, fake news can roil markets
+     + What happens when an AI-armed adversary plants a specific news stories in order to create a "flash crash"?
+
+* Part 2: Learning from Prior Transformative Technology Cases
++ This section analyzes previous "transformative" military innovations to see if we can find some prior analogues for the impact that AI will have on military innovation
++ Analyze the following technologies:
+  + Nuclear
+  + Aerospace
+  + Cyber
+  + Biotech
+
+** Key Technology Management Aspects
++ Each of the above technologies was transformative for US national security
++ However, each had different scientific and economic circumstances, which affected the optimal approach for managing them
++ Evaluate each technology across the following criteria
+  1. Destructive potential
+     + How much potential destruction
+     + How assured is the destruction
+     + Can the destructive potential be demonstrated in a "safe" setting
+  2. Cost profile
+     + How much does it cost to develop the weapon at scale?
+     + How much does it cost to use the weapon?
+     + Does production require large fixed assets?
+  3. Complexity profile?
+     + What kinds of technical expertise are required to develop the technology
+     + Once developed, how difficult is the technology to use?
+     + Is this expertise a matter of formal knowledge (mathematics) or tacit knowledge (manufacturing excellence)?
+  4. Military/Civilian dual-use potential
+     + Does experience with the technology in the civilian sphere help with developing the technology for military uses?
+     + Do companies that produce for civilian use also tend to produce for the military?
+  5. Difficulty of espionage and monitoring
+     + Is it easy for adversaries to monitor the progress of a military development rpogram
      + 
+

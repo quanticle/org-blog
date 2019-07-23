@@ -22,3 +22,7 @@
  
 * Programming
 + [[file:programming_stuff/the_go_programming_language.org][The Go Programming Language]]
++ [[file:programming_stuff/emacs_tips.org][Emacs Tips]]
+
+* Blogroll
++ [[file:blogroll.org][Blogroll]]
