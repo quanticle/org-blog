@@ -402,5 +402,91 @@
      + Do companies that produce for civilian use also tend to produce for the military?
   5. Difficulty of espionage and monitoring
      + Is it easy for adversaries to monitor the progress of a military development rpogram
-     + 
+     + Is the technology easily reverse-engineered?
++ Evaluation of previous revolutionary technologies
+  + Nuclear
+    + Destructive potential: immense and easily demonstrated
+    + Cost profile: Massive; early nuclear development took a nontrivial fraction of GDP; even today the development of nuclear weapons is immensely expensive
+    + Complexity profile: early nuclear weapons required fundamental breakthroughs in materials science and engineering; even today the manufacture of nuclear weapons requires significant specialized expertise
+    + Military/Civilian Dual Use potential: nuclear medicine and nuclear power both carry significant proliferation risk
+    + Difficulty of espionage and monitoring: Aerospace ISR, signals intelligence and radioactive tracing allow for monitoring
+  + Aerospace
+    + Destructive potential: only a massive number of planes can threaten the existence of a state; attacks are relatively easy to defend against
+    + Cost profile: in 1945 a fighter aircraft was roughly 50x the cost of a civilian car
+    + Complexity profile: By World War 2, only relatively advanced economies could compete to build state-of-the-art aerospace technology
+    + Military/Civilian dual-use potential: early airliners were converted bombers, and could have been re-converted back to a military role
+    + Difficulty of espionage and monitoring: Aircraft factories appear similar to other factories and can be easily concealed
+  + Cyber
+    + While cyber can inflict physical damage as control systems are connected to hackable electronic networks, the destructive potential of cyber is not always assured
+    + Cost profile: Even non-state actors can afford relatively sophisticated cyber capabilities; no specialized equipment required to conduct cyber-attacks
+    + Complexity profile: Low-end attacks require a minimum of skill; high-end attacks require state-level skill and human resources
+    + Military/Civilian dual-use potential: commercial systems can be repurposed to carry out cyber-attack; military and civilian roles require almost identical skillsets
+    + Difficulty of espionage and monitoring: even sensitive networks are routinely infiltrated without detection
+  + Biotech
+    + Destructive potential: natural pandemics have killed millions, bioweapons could too
+    + Cost profile: Equipment is cheap, but requires relevant expertise to use
+    + Complexity profile: At first relatively few people had the necessary expertise to develop bioweapons
+    + Military/Civilian dual-use potential: the equipment needed to develop bioweapons is the same as the equipment needed to conduct pharmaceutical R&D
+    + Difficulty of espionage/monitoring: Bioweapons facilities are difficult to distinguish from commercial pharmaceutical labs
+
+** Government Technology Management Approach
++ Characterize how the US government has managed the above technologies
++ Nuclear: all-out government led development and utilization
+  + Extraordinary levels of spending, both for initial development and ongoing maintenance
+  + Initially, all nuclear technology was treated as classified government property -- was illegal to hold patents on nuclear technology
++ Aerospace: government led public/private partnership
+  + Government provides R&D funding and acts as anchor customer
+  + However, actual production is done by private corporations
+  + Government restricts some technologies with export restrictions and classification
++ Cyber: government "seeding and harvesting"
+  + Government was heavily involved in the development of early computer networks, but has ceded almost all control to private entities
+  + Government role in aiding cybersecurity and and offensive cyber-operations, but has a hands-off role everywhere else
++ Biotech: voluntary restraint
+  + US government ends its bioweapons programs in 1969 with the ratification of the Biological Weapons Convention
+  + USSR bioweapons development continues through end of Cold War
+  + Voluntary restrictions on DNA technology adopted by US and EU to make bioweapons more difficult to develop
+
+** Government management approach "scorecard"
++ How did the government's appropach to managing the new technology fare on the following three metrics:
+  + Preserve US technological leadership
+  + Support peaceful uses of the technology
+  + Manage catastrophic risks
++ Nuclear
+  + Preserve US technological leadership: Partial success
+    + US had more nukes and developed nukes first
+    + Did not give the US a sustainable advantage
+    + Advantages were eroded by espionage
+  + Support peaceful use: partial success
+    + Nuclear weapons gave way to nuclear power and nuclear medicine
+    + Benefits were not as high as expected and proliferation risks were underestimated
+  + Manage catastrophic risks: partial failure
+    + No accidental detonations
+    + Many close calls and near-misses
++ Aerospace
+  + Preserve US technological leadership: success
+    + US has been the undisputed leader of developing aerospace tech, aside for some brief periods between World War 1 and World War 2
+  + Support the peaceful use of technology: success
+    + After World War 2, US was a leader in applying military innovations to air transport
+  + Manage catastrophic risks: success
+    + Main risks are crashes and and attacks from superior air forces, both of which have been responded to effectively
++ Cyber
+  + Preserve US technological leadership: success
+    + US has leading cyber capabilities
+    + More difficult to preserve an advantage in cyber, but the US has done it
+  + Support the peaceful use of technology: partial success
+    + US organizations lead the world in computing
+    + However, US government and organizations are far too vulnerable to cyber-attack
+  + Manage catastrophic risks: partial failure
+    + US developed advantage in offensive cyber operations
+    + Ignored cyber-defense, leading to asymmetric vulnerability
++ Biotech
+  + Preserve US technological leadership: N/A
+    + US voluntarily disbanded bioweapons program
+    + Said nuclear deterrence was sufficient
+  + Support peaceful use of technology: success
+    + US has a world-leading biotech industry
+    + Strong government support for peaceful biotech R&D
+  + Manage catastrophic risk: partial success
+    + No major bioweapons attacks
+    + UN Biological Weapons Convention was partially successful at delaying research until risks were better understood
 
