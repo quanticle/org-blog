@@ -91,4 +91,34 @@
 
 ** Finding duplicate lines
 + Example introduces the ~if~ statement, the ~map~ datatype and the ~bufio~ package
-+ Problem: print each line that appears more than once in 
++ Problem: print each line that appears more than once in the standard input
+  #+begin_src go
+    import (
+        "bufio"
+        "fmt"
+        "os"
+    )
+
+    func main() {
+        counts := make(map[string]int)
+        input := bufio.NewScanner(os.Stdin)
+        for input.Scan() {
+            counts[input.Text()]++
+        }
+        for line, n := range counts {
+            if n > 1 {
+                fmt.Printf("%d\t%s\n", n, line)
+            }
+        }
+    }
+  #+end_src
+  + As with for parentheses are never used around the condition of an ~if~ statement and braces are required for the body
+  + Using ~range~ on a map results in a sequence of key/value pairs
+  + map
+    + Set of key/value pairs
+    + Constant time operations for store, retrieve, test for item in map
+    + Key may be of any type that can be compared with ==
+    + Value may be anything at all
+    + Accessing the map for a key that does not exist returns the zero-value for its type (for ~int~ that value is 0, which is why we're able to immediately increment it)
+    + Create new maps with ~make~ built-in, which has other uses as well
+  + 
