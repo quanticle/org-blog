@@ -1,13 +1,13 @@
+#+TITLE: Blogroll
 #+OPTIONS: toc:nil num:nil
-* Blogroll
-** General
+* General
 + [[https://blog.obormot.net][Cognitive Pie]]
 + [[https://slatestarcodex.com][Slate Star Codex]]
 + [[https://www.reuters.com][Reuters News]]
 + [[https://thebrowser.com][The Browser]]
-** Science
+* Science
 + [[https://blogs.sciencemag.org/pipeline][In The Pipeline]]
-** Economics and Politics
+* Economics and Politics
 + [[https://thediplomat.com][The Diplomat]]
 + [[https://www.aspistrategist.org.au/][The Strategist]]
 + [[https://www.lrb.co.uk/blog/][LRB Blog]]
@@ -43,7 +43,7 @@
 + [[https://www.cfr.org/blog/asia-unbound][Asia Unbound]]
 + [[https://www.navalgazing.net][Naval Gazing]]
 + [[https://www.ecfr.eu/][European Council on Foreign Relations]]
-** Tech
+* Tech
 + [[https://www.anandtech.com][Anandtech]]
 + [[https://lwn.net][LWN]]
 + [[https://www.phoronix.com][Phoronix]]
