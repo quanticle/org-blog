@@ -742,7 +742,28 @@
 + Two questions:
   + From 1977 to 1985, why did NASA continue to launch with a SRB joint design that it knew to be flawed?
   + Why did NASA launch Challenger when the engineers who were closest to the joint were opposed?
-+ 
++ In answering these two questions, we must look at /deviance/ from the following two perspectives:
+  + The normalization of statistical deviation in booster performance from expected norms
+  + The contrast between outsider, post-hoc interpretations that defined actions as deviant as opposed to insider definitions that legitimated actions as normal at the time they occurred
++ Both forms of deviance can be examined using the tools of historical ethnography
+  + Show how meaning was developed by insiders as the problem unfolded
+  + Understand the past by limiting yourself to only what the people in the past knew
++ In order to create this historical ethnography, we must do the following three things:
+  + Present a chronological account of the history SRB decisions
+  + Reinstate the decision to launch the Challenger into its context as part of an ongoing stream of launch decisions
+  + Examine the connection between environment, organization and individual choice
++ The architecture of the book takes into account the fact that the reader has already been exposed to prior narratives that frame the Challenger launch decision as one of amoral calculation
+  + The structure of the book lays out Chapter 1 as a bare-bones description of the launch decision, as one might have encountered from reading the Presidential Commission report
+    + Establishes a common basis for those who might be too young to remember the Challenger disaster directly
+  + In Chapter 2 (this chapter) the book raises doubts about the established narrative
+  + In Chapters 3 - 7 introduce the three elements of the theory of normalization of deviance
+    + Production of culture
+    + Culture of production
+    + Structural secrecy
+  + These chapters contradict the established narrative by recreating the context in which SRB decisions were made
+  + Finally Chapter 8 repeats the description of the launch decision from chapter 1, but adds the relevant context to illustrate how the decision to launch Challenger fit into an ongoing stream of decisions that were considered normal and non-deviant
+  + Chapter 9 explains the launch decision, showing how the culture of production, the production of culture and structural secrecy combined to create an organization where following the rules led to disaster
+  + Finally, Chapter 10 examines the implications of the Challenger Launch Decision on organizational culture and decision-making
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
