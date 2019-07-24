@@ -211,3 +211,103 @@
         }
     }
   #+end_src
+
+** Creating animated .gifs
++ Generate GIF animations of various Lissajou figures
+  #+begin_src go
+    package main
+
+    import (
+        "image"
+        "image/color"
+        "image/gif"
+        "io"
+        "math"
+        "math/rand"
+        "os"
+    )
+
+    var palette = []color.Color{color.White, color.Black}
+
+    const (
+        whiteIndex = 0
+        blackIndex = 1
+    )
+
+    func main() {
+        lissajous(os.Stdout)
+    }
+
+    func lissajous(out io.Writer) {
+        const (
+            cycles = 5
+            res = 0.001
+            size = 100
+            nframes = 64
+            delay = 8
+        )
+        freq := rand.Float64() * 3.0
+        anim := gif.Gif{LoopCount: nframes}
+        phase := 0.0
+        for i := 0; i < nframes; i++ {
+            rect := image.Rect(0, 0, 2*size + 1, 2*size + 1)
+            img := img.NewPaletted(rect, palette)
+            for t := 0; t < 2*cycles*math.Pi; t+=res {
+                x := math.Sin(t)
+                y := math.Sin(t*freq + phase)
+                img.SetColorIndex(size+int(x*size+0.5), size+int(y*size+0.5), blackIndex)
+            }
+            phase += 0.1
+            anim.Delay = append(anim.Delay, delay)
+            anim.Image = append(anim.Image, img)
+        }
+        gif.encodeAll(out, &anim)
+    }
+  #+end_src
+  + ~const~ declarations allow you to define constants that are defined at compile-time
+    + constants must be integers, floats or strings
+  + The expressions ~[]color.Color{color.White, color.Black}~ and ~gif.GIF{LoopCount: nframes}~ are examples of /composite literals/ -- initialize any composite type from a sequence of primitive values
+    + Color → slice
+    + GIF → struct
++ struct types
+  + A struct is a collection of fields
+  + Grouped together and treated as a single unit
++ Lissajou function:
+  + Each iteration of the outer loop produces a single frame of the animation
+  + In each, we run an oscillator 5 times
+    + \(x\) is just a sinusoidal
+    + \(y\) is also an oscillator but its frequency is a random multiple of \(x\) and it's phase is shifted by a little bit with relative to \(x\) in every frame of the animation
+
+** Fetching URLs
++ Go includes a number of facilities for getting data from the Internet
++ Libraries grouped under ~net~
++ Example: fetch the contents of a URL:
+  #+begin_src go
+    package main
+
+    import (
+        "fmt"
+        "io/ioutil"
+        "net/http"
+        "os"
+    )
+
+
+    func main() {
+        for _, url := range os.Args[1:] {
+            resp, err := http.Get(url)
+            if err != nil {
+                fmt.Fprintf(os.Stderr, "Error while fetching URL: %s\n%v\n", url, err)
+                os.Exit(1)
+            }
+            b, err := ioutil.ReadAll(resp.Body)
+            resp.Body.Close()
+            if err != nil {
+                fmt.Fprintf(os.Stderr, "Error while reading response body for URL: %s\n%v\n", url, err)
+                os.Exit(1)
+            }
+            fmt.Printf("%s", b)
+        }
+    }
+  #+end_src
+  + Much like with the duplicate line program, here we use ioutil to read the entirety of the body into memory

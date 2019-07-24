@@ -697,7 +697,52 @@
         + Culture of Marshall Space Center
       + Legitimated work group decision-making
     + Structural secrecy
-      + 
+      + Patterns of information
+      + Organizational structure
+      + Regulatory relationships
+      + These made it difficult for people outside the SRB work group to see what was going on inside the work group, making it more difficult for outside parties to weigh in on the SRB joint issues
++ The work-group's culture established a worldview in its participants that held that the SRB joints were an acceptable flight risk, even though there was data to the contrary
++ There is a paradox in the power and powerlessness of the SRB engineers
+  + They were the ones who established this worldview
+  + But they were also powerless to overturn this worldview when contrary information came in
+  + Were unable to contradict themselves after having repeatedly affirmed to themselves and others their belief in redundancy
++ Challenger /is not/ an example of amoral calculation
+  + Managers were moral and scrupulously rule-abiding
+  + Production pressures exerted a powerful influence, but that influence was /below/ the level of rational thought
++ The true tragedy of /Challenger/ is that everyone did their jobs, honestly, morally, and to the best of their ability and /because/ of that a tragedy occurred
+
+** Retrospection and History
++ Organizations have failures more often than we suspect
++ Usually these failures are caught and corrected by another part of the organization
++ Only when failures create negative consequences that are publicly defined as failures do we stop to consider the causes of failures
++ This opens us up to the distorting influences of retrospective analysis and hindsight bias
++ Problems that were ill-structured before a disaster tend to become well-structured after a disaster, as people go back and reinterpret ambiguous data in light of what happened
++ Post-tragedy accounts extracted a coherent set of signals from an incoherent stream of data
++ This resulted in a systematic distortion of history that, by taking events out of context, did not show events as the people experiencing those events would have seen them /at the time/
++ This distortion was a necessary result due to:
+  + There being an enormous amount of data
+  + Analysts having limited time to sift through data
+  + The necessity of simplifying and creating a narrative to inform non-technical readers
++ Chief among these retrospective narratives was the Presidential Commission report
++ The report, in Volume 1, repeatedly states, "NASA did this," or "NASA did that", simultaneously blaming everyone and no one for decisions
++ While the report does not blame any individuals, their televised questioning of NASA middle managers and the erroneous finding of rule violations in the decision-making leading up to the launch created the impression that NASA middle managers were solely to blame for the tragedy
++ The Presidential Commission did not fully grasp NASA's reporting rules, so it states that information was suppressed when in fact it was transmitted using the correct channels
++ The selection of witnesses underrepresented working engineers and overrepresented dissenters from the decision to launch
+  + Only 7 engineers were asked to testify and they had all opposed the launch
+  + However, there were 15 engineers on the pre-launch teleconference
+  + The focus of the questioning was on the specific decision to launch, so the questioning of the "dissenters" overlooked the fact that many of them had originated the engineering analyses that justified the launch, and which they were now dissenting against
++ While the Presidential Commission report was 5 volumes in total, most people focused on the summary (Volume 1) and the televised hearings
++ As a result people siezed on whatever findings in Volume 1 allowed them to explain the tragedy and moved on
++ Most of these explanations involved some variant of the "amoral calculator" hypothesis
++ Although the House Science and Technology Committee report contradicted many of the findings of the Presidential Commission report, it never received the same level of attention as the Presidential Commission report, and so was unable to challenge the narratives that the Presidential Commission report fostered
++ As a result, the widely accepted narrative regarding Challenger is that the decision to launch was the result of an amoral calculation by middle managers who intentionally violated NASA rules
+
+** A Revisionist Account
++ This book challenges that narrative
++ Two questions:
+  + From 1977 to 1985, why did NASA continue to launch with a SRB joint design that it knew to be flawed?
+  + Why did NASA launch Challenger when the engineers who were closest to the joint were opposed?
++ 
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]

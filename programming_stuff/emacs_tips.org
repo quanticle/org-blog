@@ -126,6 +126,7 @@
 + Jump to matching parenthesis: ~C-M-n~, ~C-M-p~
 ** File operations:
 + Open file: ~C-x C-f~
++ Open file, read-only: ~M-x view-file~
 + Save file: ~C-x C-s~
 + Save all files: ~C-x s~
 + Switch buffer: ~C-x b~
@@ -622,3 +623,9 @@ I find that all the files I really care about are version controlled anyway, so 
 + Using Projectile:
   + Open a file in the current project: ~M-p f~
   + Switch projects: ~M-p p~
+* Shells
++ To launch a shell: ~C-u M-x shell~ (give a ~C-u~ arg to have emacs prompt you for a shell name)
++ In shell-mode, hit ~C-c C-c~ to send ~C-c~ to the running process
++ To browse history: ~C-up~ / ~C-down~
++ To go to the beginning of the command: ~C-c C-a~
++ To go to the end of the command: ~C-c C-e~
