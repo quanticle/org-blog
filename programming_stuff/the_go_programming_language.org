@@ -311,3 +311,62 @@
     }
   #+end_src
   + Much like with the duplicate line program, here we use ioutil to read the entirety of the body into memory
+
+** Fetching URLs Concurrently
++ One of the novel things in Go is its support for concurrent programming
+  #+begin_src go
+    package main
+
+    import (
+        "fmt"
+        "io"
+        "io/ioutil"
+        "net/http"
+        "os"
+        "time"
+    )
+
+    func main() {
+        start := time.Now()
+        ch := make(chan, string)
+        for _, url := range os.Args[1:] {
+            go fetch(url, ch)
+        }
+        for range os.Args[1:] {
+            fmt.Println(<-ch)
+        }
+        fmt.Fprintf("%.2fs seconds elapsed\n", time.Since(start).Seconds())
+    }
+
+    func fetch(url string, ch chan<- string) {
+        start := time.Now()
+        resp, err := http.Get(url)
+        if err != nil {
+            ch <- fmt.Sprint(err)
+            return
+        }
+        nbytes, err = ioutil.Copy(ioutil.Discard, resp.Body)
+        resp.Body.Close()
+        if err != nil {
+            ch <- fmt.Sprintf("Error while reading %s: %v", url, err)
+            return
+        }
+        secs := time.Since(start).Seconds()
+        ch <- fmt.Sprintf("%.2fs  %7d  %s", secs, nbytes, url)
+    }
+  #+end_src
++ A /goroutine/ is a concurrent function execution
++ A /channel/ is a mechanism that allows a goroutine to pass values of a specified type to another goroutine
++ ~main~ runs in one goroutine
++ The ~go~ statement creates additional goroutines
++ Here the execution proceeds as follows:
+  + We create a channel of strings using ~make~
+  + For each URL passed in on the command line, start a new goroutine that
+    + Calls ~fetch~ asynchronously to retrieve the URL
+    + Counts the bytes in the response and discards it, using ~io.Copy~ and the ~io.Discard~ output stream
+    + As each result arrives ~fetch~ sends a summary line to the channel ~ch~
+  + Read the responses from the channel ~ch~ and prints them out
+  + Prints out a final summary line
++ When one goroutine sends or receives on a channel it blocks until another goroutine performs a corresponding send or receive
+  + /Make sure to block as many times as you spawn, in other words/
++ 
