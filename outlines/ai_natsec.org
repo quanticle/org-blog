@@ -490,3 +490,73 @@
     + No major bioweapons attacks
     + UN Biological Weapons Convention was partially successful at delaying research until risks were better understood
 
+** AI Technology Profile: A Worst Case Scenario?
++ AI presents a uniquely difficult challenge
++ Destructive potential: High
+  + At a minimum, AI will dramatically augment autonomous weapons and espionage capabilities
+  + At a worst case, AI presents an existential risk to humanity
+    + /Here they cite Bostrom, which I find to be remarkable/
++ Cost profile: diverse, but potentially low
+  + Developing cutting-edge AI technology carries a significant cost
+  + /Though, compared to the cost of developing nuclear weapons for the first time, even Google's spending on AI looks pretty paltry/
+  + However, due to open-source nature of AI development, small teams can readily leverage AI software once it is developed
+  + Leaked copies of AI software might be virtually free
+  + /This is where I oppose OpenAI's policy of deciding what's best/
+  + /In practice, keeping software closed \(=\) giving said software to the NSA
++ Complexity profile: diverse, but potentially low
+  + Advancing the state of the art in AI requires elite talent
+  + However, it requires much less skill to apply AI to existing problems
+  + As AI software improves, it will likely require less skill to use
++ Military/Civilian Dual-Use potential: High
+  + Militaries and civilian AI research are competing for exactly the same talent pool
+  + However, some military-related applications of AI require non-AI expertise to apply
++ Difficulty of espionage and monitoring: High
+  + Significant overlap between civilian and military AI development makes it impossible to determine whether adversaries have advanced their military AI systems
+  + Few physical markers of AI systems
+  + Total numbers of state-of-the-art AI systems will be significantly higher than nuclear or even aerospace
+  + Difficult to assess the potential of AI-enhanced weapons systems without direct access
+
+** Lessons Learned
++ What lessons can we learn from past advances in technology with national-security implications?
++ Lesson 1: Radical technology change begets radical government policy ideas
+  + The transformative nature of nuclear weapons led the US government to consider some pretty radical ideas
+    + Enacted: giving one person the sole authority to start nuclear war -- the US president was given sole authority to start a conflict that could end the United States
+    + Considered: internationalizing nuclear weapons under the authority of the United Nations (the "Baruch Plan")
+    + Enacted: Voluntarily sharing atomic weapons technology with allies (something that the US did not do with other weapons systems)
+    + Considered: Using atomic arms to annihilate adversaries, including the Soviet Union, before they had a chance to develop atomic arms of their own
+      + /The Soviet spying on the US atomic weapons program rendered this question moot because the Soviet Union developed its own atomic weapons before the US had a chance to build up much of a lead/
+    + Enacted: Voluntarily restricting weapons development using arms control frameworks
+      + /This isn't as unprecedented as it's made out to be -- the major powers agreed to restrict battleship development under the Washington and London naval treaties before World War 2/
+  + The 25th Amendment, clarifying Presidential succession, was motivated in large part by the need to make it absolutely clear who had the authority to launch a nuclear counterstrike in the event that a nuclear strike incapacitated or killed the President and the Vice President
+  + Aerospace technology led to the creation of the US Air Force, so that the military could better invest in transformative aviation and space technology
+  + The full impact of AI is unclear, as is the speed at which AI will arrive
+  + So far, AI looks to be a transformative military technology
+  + However, some, such as Bostrom, argue that AI's potential to recursively self-improve makes it a threat to the entire species
+  + If that is the case, government will consider measures as radical as in the early days of nuclear weapons
+  + The larger and more visible the impacts of AI become, the more governments will become amenable to radical policy measures
++ Lesson 2: Arms races are sometimes unavoidable, but can be managed
+  + Fears of aerial bombing led to a treaty banning the combat use of aircraft, but this treaty was rapidly abandoned in World War I
+    + The 1899 Hague Convention (which was a predecessor to the Geneva Convention) specified a five-year moratorium on the development of aircraft for military purposes
+    + The intent was to make this moratorium permanent, but after the 5-year moratorium had passed, governments appreciated the nature of aircraft too well to allow a permanent ban
+    + By the time World War 1 broke out, the only real limit on the military use of aircraft was technology
+    + Every belligerent power's capital, except for Rome, was bombed from the air
+  + The application of AI to warfare is as likely to be as irresistible as the application of aircraft to war
+    + Supremacy in aerospace technology became synonymous with military supremacy in general
+    + Similarly, in business, companies that have mastered AI-related technologies are outcompeting companies that are farther behind
+    + Military leaders see a similar dynamic developing for AI-enhanced weapons systems
+      + /This is why China is investing so heavily in AI -- the Chinese leadership sees AI as a "leapfrog" technology that will allow it to jump past Western technological superiority in conventional weapons/
+  + While outright bans on AI technology in the national security sector are unrealistic, the more modest goal of ensuring safe and effective technology management can and must be pursued
+    + While bans on the military application of nuclear and aerospace technology fell apart, world powers did manage to negotiate arms control frameworks that limited the uses of these technologies
+    + We can, and should negotiate a similar thing for AI
++ Lesson 3: Governments must both promote and restrain commercial activity
+  + Failure to recognize dual-use technolgy can cost lives
+    + Rolls Royce developed the world's first commercially viable jet engine: the "Nene"
+    + Seeking export revenue, they sold 15 models of the Nene to the Soviet Union
+      + /When the Soviets initially sought permission from Stalin to purchase these engines, Stalin initially demurred, remarking, "What fool will sell us his secrets?"/
+      + /As it turns out.../
+    + The Soviet Union reverse-engineered the engine into the Klimov RD-45, which was the engine that made the MiG-15 design possible
+    + The MiG-15 was the world's first production trans-sonic fighter and it quickly dominated the skies over Korea before it was countered by the US' F-86.
+    + As a result of the MiG-15, the US expanded its classification system to cover aerospace technology and restricted the sales of technologies deemed important to national defense
+    + /I wonder which piece of open-source AI technology will be looked back upon as the "Nene" of our time/
+    + /Stalin, if he were alive today, would be amazed -- they don't even sell their secrets, they give them away!/
+  + Having the lagest and most advanced digital technology industry in the world is an advantage for the United States, but it needs to reconcile commercial and national security interests
