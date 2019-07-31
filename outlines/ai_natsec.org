@@ -554,7 +554,7 @@
     + Seeking export revenue, they sold 15 models of the Nene to the Soviet Union
       + /When the Soviets initially sought permission from Stalin to purchase these engines, Stalin initially demurred, remarking, "What fool will sell us his secrets?"/
       + /As it turns out.../
-    + The Soviet Union reverse-engineered the engine into the Klimov RD-45, which was the engine that made the MiG-15 design possible
+    + The Soviet Union reverse-engineered the engine into the Klimov VK-1, which was turned into the Klimov RD-45, which was the engine that powered the MiG-15
     + The MiG-15 was the world's first production trans-sonic fighter and it quickly dominated the skies over Korea before it was countered by the US' F-86.
     + As a result of the MiG-15, the US expanded its classification system to cover aerospace technology and restricted the sales of technologies deemed important to national defense
     + /I wonder which piece of open-source AI technology will be looked back upon as the "Nene" of our time/
