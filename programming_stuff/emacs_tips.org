@@ -502,6 +502,20 @@ Then, in your ~init.el~, make sure to have:
 * Show time in emacs status bar
 + ~display-time-mode~
 + To edit the format: Customize ~display-time-string-forms~
+  #+BEGIN_SRC elisp
+    (setq display-time-string-forms
+      '((if
+          (and
+            (not display-time-format)
+            display-time-day-and-date)
+           (format-time-string "%a %b %e " now)
+         #1="")
+        (propertize
+         (format-time-string
+          (or display-time-format
+           (if display-time-24hr-format "%H:%M" "%-I:%M%p"))
+          now))))
+  #+END_SRC
 + To show the date: Customize: ~display-time-day-and-date~
 * Ledger mode
 + To run a report using ledger-mode: ~C-c C-o C-r~
