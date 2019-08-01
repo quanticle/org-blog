@@ -505,8 +505,7 @@ Then, in your ~init.el~, make sure to have:
   + ~--~ to select the file (make sure to enter the file's path)
   + ~l~ to show the log of all the commits that affect that path
   + Find the last commit that touches the file
-+ Then run ~magit-find-file~ and enter ~<deleting revision>^~ to open the revision one prior to the one that deleted the file
-+ Copy/paste the file's contents into a new file
++ Then run ~magit-file-checkout~ and enter ~<deleting revision>^~ for the revision to check out from
 * Show time in emacs status bar
 + ~display-time-mode~
 + To edit the format: Customize ~display-time-string-forms~
