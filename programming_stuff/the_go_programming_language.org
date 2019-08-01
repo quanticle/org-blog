@@ -369,3 +369,10 @@
   + Prints out a final summary line
 + When one goroutine sends or receives on a channel it blocks until another goroutine performs a corresponding send or receive
   + /Make sure to block as many times as you spawn, in other words/
+
+** A Web Server
++ Go makes it very easy to write servers
++ A minimal echo server that returns the path that was accessed:
+  #+begin_src go
+
+  #+end_src
