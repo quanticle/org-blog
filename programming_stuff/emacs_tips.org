@@ -681,3 +681,20 @@ I find that all the files I really care about are version controlled anyway, so 
 + Install ~pass~ package
 + To run: ~M-x pass~
 + If you get an error with "inappropriate ioctl for device": ~(setq epa-pinentry-mode 'loopback)~
+* Better buffer management: ibuffer
++ ~ibuffer~ is a better way of managing buffers than the standard buffer management tools
++ To enable:
+  #+BEGIN_SRC elisp
+    (global-set-key (kbd "C-c C-b") 'ibuffer)
+  #+END_SRC
++ To show unsaved files, use the following filter
+  + Open ibuffer
+  + ~/i /v~
++ To clear the filter: ~/ /~
++ To operate on buffers:
+  + ~m~ to mark
+  + ~u~ to unmark
++ Buffer operations:
+  + ~S~: save marked buffers
+  + ~V~: revert marked buffers
+  + ~D~: kill (delete) marked buffers
