@@ -5,6 +5,7 @@
 + [[https://slatestarcodex.com][Slate Star Codex]]
 + [[https://www.reuters.com][Reuters News]]
 + [[https://thebrowser.com][The Browser]]
++ [[https://twitter.com/askhistorians][The Best of /r/AskHistorians]]
 * Science
 + [[https://blogs.sciencemag.org/pipeline][In The Pipeline]]
 * Economics and Politics

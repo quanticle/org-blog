@@ -685,7 +685,7 @@ I find that all the files I really care about are version controlled anyway, so 
 + ~ibuffer~ is a better way of managing buffers than the standard buffer management tools
 + To enable:
   #+BEGIN_SRC elisp
-    (global-set-key (kbd "C-c C-b") 'ibuffer)
+    (global-set-key (kbd "C-x C-b") 'ibuffer)
   #+END_SRC
 + To show unsaved files, use the following filter
   + Open ibuffer
