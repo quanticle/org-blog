@@ -29,7 +29,7 @@
   #+END_SRC
   + Make sure to set the font at the very end, otherwise theming will override it
 + Get the Monokai theme
-  + ~M-x package-install <RET> monokai~
+  + ~M-x package-install <RET> monokai-theme~
     #+BEGIN_SRC elisp
       (load-theme 'monokai t)
     #+END_SRC
@@ -57,7 +57,7 @@
   #+BEGIN_SRC elisp
     (show-paren-mode 1)
   #+END_SRC
-+ Disable header-scaling in org-mode
++ Disable header-scaling in org-mode, and make the org-code face more visible
   #+BEGIN_SRC elisp
     (add-hook 'org-mode-hook (lambda ()
                                (set-face-attribute 'org-level-1 nil :height 1.0)
@@ -66,6 +66,7 @@
                                (set-face-attribute 'org-level-4 nil :height 1.0)
                                (set-face-attribute 'org-level-5 nil :height 1.0)
                                (set-face-attribute 'org-document-title :height 1.0)
+                               (set-face-attribute 'org-code nil :foreground "#66D9EF")
                                (visual-line-mode)))
   #+END_SRC
 + Disable header scaling in markdown mode
@@ -247,6 +248,10 @@ This makes Emacs on Linux behave like Emacs on MacOS
 + Move headings up and down: ~M-<up>~ / ~M-<down>~
 ** Source code blocks
 + To quickly insert a source-code block, hit ~<s <TAB>~
++ To disable syntax highlighting outside of the editing view:
+  #+BEGIN_SRC elisp
+    (setq org-src-fontify-natively nil)
+  #+END_SRC
 ** Plain lists
 + Pro-tip: /do not/ use ~*~ for plain list items -- you have to do all sorts of things to prevent org-mode from confusing it with headings
 + Instead use ~+~ or ~-~
