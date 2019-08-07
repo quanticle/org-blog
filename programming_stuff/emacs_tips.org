@@ -28,10 +28,10 @@
     (set-face-attribute 'default nil :family "Source Code Pro" :weight 'normal :height 120)
   #+END_SRC
   + Make sure to set the font at the very end, otherwise theming will override it
-+ Get the Monokai theme
-  + ~M-x package-install <RET> monokai-theme~
++ Get the Zenburn theme
+  + ~M-x package-install <RET> zenburn-theme~
     #+BEGIN_SRC elisp
-      (load-theme 'monokai t)
+      (load-theme 'zenburn t)
     #+END_SRC
 + Get rid of the buttons, since they take up space and we don't use them anyway
   #+BEGIN_SRC elisp
@@ -251,6 +251,11 @@ This makes Emacs on Linux behave like Emacs on MacOS
 + To disable syntax highlighting outside of the editing view:
   #+BEGIN_SRC elisp
     (setq org-src-fontify-natively nil)
+  #+END_SRC
++ To map languages to different major modes, add entries to ~org-src-lang-modes~
+  #+BEGIN_SRC elisp
+    (add-to-list 'org-src-lang-modes '("jsx" . web))
+    (add-to-list 'org-src-lang-modes '("tsx" . web))
   #+END_SRC
 ** Plain lists
 + Pro-tip: /do not/ use ~*~ for plain list items -- you have to do all sorts of things to prevent org-mode from confusing it with headings
@@ -479,6 +484,102 @@ To disable TOC on export:
 + To realign the table ~C-c C-c~
 + ~Tab~ goes to next column
 + ~Ret~ goes to next row
+** ASCII Art
++ Install ditaa
+  + MacOS: ~brew install ditaa~
+  + Linux: ~sudo dnf install ditaa~
++ Enable ditaa:
+  #+BEGIN_SRC elisp
+    (setq org-ditaa-jar-path "/usr/local/Cellar/ditaa/0.11.0/libexec/ditaa-0.11.0-standalone.jar")
+    (org-babel-do-load-languages
+        'org-babel-load-languages
+        '((ditaa . t)))
+  #+END_SRC
++ Create a "code block" for ditaa with ~<s TAB ditaa~
++ Edit the block with ~C-c '~
++ This enables "artist mode" in the buffer
++ To draw:
+  + Choose an operation with ~C-c C-a C-o~
+  + "Pen down" with ~RET~
+  + Use the movement commands to move the cursor and create the object
+  + "Pen up" with ~RET~
++ To expand the canvas: ~C-u <num lines> C-o~
++ Can also draw with the mouse
+  + Hit ~C-c C-a C-o~ to select the operation (usually want rectangle or straight-line)
+  + Drag with the mouse to draw
++ To turn a line into an arrow, hit ~>~
++ When finished drawing, hit ~C-c C-c~ and artist mode will automatically trim trailing whitespace
++ Example:
+  #+BEGIN_SRC ditaa :file example.png
+    +----------------------------------------------------------------------------------------------------------------+
+    |                                            Big Rectangle                                                       |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    +----------------------------------------------------------------------------------------------------------------+
+    |                                                                                                                |
+    |                                                                                                                |
+    |  +-------------------------+                                                                                   |
+    |  |         Small Rect      |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |         arrow                                                                     |
+    |  |                         +-------------------------->                                                        |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         +--------------------+                                                              |
+    |  |                         |       multiple     |                                                              |
+    |  |                         |       segments     |                                                              |
+    |  |                         |                    |                                                              |
+    |  |                         |                    |                                                              |
+    |  |                         |                    |                                                              |
+    |  |                         |                    +------------                                                  |
+    |  +-------------------------+                                                                                   |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    +----------------------------------------------------------------------------------------------------------------+
+  #+END_SRC
+
+  #+RESULTS:
+  [[file:example.png]]
+
++ To turn your ASCII art into a proper image
+  + Add a ~:file~ argument to tell ditaa what filename to save its output as
+  + Go into the image block and hit ~C-c C-c~ to "evaluate" it
++ Binary tree example:
+  #+BEGIN_SRC ditaa :file binarytree.png
+                          5000
+                           |
+                           |
+                  +--------+----------+
+                  |                   |
+                  |                   |
+                  v                   v
+                
+                2500                7500
+                
+                  |                   |
+                  |                   |
+      +-----------+----+       +------+------+
+      |                |       |             |
+      |                |       |             |
+      v                v       v             v
+
+    1000             3000    6000          8000
+  #+END_SRC
+
+  #+RESULTS:
+  [[file:binarytree.png]]
+
 * Magit tips
 ** To install: ~M-x package-install <RET> magit <RET>~
 ** Use emacs as the git editor:
@@ -703,3 +804,15 @@ I find that all the files I really care about are version controlled anyway, so 
   + ~S~: save marked buffers
   + ~V~: revert marked buffers
   + ~D~: kill (delete) marked buffers
+* Associating major modes with file types:
++ To associate a particular extension with a major mode: ~(add-to-list 'auto-mode-alist '("<regexp>" . major-mode))~
++ Make sure to end your regexp with ~\\'~, which is the end-of-string character to avoid matching prefixes
++ Example:
+  #+BEGIN_SRC elisp
+    (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
+  #+END_SRC
+* Todoist
++ To enable todoist integration with emacs, install the ~todoist~ package
++ Setup
+  + ~(setq todoist-token "<token value>")~
++ To run: ~M-x todoist~
