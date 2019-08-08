@@ -811,8 +811,3 @@ I find that all the files I really care about are version controlled anyway, so 
   #+BEGIN_SRC elisp
     (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
   #+END_SRC
-* Todoist
-+ To enable todoist integration with emacs, install the ~todoist~ package
-+ Setup
-  + ~(setq todoist-token "<token value>")~
-+ To run: ~M-x todoist~

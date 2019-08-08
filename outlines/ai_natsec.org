@@ -560,3 +560,44 @@
     + /I wonder which piece of open-source AI technology will be looked back upon as the "Nene" of our time/
     + /Stalin, if he were alive today, would be amazed -- they don't even sell their secrets, they give them away!/
   + Having the lagest and most advanced digital technology industry in the world is an advantage for the United States, but it needs to reconcile commercial and national security interests
+  + Unlike with nuclear and aerospace, the US government is not the largest customer of AI technology, so it doesn't have the same sort of market leverage that it had with aerospace
+  + Political relations between the US goverment and the technology industry are strained
+    + Ongoing conflict over encryption technology
+    + Edward Snowden revelations
+    + Statements made by political leaders re: the technology industry
++ Lesson 4: Government must formalize goals for safety and provide resources
+  + In each of the four transformative technologies studied above (nuclear, aerospace, cyber, and biotech), national security policymakers faced tradeoffs between security and performance
+  + Government was more likely to respond appropriately to some risks than others
+  + What is worrisome is the long lead times between the identification of risk and the implementation of mitigations for that risk
+    + Defense Secretary Robert McNamara said that the fact that the US had not experienced a catastrophic nuclear weapons accident was attributable as much to luck as it was to careful preparation
+    + Most cybersecurity experts feel that the lack of a catastrophic cyber-attack has as much to do with luck and deterrence as it does with the US hardening its information systems
+  + However, not all communities had such a reactive approach to safety
+    + US nuclear submarine community has never lost a submarine to reactor failure (/however, the US submarine community *has* lost submarines to other forms of failure/)
+    + Aerospace community delivered both improved safety and technological advancements (/Is the Boeing 737 Max a sign of worrying backsliding in that regard, as cyber-norms infect the aerospace sector?/)
+  + Safety outcomes improved when government created formal organizations tasked with improving the safety of their respective technology domains
+    + Nuclear weapons safety department at Sandia National Labs
+    + Centers for Disease Control and Prevention
+    + Federal Aviation Administration
+    + /US is *slowly* moving to improve its cybersecurity through the creation of the CISA: Cybersecurity and Infrastructure Security Agency/
+  + As the US increasingly integrates artificial intelligence into its commercial and government systems, the US government should stand-up a formal R&D organization tasked with investigating AI safety across the entire government and commercial AI portfolio
++ Lesson 5: As a technology changes, so does the US' national interest
+  + The declining cost and complexity of bioweapons led the US to change its policy from aggressive development to voluntary restraint
+    + At the end of World War 2, the US believed that bioweapons would be complex to develop and thus only available to powerful states
+    + Spent a significant amount researching mass-production, storage and dispersal methods
+    + However, by the 1960s, technological progress made it possible for bioweapons to be comparative in destructive potential to nuclear weapons and available to weaker states that lacked the ability to develop nuclear weapons
+    + As a result, in an effort to influence global norms, the US renounced the entire category of weapons, something which it had never done before
+  + The US has a strategic interest in shaping the cost, complexity and offense/defense balance of emerging strategic technologies
+    + The US unilaterally disarmed its bioweapons program because it judged that its national interests were better served by preventing other states from developing bioweapons that they were by the US having bioweapons itself
+    + The US has a strategic interest in the attributes of emerging military technologies
+      + US has a much larger economy than its adversaries
+      + US is better off if emerging military technologies are expensive, complex and hard to develop
+      + US is better off the difference between state-of-the-art and cheaper/older alternatives is large and hard to close
+      + /Gotta say, AI isn't looking good on either of those metrics/
+  + The case of stealth aircraft shows that careful strategic investments can alter the offense/defense balance in a field and build a long-lasting technological edge
+    + In 1978, Soviet-made SAMs shot down 109 Israeli aircraft in the Yom Kippur war
+    + As a result, the US estimated that NATO air forces would be decimated by Soviet air-defense systems in the case of a European conflict
+    + The US therefore embarked on a series of strategic investments in developing aircraft that were able to evade radar (a.k.a. stealth)
+    + With the debut of the F-117, the strategic balance tipped back in favor of the US's offensive capabilities
+    + Most surprisingly, the initial research into radar absorption and deflection took place in the Soviet Union in the early '60s
+    + Despite having a 9-year head start the Soviet Union failed to invest in developing its theoretical insights into workable technology and therefore never successfully fielded stealth aircraft or radars capable of detecting US stealth aircraft
+  + 
