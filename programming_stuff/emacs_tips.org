@@ -636,6 +636,9 @@ Then, in your ~init.el~, make sure to have:
 * Org-mode 9.2
 + org-mode 9.2 changes how templates work, which breaks the ~<s~ shortcut for rapidly inserting code blocks
 + To get that functionality back, Customize the ~org-modules~ variable and enable ~org-tempo~
+  #+begin_src elisp
+    (add-to-list 'org-modules 'org-tempo)
+  #+end_src
 * Byte compilation
 + If you get warnings about ~.el~ files being newer than their ~.elc~ counterparts, you should byte-recompile your ~.emacs.d~:
   #+begin_src text
