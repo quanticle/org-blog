@@ -490,11 +490,19 @@ To disable TOC on export:
   + Linux: ~sudo dnf install ditaa~
 + Enable ditaa:
   #+BEGIN_SRC elisp
+    ; On Mac
     (setq org-ditaa-jar-path "/usr/local/Cellar/ditaa/0.11.0/libexec/ditaa-0.11.0-standalone.jar")
+    ; On Linux
+    ; Download ditaa from https://sourceforge.net/projects/ditaa/
+    ; Unzip the zip-file somewhere
+    (setq org-ditaa-jar-path "/path/to/ditaa.jar")
     (org-babel-do-load-languages
         'org-babel-load-languages
         '((ditaa . t)))
   #+END_SRC
+  + On Linux, do *not* install ditaa from the Fedora package manager
+  + That gets you a version of ditaa which requires some weird command-line setup in order to run, leading to JNI exceptions when ob-ditaa attempts to invoke it
+  + See ~/usr/bin/ditaa~ for more details on why this is a bad idea
 + Create a "code block" for ditaa with ~<s TAB ditaa~
 + Edit the block with ~C-c '~
 + This enables "artist mode" in the buffer
