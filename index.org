@@ -1,9 +1,6 @@
 #+TITLE: Index
 #+OPTIONS: toc:nil; num:nil; ^:nil; ':t
 
-* Essays
-+ [[file:essays/optimal_strategies_and_execution.org][An optimal strategy is only optimal if you can execute it]]
-
 * Reviews
 + [[file:reviews/kill_all_normies.org][Kill All Normies: Online Culture Wars From 4Chan and Tumblr to Trump and the Alt-Right]]
 + [[file:reviews/monsoon.org][Monsoon: The Indian Ocean and the Future of American Power]]
