@@ -676,7 +676,7 @@
     + This behavior was reinterpreted as within the acceptable norm for joint behavior
     + Then the behavior was labeled an acceptable risk
   + By this process the SRB work group redefined evidence that deviated from the previously accepted standard so that it became the standard
-  + The method of dealing with the SRB joint deviance established a precedence
+  + The method of dealing with the SRB joint deviance established a precedent
     + Problem is not serious
     + Solution is to correct the existing design rather than redesign the joint
   + This pattern of decision making repeated itself whenever there were further problems with the SRB joints
@@ -764,6 +764,60 @@
   + Finally Chapter 8 repeats the description of the launch decision from chapter 1, but adds the relevant context to illustrate how the decision to launch Challenger fit into an ongoing stream of decisions that were considered normal and non-deviant
   + Chapter 9 explains the launch decision, showing how the culture of production, the production of culture and structural secrecy combined to create an organization where following the rules led to disaster
   + Finally, Chapter 10 examines the implications of the Challenger Launch Decision on organizational culture and decision-making
+
+* Chapter 3: Risk, Work Group Culture, and the Normalization of Deviance
++ The Presidential Commission, in its report, summarized a series of decisions, that, in its view, were deviant
+  + Faulty design of joint
+  + Treatment of faulty joint as acceptable flight risk
+  + Morton Thiokol ignored early test results that indicated that its joint had a serious and unanticipated flaw
+  + As joint problems grew in severity, NASA and Morton Thiokol minimized them by saying they were "not desirable, but acceptable"
+  + Neither NASA nor Morton Thiokol expected hot gases to impinge upon the O-rings, but when they did, they consistently revised upwards the level of acceptable erosion
+  + At no point did management recommend grounding the Shuttle until the joint problems were resolved
++ The question that we seek to ask is /why/
++ We want to build up a "native view" -- what interpretation do people in a particular situation give to a particular event?
++ The native view is strongly dependent on culture
+  + However, culture is invisible -- built up of tacit understandings that are not usually recorded
+  + Given that, how can we reconstruct the native view of something like the Challenger disaster after the fact
+  + Examine what people do and say
+  + Write a "thick description" that retrieves and interprets seemingly ordinary actions
++ Structural factors explain why the work group always normalized deviance, but they don't explain the process of normalization-of-deviance itself
++ This chapter examines the early history of the culture of the SRB work group -- mid-1970s, through the first Shuttle launch in 1981
++ See how norms and precendents that would guide future decision-making were set
++ Examine the initial 5-step decision-making process that led to a pattern of normalization-of-deviance
++ Examine two controversial actions that led to speculation about amoral calculation
+  + NASA refusing to redesign the joint after a memorandum from Marshall engineers stating that the current joint design was unacceptable
+  + NASA's certification of the design as flightworthy despite it being in violation of 3 industry standards
++ By examining culture, we learn that NASA work groups were calculating risk under conditions that made risk fundamentally incalculable, thereby routinely putting people at risk
+
+** Residual Risk and Work Group Decision Making
++ The primary defining feature of the work group's culture was technological uncertainty
++ The Shuttle was the first vehicle of its kind
++ Although the Shuttle was composed of existing aerospace technologies, none of the components had been assembled in precisely this fashion
++ Although many parts were standardized, there was still a lot of work to be done in integrating them and customizing them for the unique environments the Shuttle was expected to operate in
++ The reusability of the Shuttle added an additional dimension of uncertainty -- no one fully understood how much damage the Shuttle would take from the /repeated/ stresses of launch and re-entry 
++ Although NASA and its contractors could run tests and simulations, there was no accounting for unknown-unknowns
++ As a result, deviations (/anomalies/, in NASA terminology) were expected on every mission
++ Another core assumption of the Shuttle program was that risk could not be eliminated
++ Even after all mitigations had been applied, some residual risk would remain, no matter what
++ This assumption was key in making the first Shuttle mission a manned flight -- the assumption was that having a manned crew would reduce risk by having people on board to potentially carry out fixes if something went wrong
++ Indeed, this notion of residual risk is something that had defined NASA decision-making since the dawn of the US space program
++ Risk assessments were the outcome of /work groups/ -- groups of managers and engineers at the bottom of the launch decision chain whose primary responsibility was technical decision making for their assigned Shuttle component
++ Work groups reported to a Project Manager responsible for each of the major Shuttle components
+  + Main Engine
+  + External Tank
+  + Orbiter
+  + SRBs
++ Inside of a work group, there was not a clear delineation between managers and engineers
++ All NASA managers were trained engineers
++ Many "working engineers" also had managerial responsibilities (but did not usually interface with people outside of their work groups)
++ Work group risk assessment took place under a complicated set of procedures
++ The two procedures that are most relevant for the Challenger disaster are the /Acceptable Risk Process/ and the /Flight Readiness Review/
+  + Acceptable Risk Process
+    + Basis for all Shuttle decision making up to and including the final Flight Readiness Review
+    + Assumption: all Shuttle components are risky
+    + Engineers have to demonstrate that components represent an "acceptable risk"
+    + When anomalies were discovered engineers had to come up with either a plan to address the anomaly or calculations showing that the anomaly doesn't represent a threat to safety
+    + This document was known as an Engineering Risk Rationale
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
