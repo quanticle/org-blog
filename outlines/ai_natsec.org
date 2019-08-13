@@ -600,4 +600,7 @@
     + With the debut of the F-117, the strategic balance tipped back in favor of the US's offensive capabilities
     + Most surprisingly, the initial research into radar absorption and deflection took place in the Soviet Union in the early '60s
     + Despite having a 9-year head start the Soviet Union failed to invest in developing its theoretical insights into workable technology and therefore never successfully fielded stealth aircraft or radars capable of detecting US stealth aircraft
-  + 
+  + The US should consider how it can shape the technological profile of military and intelligence applications of AI
+    + AI has the /potential/ to be a worst case outcome from a technology management perspective, but that doesn't mean that a worst case outcome is inevitable
+    + As the US pursues AI related defense technologies, it should ask itself whether these technologies will produce a sustainable military advantage for the US or whether they will merely accelerate the acquisition of similar capabilities by other actors
+    + 
