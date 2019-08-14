@@ -36,6 +36,7 @@
 + [[https://defenceindepth.co][Defence In Depth]]
 + [[https://tnsr.org][Texas National Security Review]]
 + [[http://smallwarsjournal.com/blog/recent][Small Wars Journal Blog]]
++ [[https://www.longwarjournal.org/][The Long War Journal]]
 + [[https://www.fifthdomain.com][The Fifth Domain]]
 + [[https://www.cnas.org][Center for a New American Security]]
 + [[https://voxeu.org][VoxEU]]
