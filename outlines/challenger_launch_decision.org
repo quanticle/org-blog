@@ -818,6 +818,11 @@
     + Engineers have to demonstrate that components represent an "acceptable risk"
     + When anomalies were discovered engineers had to come up with either a plan to address the anomaly or calculations showing that the anomaly doesn't represent a threat to safety
     + This document was known as an Engineering Risk Rationale
+    + The Acceptable Risk Process is important because:
+      + Acknowledged that the Shuttle had residual risk that could not be removed
+      + Monitoring risk is a continuous and ongoing process
+      + Establishes the meaning of the term "acceptable risk"
+    + The Acceptable Risk Process and the language of 
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
