@@ -587,7 +587,8 @@ To disable TOC on export:
 
   #+RESULTS:
   [[file:binarytree.png]]
-
+** Including images
++ To include an image in an org file
 * Magit tips
 ** To install: ~M-x package-install <RET> magit <RET>~
 ** Use emacs as the git editor:
