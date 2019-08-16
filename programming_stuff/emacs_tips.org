@@ -187,6 +187,7 @@ Emacs automatic indentation is pretty annoying, so I usually turn it off:
 + To copy a rectangle, use ~C-x r M-w~
 + To enter rectangle highlight mode, use ~C-x <SPC>~
 + To replace each line of a rectangle with text: ~C-x r t <text> RET~
++ To insert a string on each line of the rectangle: ~M-x string-insert-rectangle~
 ** Join Lines
 + ~M-^~
 ** Mark and point
