@@ -351,6 +351,7 @@ To disable TOC on export:
       #+begin_src org
         ,#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://quanticle.net/highlight.css">
       #+end_src
++ Exporting HTML checkboxes nicely: ~(setq org-html-checkbox-type 'unicode)~
 ** Exporting to markdown
 + Enable markdown export by customizing ~org-export-backends~
 + Install the ~ox-gfm~ package to enable Github Flavored Markdown
