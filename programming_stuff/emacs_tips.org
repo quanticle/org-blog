@@ -690,6 +690,10 @@ I find that all the files I really care about are version controlled anyway, so 
       #+BEGIN_SRC elisp
         (exec-path-from-shell-initialize)
       #+END_SRC
++ To disable virtual buffers in ivy
+  + First tell ivy not to use virtual buffers: ~(setq ivy-use-virtual-buffers nil)~ (and recompile your ~init.el~, if necessary)
+  + Then clear the recentf list to purge existing virtual buffers: ~M-x recentf-cleanup~
+  + Then restart emacs
 * Running emacs server
 + +To start emacs in server-mode (so that you can use ~emacsclient~):+
   + +~emacs --daemon~+
