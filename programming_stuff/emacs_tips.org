@@ -232,6 +232,8 @@ Oftentimes various emacs modes will try to get too fancy with their indentation 
     (setq-local indent-line-function 'indent-relative)))
 #+END_SRC
 What this does is replace the fancy indentation function with a generic one that just indents out to the indent level of the previous line. It's up to you to indent from there. 
++ Disable fancy indenting for typescript:
+  + ~(setq typescript-auto-indent-flag nil)~
 ** Bind keys
 To create a new keybinding:
 #+BEGIN_SRC elisp
