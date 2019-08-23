@@ -709,7 +709,7 @@ I find that all the files I really care about are version controlled anyway, so 
   + +To keep the daemon process in the foreground, so you can easily kill it with Ctrl-C: ~emacs --fg-daemon~+
 + See relevant notes in ~unix_tips.org~
 * Better window switching
-+ +Enable ~windmove~+
++ Enable ~windmove~
   #+BEGIN_SRC elisp
     (when (fboundp 'windmove-default-keybindings)
       (windmove-default-keybindings))
@@ -718,8 +718,8 @@ I find that all the files I really care about are version controlled anyway, so 
     (global-set-key (kbd "C-<up>") 'windmove-up)
     (global-set-key (kbd "C-<down>") 'windmove-down)
   #+END_SRC
-+ +Then you can use ~C-left/right/up/down~ to switch between windows+
-+ +Note, on OSX, you need to go to System Preferences/Keyboard/Mission Control, and disable the mission control shortcuts that re-bind Ctrl-<arrow keys>+
++ Then you can use ~C-left/right/up/down~ to switch between windows
++ Note, on OSX, you need to go to System Preferences/Keyboard/Mission Control, and disable the mission control shortcuts that re-bind Ctrl-<arrow keys>
 + Note: I've deprecated ~windmove~ in favor of ~ace-window~ -- see below
 * Calculator
 + To start: ~M-x calc~
@@ -805,11 +805,6 @@ I find that all the files I really care about are version controlled anyway, so 
 + To browse history: ~C-up~ / ~C-down~
 + To go to the beginning of the command: ~C-c C-a~
 + To go to the end of the command: ~C-c C-e~
-* Ace-Window
-+ [[https://github.com/abo-abo/ace-window/][Ace Window]] is a package that makes window switching easier (even easier than ~windmove~)
-+ ~M-x package-install RET ace-window~
-+ ~(global-set-key (kbd "M-o") 'ace-window)~
-+ ~(global-set-key (kbd "C-x o") 'ace-window)~
 * Pass password manager integration
 + Install ~pass~ package
 + To run: ~M-x pass~
