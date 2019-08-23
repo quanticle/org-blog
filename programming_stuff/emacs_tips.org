@@ -593,6 +593,13 @@ To disable TOC on export:
   [[file:binarytree.png]]
 ** Including images
 + To include an image in an org file
+** ~org-preserve-local-variables~ error
++ If you're getting ~Invalid function: org-preserve-local-variables~ when you cut an org-mode headline, this indicates a version mismatch between your elisp libraries
++ The best option is to recompile your ~~/.emacs.d~:
+  + In a shell:
+    + ~cd ~/.emacs.d~
+    + ~find . -type f -iname "*.elc" -exec rm {} \;~
+  + In emacs: ~C-u 0 M-x byte-recompile-directory RET ~/.emacs.d~
 * Magit tips
 ** To install: ~M-x package-install <RET> magit <RET>~
 ** Use emacs as the git editor:
