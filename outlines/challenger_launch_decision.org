@@ -822,7 +822,46 @@
       + Acknowledged that the Shuttle had residual risk that could not be removed
       + Monitoring risk is a continuous and ongoing process
       + Establishes the meaning of the term "acceptable risk"
-    + The Acceptable Risk Process and the language of 
+    + The Acceptable Risk Process and the language of acceptable risk were apparently unknown to outside observers, who were not familiar with the rules and procedures of the aerospace industry
+    + Commissioner Feynman, in particular, expressed surprise at seeing the terms "acceptable risk" and "acceptable erosion" when in fact these were relatively normal terms in the context of NASA
+    + In fact, a listing of all the acceptable risks of the Space Shuttle took up six volumes -- acceptable risks were normal in spaceflight
+  + Flight Readiness Review
+    + The everyday negotiation of risk took on special characteristics during weeks immediately prior to a launch
+    + The Flight Readiness Review is the final formal review of all the engineering work done in preparation for the current launch
+    + Usually scheduled for completion about two weeks prior to the launch
+    + The FRR is a way for all the sprawling parts of NASA to indicate to the leadership that the aggregate risk of the Shuttle is acceptable (i.e. the Shuttle is ready to fly)
+    + Every level (I-IV) holds a Flight Readiness Review, but colloquially, /the/ Flight Readiness Review is understood to be the top level FRR at Level I
+    + FRR Process:
+      + Begins below Level IV, with the contractors responsible for each component of the Shuttle
+      + Contractors conduct their own engineering analyses and present them to NASA Level IV personnel
+      + NASA Level IV personnel give feedback on the risk assessments and the risk assessments are then sent to Level III NASA Project Managers responsible for each "top level" component: Orbiter, SRBs, External Tank, and Main Engines
+      + These Level III managers review the risk assessments and present them to the Level II Program Manager at Johnson Space Center
+      + After the Program Manager has signed off on them, the Level I Flight Readiness Review (i.e. /the/ Flight Readiness Review)
+      + Participants:
+        + Director of the Astronaut Office
+        + Director of Safety, Reliability and Quality Assurance
+        + NASA Associate Administrator for Space Flight
+        + NASA Chief Engineer
+        + NASA Program Manager
+        + Johnson, Marshall and Kennedy Space Center directors
+        + Shuttle Project Managers
+        + Senior contractor representatives
+    + After the Level I Flight Readiness Review, responsibility for the Shuttle mission is handed off to a Mission Management Team headed by the Level II Program Manager
+    + The Mission Management Team is responsible for the mission from the conclusion of the Flight Readiness Review all the way through landing
+
+** Negotiating Risk: Cooperative Adversaries
++ Both everyday decision-making and the pre-launch decision-making of the FRR were marked by engineering disagreements which had to be resolved
++ These disagreements originated from the Shuttle's unprecedented design and complicated operations
++ Disagreement was built into the structure of government/contractor relationships, NASA in-house subunits, and the mandates of the FRR
+
+*** Routine Decisions
++ Marshall and Thiokol had a symbiotic relationship over the design and construction of the Solid Rocket Boosters
++ The fortunes of both sites relied on the SRB portion of the Shuttle program succeeding and operating as designed
++ However, their differing roles were a source of disagreement, putting them into the role of "cooperative adversaries"
++ While Morton Thiokol was responsible for the actual design and construction of the SRB, Marshall's role was one of oversight responsibility
++ Marshall didn't inspect all the day-to-day activities at Morton Thiokol
++ Instead their role was that of defining what was and was not important and probing deeply into certain engineering issues in order to ensure that the SRB matched its design specifications
++ Once flights began, Marshall engineers worked closely with Thiokol engineers on booster assembly, disassembly and postflight analysis
 
 * References
 1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
