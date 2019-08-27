@@ -632,6 +632,9 @@ Then, in your ~init.el~, make sure to have:
   + ~l~ to show the log of all the commits that affect that path
   + Find the last commit that touches the file
 + Then run ~magit-file-checkout~ and enter ~<deleting revision>^~ for the revision to check out from
+** Branching
++ To switch branches: ~b b~
++ To create a new branch: ~b c~
 * Show time in emacs status bar
 + ~display-time-mode~
 + To edit the format: Customize ~display-time-string-forms~
