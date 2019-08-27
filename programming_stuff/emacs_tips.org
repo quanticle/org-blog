@@ -635,6 +635,13 @@ Then, in your ~init.el~, make sure to have:
 ** Branching
 + To switch branches: ~b b~
 + To create a new branch: ~b c~
+** New repo setup:
++ ~M-x magit-clone~
+** Diffing between two branches:
++ ~d r~ (diff range)
++ This asks for a git range expression
++ For example, to compare ~master~ against your current branch: ~d r master..HEAD RET~
+** Rebasing:
 * Show time in emacs status bar
 + ~display-time-mode~
 + To edit the format: Customize ~display-time-string-forms~
