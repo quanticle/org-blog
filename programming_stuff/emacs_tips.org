@@ -383,6 +383,7 @@ To disable TOC on export:
     :VISIBILITY: folded
     :END:
   #+end_src
++ To reset a file back to initial visibility: ~C-u C-u TAB~
 ** Custom todo keywords
 + To define custom todo keywords for a particular file:
   #+begin_src org
