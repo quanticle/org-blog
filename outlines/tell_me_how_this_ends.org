@@ -1,0 +1,39 @@
+#+TITLE: Tell Me How This Ends: Military Advice, Strategic Goals and the "Forever War" in Afghanistan
+#+OPTIONS: num:nil; ^:nil; ':t
+
+* Publication Details:
++ URL: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/190708_Cancian_Afghanistan_WEB.pdf
++ Author: Mark F. Cancian
++ Publisher: Center for Strategic and International Studies (CSIS)
+
+* Executive Summary
++ When the US invaded Afghanistan after the 9/11 attacks no senior military commander imagined that US forces would still be there 18 years later
++ So why are we still in Afghanistan?
++ Successive administrations have been unable to recognize that their nation-building goals require a long and sustained committment
++ A relatively narrow counterterrorism mission has expanded into a full nation-building program
++ This expansion of goals was a choice, but there is no evidence that this choice was discussed at high levels of government
++ While there were failures in both civilian and military leadership, the consequences of this choice fell largely on the military, as the military assumed primary responsibility for the actual work of nation-building in Afghanistan
++ What does nation-building in Afghanistan entail?
+  + Western vision of a modern nation
+  + Strong central government
+  + Impartial rule of law
+  + Politicians chosen through democratic processes
+  + Tolerance of religious differences
+  + Free speech
+  + Market economy
+  + Respect for human rights
+  + /By the above standards, is even the United States a "modern nation"?/
+  + /I think only Finland can actually meet all these standards/
+  + /Maybe instead of the US invading Afghanistan, we should have told the Nords to do it for us/
++ Nation-building is not necessarily bad
+  + Promotes values that are viewed as important by modern nation-states
++ However, even if successful, nation-building is a multi-generational effort
++ Nation-building in Afghanistan is particularly challenging
+  + Decentralized society
+  + Religiously devout
+  + Clan/tribe-oriented
+  + Patriarchical
++ How do we turn the above into a modern twenty-first century nation-state?
++ "The U.S.-led coalition is endeavoring to change an Afghan's relationship with his family, his government and his God."
++ Goal expansion is a classic case of "mission creep"
++ The problem isn't that the scope of the mission increased, the problem is that the scope increase occurred without any kind of overt debate or acknowledgement that the scope increase was occurring
