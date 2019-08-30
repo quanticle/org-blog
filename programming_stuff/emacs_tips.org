@@ -260,6 +260,8 @@ This makes Emacs on Linux behave like Emacs on MacOS
     (add-to-list 'org-src-lang-modes '("jsx" . web))
     (add-to-list 'org-src-lang-modes '("tsx" . web))
   #+END_SRC
+** Inline source code
++ 
 ** Plain lists
 + Pro-tip: /do not/ use ~*~ for plain list items -- you have to do all sorts of things to prevent org-mode from confusing it with headings
 + Instead use ~+~ or ~-~
@@ -491,8 +493,6 @@ To disable TOC on export:
 + ~Ret~ goes to next row
 ** ASCII Art
 + Install ditaa
-  + MacOS: ~brew install ditaa~
-  + Linux: ~sudo dnf install ditaa~
 + Enable ditaa:
   #+BEGIN_SRC elisp
     ; On Mac
@@ -790,6 +790,12 @@ I find that all the files I really care about are version controlled anyway, so 
       `((".*" . ,(concat user-emacs-directory "backups") t)))
     (setq create-lockfiles nil)
   #+end_src
++ Recovering from auto-save
+  + If emacs or your computer has crashed, emacs will offer to recover from the auto-save file
+  + Emacs compares the timestamps of the file and the auto-save file in order to determine whether to prompt you to recover
+  + If you choose /not/ to recover, it can be worthwhile to force-save the file
+    + =C-u M-S-~= Sets the modification flag
+    + ~C-x C-s~ to save as normal
 * Editing remote files over SSH
 + Emacs can edit files remotely over SSH with TRAMP
 + ~C-x C-f /ssh:<user>@<host>:/path/to/file~
@@ -844,3 +850,7 @@ I find that all the files I really care about are version controlled anyway, so 
   #+BEGIN_SRC elisp
     (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
   #+END_SRC
+* Ledger Mode
++ Install ledger-mode from MELPA with ~M-x package-install RET leger-mode RET~
++ Ledger Buffer
+  + Adding transactions
