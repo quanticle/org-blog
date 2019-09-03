@@ -603,4 +603,29 @@
   + The US should consider how it can shape the technological profile of military and intelligence applications of AI
     + AI has the /potential/ to be a worst case outcome from a technology management perspective, but that doesn't mean that a worst case outcome is inevitable
     + As the US pursues AI related defense technologies, it should ask itself whether these technologies will produce a sustainable military advantage for the US or whether they will merely accelerate the acquisition of similar capabilities by other actors
-    + 
+
+* Part 3: Recommendations For Artificial Intelligence and National Security
+
+** Preserving US Technological Leadership
+
+*** Recommendation 1: DoD should conduct AI focused wargames to identify potential disruptive military innovations
++ Background: Disruptive innovation theory
+  + 2 kinds of innovation: disruptive and sustaining
+  + Sustaining innovation: 
+    + Making better products that can be sold to existing customers
+    + Existing incumbents usually beat new entrants
+  + Disruptive innovation:
+    + Simpler, more convenient product
+    + Sells for less money
+    + Appeals to a new or unattractive customer set, which nevertheless is much larger than the set of customers of the market being disrupted
+    + New entrants usually beat incumbents
+    + /Note: it's disputed how true Christensen's theory of disruptive innovation is; in his book all the "disruptors" eventually went out of business whereas his incumbent firms (Seagate, Caterpillar, etc.) either acquired the disruptors or copied their innovations and drove them from the industry/
+  + Disruptive innovation theory applies to military domains
+    + US, as the world's leading military power, is in the position of the incumbent
+    + Competes by sustaining and improving its already extradordinary military capabilities
+    + Competitors have to figure out how to compete with the US while having fewer advantages
+    + Example of disruptive military innovation: Improvised Explosive Device (IED)
+    + Even though the IED was significantly inferior to US military technology, it still posed a significant threat
+  + Advances in AI will enable new, disruptive innovations for military power
+    + A $1000 quadcopter might appear useless since its capabilities are inferior in every way to existing manned and unmanned systems
+    + However, it allows low-capability militaries and non-state actors to unlock some of the same capabilities (such as advanced reconaissance and long-range precision delivery of explosives) which are currently only available to advanced militaries
