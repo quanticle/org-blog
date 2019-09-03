@@ -661,9 +661,6 @@ Then, in your ~init.el~, make sure to have:
           now))))
   #+END_SRC
 + To show the date: Customize: ~display-time-day-and-date~
-* Ledger mode
-+ To run a report using ledger-mode: ~C-c C-o C-r~
-+ Report type: 
 * Org-mode 9.2
 + org-mode 9.2 changes how templates work, which breaks the ~<s~ shortcut for rapidly inserting code blocks
 + To get that functionality back, Customize the ~org-modules~ variable and enable ~org-tempo~
@@ -850,7 +847,27 @@ I find that all the files I really care about are version controlled anyway, so 
   #+BEGIN_SRC elisp
     (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
   #+END_SRC
-* Ledger Mode
-+ Install ledger-mode from MELPA with ~M-x package-install RET leger-mode RET~
-+ Ledger Buffer
-  + Adding transactions
+* Evil-mode
++ To install and enable ~evil-mode~:
+  + ~M-x package-install RET evil-mode~
+  + ~M-x package-install evil-org-mode~
+  + ~M-x package-install evil-collection~
+  + ~M-x package-install evil-magit~
+  + Then, in your .emacs.d, add the following
+    #+begin_src elisp
+      (setq evil-want-keybinding nil)
+      (evil-mode)
+      (require 'evil-org)
+      (add-hook 'org-mode-hook 'evil-org-mode)
+      (evil-collection-init)
+      (require 'evil-magit)
+      (setq evil-magit-state 'normal)
+    #+end_src
++ Using evil-mode
+  + Movement: standard vim ~h~, ~j~, ~k~, ~l~
+  + Visual mode: ~v~ (just like vim)
+  + Org-mode:
+    + Increase indent: ~>>~
+    + Insert new headline/list-item ~M-RET~
+    + Select entire heading: ~vae~
+  + Note: evil-mode
