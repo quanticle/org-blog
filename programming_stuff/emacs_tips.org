@@ -872,3 +872,4 @@ I find that all the files I really care about are version controlled anyway, so 
     + Insert new headline/list-item ~M-RET~
     + Select entire heading: ~vae~
   + Evil mode isn't vim; it's best thought of as a hybrid between vim and emacs
+  + Note that evil-mode doesn't play well with visual-line-mode when used with org, so if you have evil-mode on, you should turn visual-line-mode off
