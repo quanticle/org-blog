@@ -859,6 +859,7 @@ I find that all the files I really care about are version controlled anyway, so 
       (evil-mode)
       (require 'evil-org)
       (add-hook 'org-mode-hook 'evil-org-mode)
+      (evil-org-set-key-theme '(textobjects insert navigation additional shift todo heading))
       (evil-collection-init)
       (require 'evil-magit)
       (setq evil-magit-state 'normal)
@@ -867,7 +868,7 @@ I find that all the files I really care about are version controlled anyway, so 
   + Movement: standard vim ~h~, ~j~, ~k~, ~l~
   + Visual mode: ~v~ (just like vim)
   + Org-mode:
-    + Increase indent: ~>>~
+    + Increase indent: ~>>~ (note that the headline/list item has to have some text in it for the command to work)
     + Insert new headline/list-item ~M-RET~
     + Select entire heading: ~vae~
   + Evil mode isn't vim; it's best thought of as a hybrid between vim and emacs
