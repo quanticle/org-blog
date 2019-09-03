@@ -870,4 +870,4 @@ I find that all the files I really care about are version controlled anyway, so 
     + Increase indent: ~>>~
     + Insert new headline/list-item ~M-RET~
     + Select entire heading: ~vae~
-  + Note: evil-mode
+  + Evil mode isn't vim; it's best thought of as a hybrid between vim and emacs
