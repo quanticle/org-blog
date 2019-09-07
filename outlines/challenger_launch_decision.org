@@ -859,9 +859,27 @@
     + The fortunes of both sites relied on the SRB portion of the Shuttle program succeeding and operating as designed
     + However, their differing roles were a source of disagreement, putting them into the role of "cooperative adversaries"
     + While Morton Thiokol was responsible for the actual design and construction of the SRB, Marshall's role was one of oversight responsibility
+    + Day-to-day oversight responsibility fell to the Science and Engineering Directorate (S&E) at Marshall
     + Marshall didn't inspect all the day-to-day activities at Morton Thiokol
     + Instead their role was that of defining what was and was not important and probing deeply into certain engineering issues in order to ensure that the SRB matched its design specifications
     + Once flights began, Marshall engineers worked closely with Thiokol engineers on booster assembly, disassembly and postflight analysis
+    + One of the problems that Marshall engineers had to deal with was physical distance
+      + Boosters were assembled at Thiokol's plant in Utah
+      + Marshall is located in Huntsville, AL
+      + Some NASA personnel were permanently located in Utah and others made regular visits
+      + Much of the communication occurred through telephone conferences (telecons)
+      + Both Marshall and Thiokol's facilities were extensively equipped with telecon equipment, and allowed NASA and Thiokol engineers to communicate without having to spend 2 days on a round-trip to Utah
+      + In addition to numerous daily telecons for day-to-day communication, engineers from Marshall and Thiokol had bi-weekly "data-dumps"
+        + On-site meeting alternating between Marshall and Thiokol
+        + Allowed working engineers to meet face-to-face and exchange information
+        + 2.5 day conferences
+        + Half-day spent briefing executives from Level 4 and Level 3
+        + Remainder of the time spent with working engineers talking to each other
+        + Engineering sessions discussed technical issues only
+        + Executive briefing intersected engineering concerns with broader concerns regarding cost and schedule
+        + At these data dumps Mulloy presented the updated schedule and got feedback from engineering regarding its viability
+        + Data dumps also gave engineers a chance to discuss and initiate Engineering Change Requests (ECRs), which were the mechanism by which engineers submitted alterations to the design of the Shuttle
+        + ECRs were approved or denied by the Configuration Control Board, not individual project managers
 
 * References
   1. [[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730005253.pdf][Mathematica Report on the viability of the Space Shuttle]]
