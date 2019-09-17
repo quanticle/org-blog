@@ -2,204 +2,204 @@
 #+OPTIONS: num:nil; ^:nil; ':t
 #+STARTUP: overview
 * Configuration
-  + Set up MELPA:
++ Set up MELPA:
+  #+BEGIN_SRC elisp
+    (require 'package)
+    (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                      (not (gnutls-available-p))))
+         (proto (if no-ssl "http" "https")))
+    (when no-ssl
+      (warn "\
+      Your version of Emacs does not support SSL connections,
+      which is unsafe because it allows man-in-the-middle attacks.
+      There are two things you can do about this warning:
+      1. Install an Emacs version that does support SSL and be safe.
+      2. Remove this warning from your init file so you won't see it again."))
+      ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+    (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+    ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
+    (when (< emacs-major-version 24)
+      ;; For important compatibility libraries like cl-lib
+      (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
+    (package-initialize)
+  #+END_SRC
++ Set the font:
+  #+BEGIN_SRC elisp
+    (set-face-attribute 'default nil :family "Source Code Pro" :weight 'normal :height 120)
+  #+END_SRC
+  + Make sure to set the font at the very end, otherwise theming will override it
++ Get the Zenburn theme
+  + ~M-x package-install <RET> zenburn-theme~
     #+BEGIN_SRC elisp
-      (require 'package)
-      (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
-                        (not (gnutls-available-p))))
-           (proto (if no-ssl "http" "https")))
-      (when no-ssl
-        (warn "\
-        Your version of Emacs does not support SSL connections,
-        which is unsafe because it allows man-in-the-middle attacks.
-        There are two things you can do about this warning:
-        1. Install an Emacs version that does support SSL and be safe.
-        2. Remove this warning from your init file so you won't see it again."))
-        ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
-      (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
-      ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
-      (when (< emacs-major-version 24)
-        ;; For important compatibility libraries like cl-lib
-        (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
-      (package-initialize)
+      (load-theme 'zenburn t)
     #+END_SRC
-  + Set the font:
-    #+BEGIN_SRC elisp
-      (set-face-attribute 'default nil :family "Source Code Pro" :weight 'normal :height 120)
-    #+END_SRC
-    + Make sure to set the font at the very end, otherwise theming will override it
-  + Get the Zenburn theme
-    + ~M-x package-install <RET> zenburn-theme~
-      #+BEGIN_SRC elisp
-        (load-theme 'zenburn t)
-      #+END_SRC
-  + Get rid of the buttons, since they take up space and we don't use them anyway
-    #+BEGIN_SRC elisp
-      (tool-bar-mode -1)
-    #+END_SRC
-  + Always indent with spaces
-    #+BEGIN_SRC elisp
-      (progn (setq-default indent-tabs-mode nil))
-    #+END_SRC
-  + Set the tab width to 4
-    #+BEGIN_SRC elisp
-      (setq tab-width 4)
-    #+END_SRC
-  + Enable global-auto-revert-mode to make emacs pick up changes from disk
-    #+BEGIN_SRC elisp
-      (global-auto-revert-mode 1)
-    #+END_SRC
-  + Enable smooth-scrolling
-    #+BEGIN_SRC elisp
-      (setq scroll-conservatively 9999)
-    #+END_SRC
-  + Enable persistent parenthesis highlighting
-    #+BEGIN_SRC elisp
-      (show-paren-mode 1)
-    #+END_SRC
-  + Disable header-scaling in org-mode, and make the org-code face more visible
-    #+BEGIN_SRC elisp
-      (add-hook 'org-mode-hook (lambda ()
-                                 (set-face-attribute 'org-level-1 nil :height 1.0)
-                                 (set-face-attribute 'org-level-2 nil :height 1.0)
-                                 (set-face-attribute 'org-level-3 nil :height 1.0)
-                                 (set-face-attribute 'org-level-4 nil :height 1.0)
-                                 (set-face-attribute 'org-level-5 nil :height 1.0)
-                                 (set-face-attribute 'org-document-title :height 1.0)
-                                 (set-face-attribute 'org-code nil :foreground "#66D9EF")
-                                 (visual-line-mode)))
-    #+END_SRC
-  + Disable header scaling in markdown mode
-    #+BEGIN_SRC elisp
-      (add-hook 'markdown-mode-hook (lambda ()
-                                      (set-face-attribute 'markdown-header-face-1 nil :height 1.0)
-                                      (set-face-attribute 'markdown-header-face-2 nil :height 1.0)
-                                      (set-face-attribute 'markdown-header-face-3 nil :height 1.0)
-                                      (set-face-attribute 'markdown-header-face-4 nil :height 1.0)))
-    #+END_SRC
-  + Set the initial mode of the scratch buffer to org
-    #+BEGIN_SRC elisp
-      (setq initial-major-mode 'org-mode)
-      (setq initial-scratch-message "")
-    #+END_SRC
-  + Use a better indent mode
-    #+BEGIN_SRC elisp
-      (setq org-startup-indented t)
-    #+END_SRC
-  + Enable line-wrapping
-    #+BEGIN_SRC elisp
-      (setq org-startup-truncated nil)
-    #+END_SRC
-  + Color stars only in org-mode
-    #+BEGIN_SRC elisp
-      (org-level-color-stars-only t)
-    #+END_SRC
-  + Expand org-mode files on startup
-    #+BEGIN_SRC elisp
-      (setq org-startup-folded nil)
-    #+END_SRC
-  + Disable auto-indent
-    #+BEGIN_SRC elisp
-      ;Disable autoindent
-      (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
-    #+END_SRC
-  + Show column numbers in addition to line numbers
-    #+BEGIN_SRC elisp
-      (column-number-mode)
-    #+END_SRC
++ Get rid of the buttons, since they take up space and we don't use them anyway
+  #+BEGIN_SRC elisp
+    (tool-bar-mode -1)
+  #+END_SRC
++ Always indent with spaces
+  #+BEGIN_SRC elisp
+    (progn (setq-default indent-tabs-mode nil))
+  #+END_SRC
++ Set the tab width to 4
+  #+BEGIN_SRC elisp
+    (setq tab-width 4)
+  #+END_SRC
++ Enable global-auto-revert-mode to make emacs pick up changes from disk
+  #+BEGIN_SRC elisp
+    (global-auto-revert-mode 1)
+  #+END_SRC
++ Enable smooth-scrolling
+  #+BEGIN_SRC elisp
+    (setq scroll-conservatively 9999)
+  #+END_SRC
++ Enable persistent parenthesis highlighting
+  #+BEGIN_SRC elisp
+    (show-paren-mode 1)
+  #+END_SRC
++ Disable header-scaling in org-mode, and make the org-code face more visible
+  #+BEGIN_SRC elisp
+    (add-hook 'org-mode-hook (lambda ()
+                               (set-face-attribute 'org-level-1 nil :height 1.0)
+                               (set-face-attribute 'org-level-2 nil :height 1.0)
+                               (set-face-attribute 'org-level-3 nil :height 1.0)
+                               (set-face-attribute 'org-level-4 nil :height 1.0)
+                               (set-face-attribute 'org-level-5 nil :height 1.0)
+                               (set-face-attribute 'org-document-title :height 1.0)
+                               (set-face-attribute 'org-code nil :foreground "#66D9EF")
+                               (visual-line-mode)))
+  #+END_SRC
++ Disable header scaling in markdown mode
+  #+BEGIN_SRC elisp
+    (add-hook 'markdown-mode-hook (lambda ()
+                                    (set-face-attribute 'markdown-header-face-1 nil :height 1.0)
+                                    (set-face-attribute 'markdown-header-face-2 nil :height 1.0)
+                                    (set-face-attribute 'markdown-header-face-3 nil :height 1.0)
+                                    (set-face-attribute 'markdown-header-face-4 nil :height 1.0)))
+  #+END_SRC
++ Set the initial mode of the scratch buffer to org
+  #+BEGIN_SRC elisp
+    (setq initial-major-mode 'org-mode)
+    (setq initial-scratch-message "")
+  #+END_SRC
++ Use a better indent mode
+  #+BEGIN_SRC elisp
+    (setq org-startup-indented t)
+  #+END_SRC
++ Enable line-wrapping
+  #+BEGIN_SRC elisp
+    (setq org-startup-truncated nil)
+  #+END_SRC
++ Color stars only in org-mode
+  #+BEGIN_SRC elisp
+    (org-level-color-stars-only t)
+  #+END_SRC
++ Expand org-mode files on startup
+  #+BEGIN_SRC elisp
+    (setq org-startup-folded nil)
+  #+END_SRC
++ Disable auto-indent
+  #+BEGIN_SRC elisp
+    ;Disable autoindent
+    (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+  #+END_SRC
++ Show column numbers in addition to line numbers
+  #+BEGIN_SRC elisp
+    (column-number-mode)
+  #+END_SRC
 * Basic controls
 ** Quit emacs: 
-   ~C-x C-c~
+~C-x C-c~
 ** Cancel command in progress
-   ~C-g~
+~C-g~
 ** Movement
-   + Basic movement
-     + Next Line: ~C-n~
-     + Previous Line: ~C-p~
-     + Forward: ~C-f~
-     + Back: ~C-b~
-   + Beginning of line: ~C-a~
-   + End of line: ~C-e~
-   + Beginning of file: ~M-<~
-   + End of file: ~M->~
-   + Forward by word: ~M-f~
-   + Backward by word: ~M-b~
-   + Jump to matching parenthesis: ~C-M-n~, ~C-M-p~
++ Basic movement
+  + Next Line: ~C-n~
+  + Previous Line: ~C-p~
+  + Forward: ~C-f~
+  + Back: ~C-b~
++ Beginning of line: ~C-a~
++ End of line: ~C-e~
++ Beginning of file: ~M-<~
++ End of file: ~M->~
++ Forward by word: ~M-f~
++ Backward by word: ~M-b~
++ Jump to matching parenthesis: ~C-M-n~, ~C-M-p~
 ** File operations:
-   + Open file: ~C-x C-f~
-   + Open file, read-only: ~M-x view-file~
-   + Save file: ~C-x C-s~
-   + Save all files: ~C-x s~
-   + Switch buffer: ~C-x b~
++ Open file: ~C-x C-f~
++ Open file, read-only: ~M-x view-file~
++ Save file: ~C-x C-s~
++ Save all files: ~C-x s~
++ Switch buffer: ~C-x b~
 ** Copy/paste:
-   + Cut: ~C-w~
-   + Copy ~M-w~
-   + Paste: ~C-y~
++ Cut: ~C-w~
++ Copy ~M-w~
++ Paste: ~C-y~
 ** Undo
-   ~C-/~
+~C-/~
 ** Window commands:
 *** Splitting a window
-    + Split window horizontally: ~C-x 2~
-    + Split window vertically: ~C-x 3~
-    + Close split: ~C-x 0~
-    + Close other splits: ~C-x 1~
-    + Resizing
-      + Make a split wider (for vertical splits): ~C-x }~ (add a numeric argument)
-      + Make a split taller (for horizontal splits): ~C-x ^~ (add a numeric argument)
-      + Use a negative argument to make windows narrower/shorter
-    + To split and switch buffers in one command: ~C-x 4 b~
-    + To split and open a new file in one command ~C-x 4 f~
++ Split window horizontally: ~C-x 2~
++ Split window vertically: ~C-x 3~
++ Close split: ~C-x 0~
++ Close other splits: ~C-x 1~
++ Resizing
+  + Make a split wider (for vertical splits): ~C-x }~ (add a numeric argument)
+  + Make a split taller (for horizontal splits): ~C-x ^~ (add a numeric argument)
+  + Use a negative argument to make windows narrower/shorter
++ To split and switch buffers in one command: ~C-x 4 b~
++ To split and open a new file in one command ~C-x 4 f~
 *** Multiple frames:
-    + Open another frame: ~C-x 5 2~
-    + Close a frame: ~C-x 5 0~
-    + Note that emacs calls its windows "frames", and refers to splits as "windows"
-    + If you like to have one buffer per frame, the following helps with buffer/frame management:
-      #+BEGIN_SRC elisp
-        (defun kill-buffer-and-frame ()
-          (interactive)
-          (progn
-            (kill-buffer)
-            (delete-frame)))
-        (global-set-key (kbd "C-x 5 k") 'kill-buffer-and-frame)
-      #+END_SRC
-      + This defines ~C-x 5 k~ to a command that kills the buffer and frame in one swoop
++ Open another frame: ~C-x 5 2~
++ Close a frame: ~C-x 5 0~
++ Note that emacs calls its windows "frames", and refers to splits as "windows"
++ If you like to have one buffer per frame, the following helps with buffer/frame management:
+  #+BEGIN_SRC elisp
+    (defun kill-buffer-and-frame ()
+      (interactive)
+      (progn
+        (kill-buffer)
+        (delete-frame)))
+    (global-set-key (kbd "C-x 5 k") 'kill-buffer-and-frame)
+  #+END_SRC
+  + This defines ~C-x 5 k~ to a command that kills the buffer and frame in one swoop
 *** Saving configurations
-    + Emacs can save window configuration in "registers"
-    + To save a window configuration: ~C-x r w <register>~ ex: ~C-x r w a~ to save in register 'a'
-    + To restore a configuration from a register: ~C-x r j <register>~ ex: ~C-x r j a~ to restore from register 'a'
++ Emacs can save window configuration in "registers"
++ To save a window configuration: ~C-x r w <register>~ ex: ~C-x r w a~ to save in register 'a'
++ To restore a configuration from a register: ~C-x r j <register>~ ex: ~C-x r j a~ to restore from register 'a'
 ** Indentation
-   Emacs automatic indentation is pretty annoying, so I usually turn it off:
-   #+BEGIN_SRC elisp
+Emacs automatic indentation is pretty annoying, so I usually turn it off:
+#+BEGIN_SRC elisp
   ;Disable autoindent
   (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
-   #+END_SRC
+#+END_SRC
 ** Run shell commands on region
-   + ~C-u M-|~
++ ~C-u M-|~
 ** Reformat json region
-   + ~M-x json-reformat-region~
-   + To format an entire buffer as json: ~M-x json-pretty-print-buffer~
++ ~M-x json-reformat-region~
++ To format an entire buffer as json: ~M-x json-pretty-print-buffer~
 ** Rectangle editing
-   + To delete a rectangle
-     1. Set the mark
-     2. Move the point to the opposite corner of the rectangle
-     3. ~C-x r d~
-   + To kill (cut) a rectangle, use ~C-x r k~
-   + To copy a rectangle, use ~C-x r M-w~
-   + To enter rectangle highlight mode, use ~C-x <SPC>~
-   + To replace each line of a rectangle with text: ~C-x r t <text> RET~
-   + To insert a string on each line of the rectangle: ~M-x string-insert-rectangle~
++ To delete a rectangle
+  1. Set the mark
+  2. Move the point to the opposite corner of the rectangle
+  3. ~C-x r d~
++ To kill (cut) a rectangle, use ~C-x r k~
++ To copy a rectangle, use ~C-x r M-w~
++ To enter rectangle highlight mode, use ~C-x <SPC>~
++ To replace each line of a rectangle with text: ~C-x r t <text> RET~
++ To insert a string on each line of the rectangle: ~M-x string-insert-rectangle~
 ** Join Lines
-   + ~M-^~
++ ~M-^~
 ** Mark and point
-   + To set the mark: ~C-<SPC>~
-   + To swap the mark and point: ~C-x C-x~
-   + Note that you don't always need to set the mark manually -- some commands, like search, will set the mark to the start of the search, for example
++ To set the mark: ~C-<SPC>~
++ To swap the mark and point: ~C-x C-x~
++ Note that you don't always need to set the mark manually -- some commands, like search, will set the mark to the start of the search, for example
 ** Repeat commands
-   + To repeat the last emacs command: ~C-x z~
-   + To keep repeating, hit ~z~ again
++ To repeat the last emacs command: ~C-x z~
++ To keep repeating, hit ~z~ again
 * Elisp tips
 ** OS checking:
-   #+BEGIN_SRC elisp
+#+BEGIN_SRC elisp
   (if (eq system-type 'darwin)
       (progn
                                           ;Do things for MacOS
@@ -207,669 +207,670 @@
     (progn
                                           ;Do things for non-mac
       ))
-   #+END_SRC
-   + Valid system types:
-     + ~gnu/linux~: Linux
-     + ~windows-nt~: Windows
-     + ~darwin~: MacOS
-     + There are others, but these are the main three that I care about
-   + Example:
-     #+BEGIN_SRC elisp
-       (if (eq system-type 'darwin)
-           (progn
-                                               ; MacOS draws fonts slightly thicker by default, so use the normal weight
-             (set-face-attribute 'default nil :family "IBM Plex Mono" :weight 'normal :height 120) 
-             (set-face-attribute 'fixed-pitch nil :family "IBM Plex Mono" :weight 'normal :height 120))
-         (progn
-                                               ; For other systems, use semi-bold to maintain consistent font-width
-           (set-face-attribute 'default nil :family "IBM Plex Mono" :weight 'semi-bold :height 110)
-           (set-face-attribute 'fixed-pitch nil :family "IBM Plex Mono" :weight 'semi-bold :height 110)))
-     #+END_SRC
+#+END_SRC
++ Valid system types:
+  + ~gnu/linux~: Linux
+  + ~windows-nt~: Windows
+  + ~darwin~: MacOS
+  + There are others, but these are the main three that I care about
++ Example:
+  #+BEGIN_SRC elisp
+    (if (eq system-type 'darwin)
+        (progn
+                                            ; MacOS draws fonts slightly thicker by default, so use the normal weight
+          (set-face-attribute 'default nil :family "IBM Plex Mono" :weight 'normal :height 120) 
+          (set-face-attribute 'fixed-pitch nil :family "IBM Plex Mono" :weight 'normal :height 120))
+      (progn
+                                            ; For other systems, use semi-bold to maintain consistent font-width
+        (set-face-attribute 'default nil :family "IBM Plex Mono" :weight 'semi-bold :height 110)
+        (set-face-attribute 'fixed-pitch nil :family "IBM Plex Mono" :weight 'semi-bold :height 110)))
+  #+END_SRC
 ** Disable fancy indentation
-   Oftentimes various emacs modes will try to get too fancy with their indentation rules, which leads to annoyance and aggravation when we have to fight with the editor to write code according to our style. To disable fancy indentation:
-   #+BEGIN_SRC elisp
+Oftentimes various emacs modes will try to get too fancy with their indentation rules, which leads to annoyance and aggravation when we have to fight with the editor to write code according to our style. To disable fancy indentation:
+#+BEGIN_SRC elisp
   (add-hook 'prog-mode-hook (lambda ()
     (setq-local indent-line-function 'indent-relative)))
-   #+END_SRC
-   What this does is replace the fancy indentation function with a generic one that just indents out to the indent level of the previous line. It's up to you to indent from there. 
-   + Disable fancy indenting for typescript:
-     + ~(setq typescript-auto-indent-flag nil)~
+#+END_SRC
+What this does is replace the fancy indentation function with a generic one that just indents out to the indent level of the previous line. It's up to you to indent from there. 
++ Disable fancy indenting for typescript:
+  + ~(setq typescript-auto-indent-flag nil)~
 ** Bind keys
-   To create a new keybinding:
-   #+BEGIN_SRC elisp
+To create a new keybinding:
+#+BEGIN_SRC elisp
   (global-set-key (kbd "<key>") 'command)
-   #+END_SRC
-   For example, to bind s-u to revert buffer:
-   #+BEGIN_SRC elisp
+#+END_SRC
+For example, to bind s-u to revert buffer:
+#+BEGIN_SRC elisp
   (global-set-key (kbd "s-u") 'revert-buffer)
-   #+END_SRC
-   This makes Emacs on Linux behave like Emacs on MacOS
+#+END_SRC
+This makes Emacs on Linux behave like Emacs on MacOS
 * Org-mode tips
 ** Basic controls:
-   + Promote/demote: ~M-<left>~ / ~<M-<right>~
-   + Promote/demote subtree: ~M-S-<left>~ / ~M-S-<right>~
-   + Move headings up and down: ~M-<up>~ / ~M-<down>~
++ Promote/demote: ~M-<left>~ / ~<M-<right>~
++ Promote/demote subtree: ~M-S-<left>~ / ~M-S-<right>~
++ Move headings up and down: ~M-<up>~ / ~M-<down>~
 ** Source code blocks
-   + To quickly insert a source-code block, hit ~<s <TAB>~
-   + To disable syntax highlighting outside of the editing view:
-     #+BEGIN_SRC elisp
-       (setq org-src-fontify-natively nil)
-     #+END_SRC
-   + To map languages to different major modes, add entries to ~org-src-lang-modes~
-     #+BEGIN_SRC elisp
-       (add-to-list 'org-src-lang-modes '("jsx" . web))
-       (add-to-list 'org-src-lang-modes '("tsx" . web))
-     #+END_SRC
++ To quickly insert a source-code block, hit ~<s <TAB>~
++ To disable syntax highlighting outside of the editing view:
+  #+BEGIN_SRC elisp
+    (setq org-src-fontify-natively nil)
+  #+END_SRC
++ To map languages to different major modes, add entries to ~org-src-lang-modes~
+  #+BEGIN_SRC elisp
+    (add-to-list 'org-src-lang-modes '("jsx" . web))
+    (add-to-list 'org-src-lang-modes '("tsx" . web))
+  #+END_SRC
 ** Inline source code
-   + 
++ 
 ** Plain lists
-   + Pro-tip: /do not/ use ~*~ for plain list items -- you have to do all sorts of things to prevent org-mode from confusing it with headings
-   + Instead use ~+~ or ~-~
-   + To change the bullet style of a plain list ~S-<left>~, ~S-<right>~
-   + Controls:
-     + Mostly the same as headings
-     + However, to insert a new list item, use ~M-<RET>~
-   + To promote a plain list entry to a subtree: ~C-c *~
-   + To turn a region of lines into a plain list: ~C-c -~
-     + Note that this applies to headlines too
-   + To turn a plain list into a list of checkboxes ~C-u C-c C-x C-b~
-   + To prevent emacs from splitting lines, set ~org-M-RET-may-split-line~ to ~nil~
++ Pro-tip: /do not/ use ~*~ for plain list items -- you have to do all sorts of things to prevent org-mode from confusing it with headings
++ Instead use ~+~ or ~-~
++ To change the bullet style of a plain list ~S-<left>~, ~S-<right>~
++ Controls:
+  + Mostly the same as headings
+  + However, to insert a new list item, use ~M-<RET>~
++ To promote a plain list entry to a subtree: ~C-c *~
++ To turn a region of lines into a plain list: ~C-c -~
+  + Note that this applies to headlines too
++ To turn a plain list into a list of checkboxes ~C-u C-c C-x C-b~
++ To prevent emacs from splitting lines, set ~org-M-RET-may-split-line~ to ~nil~
 ** Properties:
-   + To add a property to a heading: ~C-c C-x p~
-   + To remove a property from a heading: ~C-c C-c d~ with the cursor on the property
++ To add a property to a heading: ~C-c C-x p~
++ To remove a property from a heading: ~C-c C-c d~ with the cursor on the property
 ** Page titles:
-   Add the following to the top of your org-mode file to set the HTML title:
-   #+BEGIN_SRC text
+Add the following to the top of your org-mode file to set the HTML title:
+#+BEGIN_SRC text
   ,#+TITLE: <title>
-   #+END_SRC
+#+END_SRC
 ** Disable table of contents
-   To disable TOC on export:
-   #+BEGIN_SRC org
+To disable TOC on export:
+#+BEGIN_SRC org
   ,#+OPTIONS: toc:nil
-   #+END_SRC
+#+END_SRC
 ** To prevent numbers on headings
-   + To prevent them on all exports, set the following in your ~init.el~
-     #+BEGIN_SRC elisp
-       (setq org-export-with-section-numbers nil)
-     #+END_SRC
-   + To prevent the export on a single file
-     #+begin_src org
-       ,#+OPTIONS num:nil
-     #+end_src
++ To prevent them on all exports, set the following in your ~init.el~
+  #+BEGIN_SRC elisp
+    (setq org-export-with-section-numbers nil)
+  #+END_SRC
++ To prevent the export on a single file
+  #+begin_src org
+    ,#+OPTIONS num:nil
+  #+end_src
 ** Importing from vimwiki
-   + Change headings
-   + Change ~_~ to ~/~
++ Change headings
++ Change ~_~ to ~/~
 ** To prevent org-mode from being "smart" and inserting blank lines before entries
-   + Customize: ~org-blank-before-new-entry~
-   + ~org-blank-before-new-entry~:
-     #+begin_src elisp
-       (setq org-blank-before-new-entry '((heading . auto) (plain-list-item . nil)))
-     #+end_src
-   + ~cdr~ values can be ~auto~, or a boolean value
-   + ~car~ values can be ~heading~ or ~plain-list-item~
-   + What the above snippet does is preserve "smart" behavior for headlines, but disables it for plain list items, since I almost never want blank lines in between my plain list items
++ Customize: ~org-blank-before-new-entry~
++ ~org-blank-before-new-entry~:
+  #+begin_src elisp
+    (setq org-blank-before-new-entry '((heading . auto) (plain-list-item . nil)))
+  #+end_src
++ ~cdr~ values can be ~auto~, or a boolean value
++ ~car~ values can be ~heading~ or ~plain-list-item~
++ What the above snippet does is preserve "smart" behavior for headlines, but disables it for plain list items, since I almost never want blank lines in between my plain list items
 ** Exporting to HTML
-   + Set the page title
-   + Add the following to get a nice theme:
-     #+BEGIN_SRC org
-       ,#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
-     #+END_SRC
-   + Export to HTML with: ~C-c C-e h h~
-   + Customizing org HTML export:
-     + Set the ~DOCTYPE~
-       #+BEGIN_SRC text
-         M-x customize-variable org-html-doctype
-       #+END_SRC
-     + Customize the ~<head>~ section
-       #+BEGIN_SRC text
-         M-x customize-variable org-html-head
-       #+END_SRC
-       + For quanticle.net, set it to the following:
-         #+BEGIN_SRC html
-           <link href="/page.css" rel="stylesheet">
-         #+END_SRC
-     + Customize the page header
-       #+BEGIN_SRC text
-         M-x customize-variable org-html-preamble
-       #+END_SRC
-       + For quanticle.net, set it to the following:
-         #+BEGIN_SRC html
-           <header class="page-header">
-             <div class="logo"><a href="/"><img src="/logo.png" height="160"></a></div>
-             <div class="header-text">
-               <div class="header-text-wrapper">
-                 <h1>Quanticle.net</h1>
-               </div>
-             </div>
-           </header>
-         #+END_SRC
-     + Customize the page footer
-       #+BEGIN_SRC text
-         M-x customize-variable org-html-postamble
-       #+END_SRC
-       + Don't need to customize the page footer for quanticle.net
-     + Disable source code syntax highlight (since I use a dark-theme, and its colors look bad when exported to a light-background web page): ~M-x customize-variable RET org-html-htmlize-output-type~ (set to ~nil~)
-     + Make HTML source code syntax highlight appropriate for a light background
-       + ~M-x customize-variable RET org-html-htmlize-output-type~ (set to ~css~, instead of ~inline css~)
-       + Add the following to the top of the file:
-         #+begin_src org
-           ,#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://quanticle.net/highlight.css">
-         #+end_src
-   + Exporting HTML checkboxes nicely: ~(setq org-html-checkbox-type 'unicode)~
++ Set the page title
++ Add the following to get a nice theme:
+  #+BEGIN_SRC org
+    ,#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+  #+END_SRC
++ Export to HTML with: ~C-c C-e h h~
++ Customizing org HTML export:
+  + Set the ~DOCTYPE~
+    #+BEGIN_SRC text
+      M-x customize-variable org-html-doctype
+    #+END_SRC
+  + Customize the ~<head>~ section
+    #+BEGIN_SRC text
+      M-x customize-variable org-html-head
+    #+END_SRC
+    + For quanticle.net, set it to the following:
+      #+BEGIN_SRC html
+        <link href="/page.css" rel="stylesheet">
+      #+END_SRC
+  + Customize the page header
+    #+BEGIN_SRC text
+      M-x customize-variable org-html-preamble
+    #+END_SRC
+    + For quanticle.net, set it to the following:
+      #+BEGIN_SRC html
+        <header class="page-header">
+          <div class="logo"><a href="/"><img src="/logo.png" height="160"></a></div>
+          <div class="header-text">
+            <div class="header-text-wrapper">
+              <h1>Quanticle.net</h1>
+            </div>
+          </div>
+        </header>
+      #+END_SRC
+  + Customize the page footer
+    #+BEGIN_SRC text
+      M-x customize-variable org-html-postamble
+    #+END_SRC
+    + Don't need to customize the page footer for quanticle.net
+  + Disable source code syntax highlight (since I use a dark-theme, and its colors look bad when exported to a light-background web page): ~M-x customize-variable RET org-html-htmlize-output-type~ (set to ~nil~)
+  + Make HTML source code syntax highlight appropriate for a light background
+    + ~M-x customize-variable RET org-html-htmlize-output-type~ (set to ~css~, instead of ~inline css~)
+    + Add the following to the top of the file:
+      #+begin_src org
+        ,#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="https://quanticle.net/highlight.css">
+      #+end_src
++ Exporting HTML checkboxes nicely: ~(setq org-html-checkbox-type 'unicode)~
 ** Exporting to markdown
-   + Enable markdown export by customizing ~org-export-backends~
-   + Install the ~ox-gfm~ package to enable Github Flavored Markdown
-   + Enable the ~ox-gfm~ package by adding the following to your init.el
-     #+BEGIN_SRC elisp
-       (eval-after-load "org"
-         '(require 'ox-gfm nil t))
-     #+END_SRC
++ Enable markdown export by customizing ~org-export-backends~
++ Install the ~ox-gfm~ package to enable Github Flavored Markdown
++ Enable the ~ox-gfm~ package by adding the following to your init.el
+  #+BEGIN_SRC elisp
+    (eval-after-load "org"
+      '(require 'ox-gfm nil t))
+  #+END_SRC
 ** LaTeX in org-mode:
-   + To add inline LaTeX use ~\(~ and ~\)~ to delimit the equation
-   + Example: ~\( 3x^2 - 2x + 4 \)~ \( \rightarrow \) \( 3x^2 - 2x + 4 \)
++ To add inline LaTeX use ~\(~ and ~\)~ to delimit the equation
++ Example: ~\( 3x^2 - 2x + 4 \)~ \( \rightarrow \) \( 3x^2 - 2x + 4 \)
 ** To get nice line wrapping, add the following org-mode hook:
-   #+begin_src elisp
+#+begin_src elisp
   (add-hook 'org-mode-hook 'visual-line-mode)
-   #+end_src
+#+end_src
 ** Initial visibility:
-   + To override the initial visibility settings, add one of the following to the top of the page:
-     #+begin_src org
-       ,#+STARTUP: overview
-       ,#+STARTUP: content
-       ,#+STARTUP: showall
-       ,#+STARTUP: showeverything
-     #+end_src
-   + To override the visibility on a per-item basis, create the following property drawer:
-     #+begin_src org
-       :PROPERTIES:
-       :VISIBILITY: folded
-       :END:
-     #+end_src
-   + To reset a file back to initial visibility: ~C-u C-u TAB~
++ To override the initial visibility settings, add one of the following to the top of the page:
+  #+begin_src org
+    ,#+STARTUP: overview
+    ,#+STARTUP: content
+    ,#+STARTUP: showall
+    ,#+STARTUP: showeverything
+  #+end_src
++ To override the visibility on a per-item basis, create the following property drawer:
+  #+begin_src org
+    :PROPERTIES:
+    :VISIBILITY: folded
+    :END:
+  #+end_src
++ To reset a file back to initial visibility: ~C-u C-u TAB~
 ** Custom todo keywords
-   + To define custom todo keywords for a particular file:
-     #+begin_src org
-       ,#+TODO: incomplete_keyword_1 incomplete_keyword_2 | done_keyword_1 done_keyword_2
-     #+end_src
++ To define custom todo keywords for a particular file:
+  #+begin_src org
+    ,#+TODO: incomplete_keyword_1 incomplete_keyword_2 | done_keyword_1 done_keyword_2
+  #+end_src
 ** Org-agenda
-   + Set up the org-agenda dispatcher: ~(global-set-key (kbd "C-c a") 'org-agenda)~
-   + Add files to the agenda by hitting ~C-c [~ on the file
-     + Can add files manually by editing ~org-agenda-files~
-   + Set ~org-deadline-warning-days~ to 0
-   + To jump to the entry from the agenda buffer: TAB
-   + Make the agenda buffer take up the entire window by customizing ~org-agenda-window-setup~
-     + ~(setq org-agenda-window-setup 'only-window)~ -- make agenda take over the entire window
-     + ~(setq org-agenda-restore-windows-after-quit t)~ -- restores windows after we quit the org-agenda buffer
-   + Customize how agenda items are sorted by customizing ~org-agenda-sorting-strategy~
-   + To make the agenda show just one day instead of a week, customize ~org-agenda-span~
-   + To make it easier to refile to-dos, add the following snippet to your ~~/.emacs.d/init.el~
-     #+begin_src elisp
-       (setq org-refile-targets '((nil :maxlevel . 1)
-                                       (org-agenda-files :maxlevel . 1)))
-       (setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
-       (setq org-refile-use-outline-path t)
-     #+end_src
-   + To prevent org-mode from reading dates and times out of the text of a headline, customize ~org-agenda-search-headline-for-time~
-   + To go to a particular day in org-agenda: ~j~
-   + To add a deadline to a TODO entry: ~C-c C-d~
-   + To remove a deadline from a TODO entry: ~C-u C-c C-d~
-   + Bulk actions
-     + To mark tasks for bulk actions: ~m~
-     + To remove a mark: ~u~
-     + To set the TODO state: ~t~
-     + To set the deadline: ~d~
-   + To set tags on a to-do item: ~C-c C-q~
-   + It's helpful to have ~hl-line-mode~ on in the agenda buffer:
-     #+BEGIN_SRC elisp
-       (add-hook 'org-agenda-mode-hook 'hl-line-mode)
-     #+END_SRC
++ Set up the org-agenda dispatcher: ~(global-set-key (kbd "C-c a") 'org-agenda)~
++ Add files to the agenda by hitting ~C-c [~ on the file
+  + Can add files manually by editing ~org-agenda-files~
++ Set ~org-deadline-warning-days~ to 0
++ To jump to the entry from the agenda buffer: TAB
++ Make the agenda buffer take up the entire window by customizing ~org-agenda-window-setup~
+  + ~(setq org-agenda-window-setup 'only-window)~ -- make agenda take over the entire window
+  + ~(setq org-agenda-restore-windows-after-quit t)~ -- restores windows after we quit the org-agenda buffer
++ Customize how agenda items are sorted by customizing ~org-agenda-sorting-strategy~
++ To make the agenda show just one day instead of a week, customize ~org-agenda-span~
++ To make it easier to refile to-dos, add the following snippet to your ~~/.emacs.d/init.el~
+  #+begin_src elisp
+    (setq org-refile-targets '((nil :maxlevel . 1)
+                                    (org-agenda-files :maxlevel . 1)))
+    (setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
+    (setq org-refile-use-outline-path t)
+  #+end_src
++ To prevent org-mode from reading dates and times out of the text of a headline, customize ~org-agenda-search-headline-for-time~
++ To go to a particular day in org-agenda: ~j~
++ To add a deadline to a TODO entry: ~C-c C-d~
++ To remove a deadline from a TODO entry: ~C-u C-c C-d~
++ Bulk actions
+  + To mark tasks for bulk actions: ~m~
+  + To remove a mark: ~u~
+  + To set the TODO state: ~t~
+  + To set the deadline: ~d~
++ To set tags on a to-do item: ~C-c C-q~
++ It's helpful to have ~hl-line-mode~ on in the agenda buffer:
+  #+BEGIN_SRC elisp
+    (add-hook 'org-agenda-mode-hook 'hl-line-mode)
+  #+END_SRC
 ** Org-agenda capture
-   + To add todos from the agenda view, we need to set up org capture
-   + First set up the capture template:
-     #+begin_src elisp
-       (setq org-capture-templates '(("t" "Todo" entry (file+headline "~/agenda/agenda.org" "To do") "* TODO %?")))
-     #+end_src
-   + Set up org-capture:
-     #+begin_src elisp
-       (global-set-key (kbd "C-c c") 'org-capture)
-     #+end_src
-   + Then, to add a new TODO entry (from anywhere): ~C-c c~
++ To add todos from the agenda view, we need to set up org capture
++ First set up the capture template:
+  #+begin_src elisp
+    (setq org-capture-templates '(("t" "Todo" entry (file+headline "~/agenda/agenda.org" "To do") "* TODO %?")))
+  #+end_src
++ Set up org-capture:
+  #+begin_src elisp
+    (global-set-key (kbd "C-c c") 'org-capture)
+  #+end_src
++ Then, to add a new TODO entry (from anywhere): ~C-c c~
 ** Org-refile
-   + To make moving to-do items easier, configure org-refile targets to allow moving nodes up to 1-level deep for any of the files in org-agenda-files
-     #+begin_src elisp
-       (setq org-refile-targets '((org-agenda-files :max-level . 1)))
-     #+end_src
++ To make moving to-do items easier, configure org-refile targets to allow moving nodes up to 1-level deep for any of the files in org-agenda-files
+  #+begin_src elisp
+    (setq org-refile-targets '((org-agenda-files :max-level . 1)))
+  #+end_src
 ** Priority
-   + To set priority on a task: 
++ To set priority on a task: 
 ** Org time clocking
-   + Clock in: ~C-c C-x C-i~
-   + Clock out: ~C-c C-x C-o~
++ Clock in: ~C-c C-x C-i~
++ Clock out: ~C-c C-x C-o~
 ** Org projects
-   + You can customize HTML export as above, but that will alter HTML export for all org-files
-   + To customize HTML export for different directories, we need to set up /projects/
-   + Project publishing is defined entirely through a single a-list: ~org-publish-project-alist~
-   + Each element of ~org-publish-project-alist~ has the following format:
-     #+begin_src elisp
-       ("project name" :property value :property value ...)
-     #+end_src
-   + Properties that should always be set:
-     + ~:base-directory~: Directory containing source files
-     + ~:publishing-directory~: Directory containing published output
-   + We can narrow the files selected with the following properties:
-     + ~:base-extension~: regex that selects the extension of source files
-       + Set ~:base-extension~ to ~:any~ if you want to grab all files
-     + ~:exclude~: Regex to select files that should not be published, even though they have been picked up by ~:base-extension~
-     + ~:include~: Regex to include files regardless of ~:base-extension~ and ~:exclude~
-     + ~:recursive~: Set this to check directories recursively for files to publish
-   + Publishing function:
-     + Set ~:publishing-function~ to ~:org-html-publish-to-html~ to publish to HTML
-   + Set HTML-specific options
-     + ~html-postamble~ → ~nil~
-     + ~:html-preamble~
-       #+begin_src html
-         <header class=\"page-header\">
-           <div class=\"logo\"><a href=\"/\"><img src=\"/logo.png\" height=\"160\"></a></div>
-           <div class=\"header-text\">
-             <div class=\"header-text-wrapper\">
-               <h1>Quanticle.net</h1>
-             </div>
-           </div>
-         </header>
-       #+end_src
-     + ~:html-head~
-       #+begin_src html
-         <link href=\"/page.css\" rel=\"stylesheet\">
-         <link href=\"/htmlize.css\" rel=\"stylesheet\">
-       #+end_src
-       + [[https://raw.githubusercontent.com/fniessen/org-html-themes/master/styles/readtheorg/css/htmlize.css][htmlize.css]] is necessary to make syntax highlighting work: 
-   + To make cross-page links work: ~(setq org-link-file-path-type 'relative)~ -- this makes ~file:~ links relative in org, which makes them relative links in the HTML export
++ You can customize HTML export as above, but that will alter HTML export for all org-files
++ To customize HTML export for different directories, we need to set up /projects/
++ Project publishing is defined entirely through a single a-list: ~org-publish-project-alist~
++ Each element of ~org-publish-project-alist~ has the following format:
+  #+begin_src elisp
+    ("project name" :property value :property value ...)
+  #+end_src
++ Properties that should always be set:
+  + ~:base-directory~: Directory containing source files
+  + ~:publishing-directory~: Directory containing published output
++ We can narrow the files selected with the following properties:
+  + ~:base-extension~: regex that selects the extension of source files
+    + Set ~:base-extension~ to ~:any~ if you want to grab all files
+  + ~:exclude~: Regex to select files that should not be published, even though they have been picked up by ~:base-extension~
+  + ~:include~: Regex to include files regardless of ~:base-extension~ and ~:exclude~
+  + ~:recursive~: Set this to check directories recursively for files to publish
++ Publishing function:
+  + Set ~:publishing-function~ to ~:org-html-publish-to-html~ to publish to HTML
++ Set HTML-specific options
+  + ~html-postamble~ → ~nil~
+  + ~:html-preamble~
+    #+begin_src html
+      <header class=\"page-header\">
+        <div class=\"logo\"><a href=\"/\"><img src=\"/logo.png\" height=\"160\"></a></div>
+        <div class=\"header-text\">
+          <div class=\"header-text-wrapper\">
+            <h1>Quanticle.net</h1>
+          </div>
+        </div>
+      </header>
+    #+end_src
+  + ~:html-head~
+    #+begin_src html
+      <link href=\"/page.css\" rel=\"stylesheet\">
+      <link href=\"/htmlize.css\" rel=\"stylesheet\">
+    #+end_src
+    + [[https://raw.githubusercontent.com/fniessen/org-html-themes/master/styles/readtheorg/css/htmlize.css][htmlize.css]] is necessary to make syntax highlighting work: 
++ To make cross-page links work: ~(setq org-link-file-path-type 'relative)~ -- this makes ~file:~ links relative in org, which makes them relative links in the HTML export
 ** Horizontal rule
-   + To add a horizontal rule in the export of an org file: ~-----~ (five dashes)
++ To add a horizontal rule in the export of an org file: ~-----~ (five dashes)
 ** Tables
-   + To create a table in org-mode, start a line with a ~|~
-   + To add a horizontal rule, add a ~|-~
-   + To realign the table ~C-c C-c~
-   + ~Tab~ goes to next column
-   + ~Ret~ goes to next row
++ To create a table in org-mode, start a line with a ~|~
++ To add a horizontal rule, add a ~|-~
++ To realign the table ~C-c C-c~
++ ~Tab~ goes to next column
++ ~Ret~ goes to next row
 ** ASCII Art
-   + Install ditaa
-   + Enable ditaa:
-     #+BEGIN_SRC elisp
-       ; On Mac
-       (setq org-ditaa-jar-path "/usr/local/Cellar/ditaa/0.11.0/libexec/ditaa-0.11.0-standalone.jar")
-       ; On Linux
-       ; Download ditaa from https://sourceforge.net/projects/ditaa/
-       ; Unzip the zip-file somewhere
-       (setq org-ditaa-jar-path "/path/to/ditaa.jar")
-       (org-babel-do-load-languages
-           'org-babel-load-languages
-           '((ditaa . t)))
-     #+END_SRC
-     + On Linux, do *not* install ditaa from the Fedora package manager
-     + That gets you a version of ditaa which requires some weird command-line setup in order to run, leading to JNI exceptions when ob-ditaa attempts to invoke it
-     + See ~/usr/bin/ditaa~ for more details on why this is a bad idea
-   + Create a "code block" for ditaa with ~<s TAB ditaa~
-   + Edit the block with ~C-c '~
-   + This enables "artist mode" in the buffer
-   + To draw:
-     + Choose an operation with ~C-c C-a C-o~
-     + "Pen down" with ~RET~
-     + Use the movement commands to move the cursor and create the object
-     + "Pen up" with ~RET~
-   + To expand the canvas: ~C-u <num lines> C-o~
-   + Can also draw with the mouse
-     + Hit ~C-c C-a C-o~ to select the operation (usually want rectangle or straight-line)
-     + Drag with the mouse to draw
-   + To turn a line into an arrow, hit ~>~
-   + When finished drawing, hit ~C-c C-c~ and artist mode will automatically trim trailing whitespace
-   + Example:
-     #+BEGIN_SRC ditaa :file example.png
-       +----------------------------------------------------------------------------------------------------------------+
-       |                                            Big Rectangle                                                       |
-       |                                                                                                                |
-       |                                                                                                                |
-       |                                                                                                                |
-       |                                                                                                                |
-       |                                                                                                                |
-       +----------------------------------------------------------------------------------------------------------------+
-       |                                                                                                                |
-       |                                                                                                                |
-       |  +-------------------------+                                                                                   |
-       |  |         Small Rect      |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         |         arrow                                                                     |
-       |  |                         +-------------------------->                                                        |
-       |  |                         |                                                                                   |
-       |  |                         |                                                                                   |
-       |  |                         +--------------------+                                                              |
-       |  |                         |       multiple     |                                                              |
-       |  |                         |       segments     |                                                              |
-       |  |                         |                    |                                                              |
-       |  |                         |                    |                                                              |
-       |  |                         |                    |                                                              |
-       |  |                         |                    +------------                                                  |
-       |  +-------------------------+                                                                                   |
-       |                                                                                                                |
-       |                                                                                                                |
-       |                                                                                                                |
-       |                                                                                                                |
-       |                                                                                                                |
-       +----------------------------------------------------------------------------------------------------------------+
-     #+END_SRC
++ Install ditaa
++ Enable ditaa:
+  #+BEGIN_SRC elisp
+    ; On Mac
+    (setq org-ditaa-jar-path "/usr/local/Cellar/ditaa/0.11.0/libexec/ditaa-0.11.0-standalone.jar")
+    ; On Linux
+    ; Download ditaa from https://sourceforge.net/projects/ditaa/
+    ; Unzip the zip-file somewhere
+    (setq org-ditaa-jar-path "/path/to/ditaa.jar")
+    (org-babel-do-load-languages
+        'org-babel-load-languages
+        '((ditaa . t)))
+  #+END_SRC
+  + On Linux, do *not* install ditaa from the Fedora package manager
+  + That gets you a version of ditaa which requires some weird command-line setup in order to run, leading to JNI exceptions when ob-ditaa attempts to invoke it
+  + See ~/usr/bin/ditaa~ for more details on why this is a bad idea
++ Create a "code block" for ditaa with ~<s TAB ditaa~
++ Edit the block with ~C-c '~
++ This enables "artist mode" in the buffer
++ To draw:
+  + Choose an operation with ~C-c C-a C-o~
+  + "Pen down" with ~RET~
+  + Use the movement commands to move the cursor and create the object
+  + "Pen up" with ~RET~
++ To expand the canvas: ~C-u <num lines> C-o~
++ Can also draw with the mouse
+  + Hit ~C-c C-a C-o~ to select the operation (usually want rectangle or straight-line)
+  + Drag with the mouse to draw
++ To turn a line into an arrow, hit ~>~
++ When finished drawing, hit ~C-c C-c~ and artist mode will automatically trim trailing whitespace
++ Example:
+  #+BEGIN_SRC ditaa :file example.png
+    +----------------------------------------------------------------------------------------------------------------+
+    |                                            Big Rectangle                                                       |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    +----------------------------------------------------------------------------------------------------------------+
+    |                                                                                                                |
+    |                                                                                                                |
+    |  +-------------------------+                                                                                   |
+    |  |         Small Rect      |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         |         arrow                                                                     |
+    |  |                         +-------------------------->                                                        |
+    |  |                         |                                                                                   |
+    |  |                         |                                                                                   |
+    |  |                         +--------------------+                                                              |
+    |  |                         |       multiple     |                                                              |
+    |  |                         |       segments     |                                                              |
+    |  |                         |                    |                                                              |
+    |  |                         |                    |                                                              |
+    |  |                         |                    |                                                              |
+    |  |                         |                    +------------                                                  |
+    |  +-------------------------+                                                                                   |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    |                                                                                                                |
+    +----------------------------------------------------------------------------------------------------------------+
+  #+END_SRC
 
-     #+RESULTS:
-     [[file:example.png]]
+  #+RESULTS:
+  [[file:example.png]]
 
-   + To turn your ASCII art into a proper image
-     + Add a ~:file~ argument to tell ditaa what filename to save its output as
-     + Go into the image block and hit ~C-c C-c~ to "evaluate" it
-   + Binary tree example:
-     #+BEGIN_SRC ditaa :file binarytree.png
-                             5000
-                              |
-                              |
-                     +--------+----------+
-                     |                   |
-                     |                   |
-                     v                   v
++ To turn your ASCII art into a proper image
+  + Add a ~:file~ argument to tell ditaa what filename to save its output as
+  + Go into the image block and hit ~C-c C-c~ to "evaluate" it
++ Binary tree example:
+  #+BEGIN_SRC ditaa :file binarytree.png
+                          5000
+                           |
+                           |
+                  +--------+----------+
+                  |                   |
+                  |                   |
+                  v                   v
 
-                   2500                7500
+                2500                7500
 
-                     |                   |
-                     |                   |
-         +-----------+----+       +------+------+
-         |                |       |             |
-         |                |       |             |
-         v                v       v             v
+                  |                   |
+                  |                   |
+      +-----------+----+       +------+------+
+      |                |       |             |
+      |                |       |             |
+      v                v       v             v
 
-       1000             3000    6000          8000
-     #+END_SRC
+    1000             3000    6000          8000
+  #+END_SRC
 
-     #+RESULTS:
-     [[file:binarytree.png]]
+  #+RESULTS:
+  [[file:binarytree.png]]
 ** Including images
-   + To include an image in an org file
++ To include an image in an org file
 ** ~org-preserve-local-variables~ error
-   + If you're getting ~Invalid function: org-preserve-local-variables~ when you cut an org-mode headline, this indicates a version mismatch between your elisp libraries
-   + The best option is to recompile your ~~/.emacs.d~:
-     + In a shell:
-       + ~cd ~/.emacs.d~
-       + ~find . -type f -iname "*.elc" -exec rm {} \;~
-     + In emacs: ~C-u 0 M-x byte-recompile-directory RET ~/.emacs.d~
++ If you're getting ~Invalid function: org-preserve-local-variables~ when you cut an org-mode headline, this indicates a version mismatch between your elisp libraries
++ The best option is to recompile your ~~/.emacs.d~:
+  + In a shell:
+    + ~cd ~/.emacs.d~
+    + ~find . -type f -iname "*.elc" -exec rm {} \;~
+  + In emacs: ~C-u 0 M-x byte-recompile-directory RET ~/.emacs.d~
 * Magit tips
 ** To install: ~M-x package-install <RET> magit <RET>~
 ** Use emacs as the git editor:
-   In your ~.gitconfig~, add the following, under ~[core]~:
-   #+BEGIN_SRC conf
+In your ~.gitconfig~, add the following, under ~[core]~:
+#+BEGIN_SRC conf
   editor = "emacsclient -c"
-   #+END_SRC
-   Then, in your ~init.el~, make sure to have:
-   #+begin_src elisp
+#+END_SRC
+Then, in your ~init.el~, make sure to have:
+#+begin_src elisp
   (require 'magit)
   (require 'git-commit)
-   #+end_src
+#+end_src
 ** To disable the display of which git branch you're on in the modeline: ~(setq vc-handled-backends nil)~
 ** Git blame in emacs:
-   + To turn on the git blame display: ~M-x magit-blame-addition~
-   + To turn off the git blame display: ~q~
++ To turn on the git blame display: ~M-x magit-blame-addition~
++ To turn off the git blame display: ~q~
 ** Using magit:
-   + First set the magit status key: ~(global-set-key (kbd "C-x g") 'magit-status)~
-   + Hit ~C-x g~ in a file that is version controlled by git to bring up the magit-status
-   + Pull: ~F~
-   + Fetch: ~f~
-   + Stage: ~s~
-   + Commit: ~c c~
-   + Push: ~P u~
-   + Quit: ~q~ or ~C-g~
++ First set the magit status key: ~(global-set-key (kbd "C-x g") 'magit-status)~
++ Hit ~C-x g~ in a file that is version controlled by git to bring up the magit-status
++ Pull: ~F~
++ Fetch: ~f~
++ Stage: ~s~
++ Commit: ~c c~
++ Push: ~P u~
++ Quit: ~q~ or ~C-g~
 ** Undelete a file:
-   + Find the revision that deleted the file
-     + ~C-x g l~ to bring up ~magit log~
-     + ~--~ to select the file (make sure to enter the file's path)
-     + ~l~ to show the log of all the commits that affect that path
-     + Find the last commit that touches the file
-   + Then run ~magit-file-checkout~ and enter ~<deleting revision>^~ for the revision to check out from
++ Find the revision that deleted the file
+  + ~C-x g l~ to bring up ~magit log~
+  + ~--~ to select the file (make sure to enter the file's path)
+  + ~l~ to show the log of all the commits that affect that path
+  + Find the last commit that touches the file
++ Then run ~magit-file-checkout~ and enter ~<deleting revision>^~ for the revision to check out from
 ** Branching
-   + To switch branches: ~b b~
-   + To create a new branch: ~b c~
++ To switch branches: ~b b~
++ To create a new branch: ~b c~
 ** New repo setup:
-   + ~M-x magit-clone~
++ ~M-x magit-clone~
 ** Diffing between two branches:
-   + ~d r~ (diff range)
-   + This asks for a git range expression
-   + For example, to compare ~master~ against your current branch: ~d r master..HEAD RET~
++ ~d r~ (diff range)
++ This asks for a git range expression
++ For example, to compare ~master~ against your current branch: ~d r master..HEAD RET~
 ** Rebasing:
 * Show time in emacs status bar
-  + ~display-time-mode~
-  + To edit the format: Customize ~display-time-string-forms~
-    #+BEGIN_SRC elisp
-      (setq display-time-string-forms
-        '((if
-            (and
-              (not display-time-format)
-              display-time-day-and-date)
-             (format-time-string "%a %b %e " now)
-           #1="")
-          (propertize
-           (format-time-string
-            (or display-time-format
-             (if display-time-24hr-format "%H:%M" "%-I:%M%p"))
-            now))))
-    #+END_SRC
-  + To show the date: Customize: ~display-time-day-and-date~
++ ~display-time-mode~
++ To edit the format: Customize ~display-time-string-forms~
+  #+BEGIN_SRC elisp
+    (setq display-time-string-forms
+      '((if
+          (and
+            (not display-time-format)
+            display-time-day-and-date)
+           (format-time-string "%a %b %e " now)
+         #1="")
+        (propertize
+         (format-time-string
+          (or display-time-format
+           (if display-time-24hr-format "%H:%M" "%-I:%M%p"))
+          now))))
+  #+END_SRC
++ To show the date: Customize: ~display-time-day-and-date~
 * Org-mode 9.2
-  + org-mode 9.2 changes how templates work, which breaks the ~<s~ shortcut for rapidly inserting code blocks
-  + To get that functionality back, Customize the ~org-modules~ variable and enable ~org-tempo~
-    #+begin_src elisp
-      (add-to-list 'org-modules 'org-tempo)
-    #+end_src
-* Byte compilation
-  + If you get warnings about ~.el~ files being newer than their ~.elc~ counterparts, you should byte-recompile your ~.emacs.d~:
-    #+begin_src text
-      C-u 0 M-x byte-recompile-directory RET ~/.emacs.d
-    #+end_src
-* Disable backup files:
-  I find that all the files I really care about are version controlled anyway, so I don't usually need emacs' backup files. To disable the creation of backup files:
++ org-mode 9.2 changes how templates work, which breaks the ~<s~ shortcut for rapidly inserting code blocks
++ To get that functionality back, Customize the ~org-modules~ variable and enable ~org-tempo~
   #+begin_src elisp
-  (setq make-backup-files nil)
+    (add-to-list 'org-modules 'org-tempo)
   #+end_src
+* Byte compilation
++ If you get warnings about ~.el~ files being newer than their ~.elc~ counterparts, you should byte-recompile your ~.emacs.d~:
+  #+begin_src text
+    C-u 0 M-x byte-recompile-directory RET ~/.emacs.d
+  #+end_src
+* Disable backup files:
+I find that all the files I really care about are version controlled anyway, so I don't usually need emacs' backup files. To disable the creation of backup files:
+#+begin_src elisp
+  (setq make-backup-files nil)
+#+end_src
 * Dired
-  + Make directory: ~+~
++ Make directory: ~+~
 * Ivy
-  + Ivy is a completion manager for emacs
-  + Consists of 3 packages:
-    + Ivy
-    + Counsel
-    + Swiper
-  + To install: ~M-x package-install <RET> counsel <RET>~ -- counsel brings in Ivy and Swiper as dependencies
-  + Then configure Ivy:
-    #+begin_src elisp
-      (ivy-mode 1)
-      (setq ivy-use-virtual-buffers t)
-      (setq ivy-count-format "")
-      (global-set-key (kbd "M-x") 'counsel-M-x)
-      (global-set-key (kbd "C-x C-f") 'counsel-find-file)
-      (global-set-key (kbd "<f1> f") 'counsel-describe-function)
-      (global-set-key (kbd "<f1> v") 'counsel-describe-variable)
-      (global-set-key (kbd "<f2> u") 'counsel-unicode-char)
-    #+end_src
-  + To enable ~ag~ integration:
-    #+BEGIN_SRC elisp
-      (global-set-key (kbd "C-c k") 'counsel-ag)
-    #+END_SRC
-    + If counsel complains that it can't find the ag binary
-      + Install the ~exec-path-from-shell~ package
-      + Add the following to your ~init.el~:
-        #+BEGIN_SRC elisp
-          (exec-path-from-shell-initialize)
-        #+END_SRC
-  + To disable virtual buffers in ivy
-    + First tell ivy not to use virtual buffers: ~(setq ivy-use-virtual-buffers nil)~ (and recompile your ~init.el~, if necessary)
-    + Then clear the recentf list to purge existing virtual buffers: ~M-x recentf-cleanup~
-    + Then restart emacs
-* Running emacs server
-  + +To start emacs in server-mode (so that you can use ~emacsclient~):+
-    + +~emacs --daemon~+
-    + +To keep the daemon process in the foreground, so you can easily kill it with Ctrl-C: ~emacs --fg-daemon~+
-  + See relevant notes in ~unix_tips.org~
-* Better window switching
-  + Enable ~windmove~
-    #+BEGIN_SRC elisp
-      (when (fboundp 'windmove-default-keybindings)
-        (windmove-default-keybindings))
-      (global-set-key (kbd "C-<left>") 'windmove-left)
-      (global-set-key (kbd "C-<right>") 'windmove-right)
-      (global-set-key (kbd "C-<up>") 'windmove-up)
-      (global-set-key (kbd "C-<down>") 'windmove-down)
-    #+END_SRC
-  + Then you can use ~C-left/right/up/down~ to switch between windows
-  + Note, on OSX, you need to go to System Preferences/Keyboard/Mission Control, and disable the mission control shortcuts that re-bind Ctrl-<arrow keys>
-  + Note: I've deprecated ~windmove~ in favor of ~ace-window~ -- see below
-* Calculator
-  + To start: ~M-x calc~
-  + Operation is as a RPN stack calculator
-  + ~t n~ and ~t p~ move the trail pointer
-  + To swap the top two entries on the stack: ~TAB~
-  + To delete from the stack: ~BACKSPACE~
-* To insert unicode
-  + ~C-x 8 RET~
-* Emacs ERC
-  + To disconnect: ~C-c C-q~
-  + To remove IRC channel tracking from the modeline, customize: ~erc-modules~ and remove the track module
-  + To automatically join channels
-    #+begin_src elisp
-      (setq erc-autojoin-channels-alist '(("freenode.net" "#channel" "#otherchannel")))
-    #+end_src
-* Disable mouse
-  + To make it easier to switch emacs windows without moving the point, install ~disable-mouse~ mode:
-    + ~M-x package-install disable-mouse~
++ Ivy is a completion manager for emacs
++ Consists of 3 packages:
+  + Ivy
+  + Counsel
+  + Swiper
++ To install: ~M-x package-install <RET> counsel <RET>~ -- counsel brings in Ivy and Swiper as dependencies
++ Then configure Ivy:
+  #+begin_src elisp
+    (ivy-mode 1)
+    (setq ivy-use-virtual-buffers t)
+    (setq ivy-count-format "")
+    (global-set-key (kbd "M-x") 'counsel-M-x)
+    (global-set-key (kbd "C-x C-f") 'counsel-find-file)
+    (global-set-key (kbd "<f1> f") 'counsel-describe-function)
+    (global-set-key (kbd "<f1> v") 'counsel-describe-variable)
+    (global-set-key (kbd "<f2> u") 'counsel-unicode-char)
+  #+end_src
++ To enable ~ag~ integration:
+  #+BEGIN_SRC elisp
+    (global-set-key (kbd "C-c k") 'counsel-ag)
+  #+END_SRC
+  + If counsel complains that it can't find the ag binary
+    + Install the ~exec-path-from-shell~ package
     + Add the following to your ~init.el~:
-      #+begin_src elisp
-        (global-disable-mouse-mode)
-      #+end_src
+      #+BEGIN_SRC elisp
+        (exec-path-from-shell-initialize)
+      #+END_SRC
++ To disable virtual buffers in ivy
+  + First tell ivy not to use virtual buffers: ~(setq ivy-use-virtual-buffers nil)~ (and recompile your ~init.el~, if necessary)
+  + Then clear the recentf list to purge existing virtual buffers: ~M-x recentf-cleanup~
+  + Then restart emacs
+* Running emacs server
++ +To start emacs in server-mode (so that you can use ~emacsclient~):+
+  + +~emacs --daemon~+
+  + +To keep the daemon process in the foreground, so you can easily kill it with Ctrl-C: ~emacs --fg-daemon~+
++ See relevant notes in ~unix_tips.org~
+* Better window switching
++ Enable ~windmove~
+  #+BEGIN_SRC elisp
+    (when (fboundp 'windmove-default-keybindings)
+      (windmove-default-keybindings))
+    (global-set-key (kbd "C-<left>") 'windmove-left)
+    (global-set-key (kbd "C-<right>") 'windmove-right)
+    (global-set-key (kbd "C-<up>") 'windmove-up)
+    (global-set-key (kbd "C-<down>") 'windmove-down)
+  #+END_SRC
++ Then you can use ~C-left/right/up/down~ to switch between windows
++ Note, on OSX, you need to go to System Preferences/Keyboard/Mission Control, and disable the mission control shortcuts that re-bind Ctrl-<arrow keys>
++ Note: I've deprecated ~windmove~ in favor of ~ace-window~ -- see below
+* Calculator
++ To start: ~M-x calc~
++ Operation is as a RPN stack calculator
++ ~t n~ and ~t p~ move the trail pointer
++ To swap the top two entries on the stack: ~TAB~
++ To delete from the stack: ~BACKSPACE~
+* To insert unicode
++ ~C-x 8 RET~
+* Emacs ERC
++ To disconnect: ~C-c C-q~
++ To remove IRC channel tracking from the modeline, customize: ~erc-modules~ and remove the track module
++ To automatically join channels
+  #+begin_src elisp
+    (setq erc-autojoin-channels-alist '(("freenode.net" "#channel" "#otherchannel")))
+  #+end_src
+* Disable mouse
++ To make it easier to switch emacs windows without moving the point, install ~disable-mouse~ mode:
+  + ~M-x package-install disable-mouse~
+  + Add the following to your ~init.el~:
+    #+begin_src elisp
+      (global-disable-mouse-mode)
+    #+end_src
 * Integrate emacs with Firefox and Chrome
-  + In emacs, install the ~AtomicChrome~ package
-  + Add the following lines to ~init.el~:
-    #+BEGIN_SRC elisp
-      (require 'atomic-chrome)
-      (atomic-chrome-start-server)
-    #+END_SRC
-  + In Firefox, install GhostText
-  + In Chrome, install AtomicChrome
-  + To edit text in emacs, hit the GhostText or AtomicChrome button
-  + The text box will open as a buffer in emacs
-  + When you're done editing, hit ~C-c C-c~ to close the buffer
++ In emacs, install the ~AtomicChrome~ package
++ Add the following lines to ~init.el~:
+  #+BEGIN_SRC elisp
+    (require 'atomic-chrome)
+    (atomic-chrome-start-server)
+  #+END_SRC
++ In Firefox, install GhostText
++ In Chrome, install AtomicChrome
++ To edit text in emacs, hit the GhostText or AtomicChrome button
++ The text box will open as a buffer in emacs
++ When you're done editing, hit ~C-c C-c~ to close the buffer
 * Inserting tabs
-  + If you need to insert a literal tab (e.g. for makefiles), ~Ctrl-q TAB~
++ If you need to insert a literal tab (e.g. for makefiles), ~Ctrl-q TAB~
 * Uniquify
-  + Emacs disambiguates buffers with the same name, but the default way of doing so is pretty ugly
-  + Add the following to improve how emacs disambiguates buffer names:
-    #+BEGIN_SRC elisp
-      (require 'uniquify)
-      (setq uniquify-buffer-name-style 'forward)
-      (setq uniquify-separator "/")
-      (setq uniquify-after-kill-buffer-p t)
-      (setq uniquify-ignore-buffers-re "^\\*")
-    #+END_SRC
++ Emacs disambiguates buffers with the same name, but the default way of doing so is pretty ugly
++ Add the following to improve how emacs disambiguates buffer names:
+  #+BEGIN_SRC elisp
+    (require 'uniquify)
+    (setq uniquify-buffer-name-style 'forward)
+    (setq uniquify-separator "/")
+    (setq uniquify-after-kill-buffer-p t)
+    (setq uniquify-ignore-buffers-re "^\\*")
+  #+END_SRC
 * Fonts/Faces
-  + To see which fonts/face are applied at the point: ~C-u C-x =~
-  + To clear a font attribute customization and force the face to use the value from the parent face: ~'unspecified~
++ To see which fonts/face are applied at the point: ~C-u C-x =~
++ To clear a font attribute customization and force the face to use the value from the parent face: ~'unspecified~
 * Autosave
-  + To keep emacs from cluttering up your file tree with auto-save files:
-    #+begin_src elisp
-      (setq backup-directory-alist
-        `((".*" . ,(concat user-emacs-directory "backups"))))
-      (setq auto-save-file-name-transforms
-        `((".*" . ,(concat user-emacs-directory "backups") t)))
-      (setq create-lockfiles nil)
-    #+end_src
-  + Recovering from auto-save
-    + If emacs or your computer has crashed, emacs will offer to recover from the auto-save file
-    + Emacs compares the timestamps of the file and the auto-save file in order to determine whether to prompt you to recover
-    + If you choose /not/ to recover, it can be worthwhile to force-save the file
-      + =C-u M-S-~= Sets the modification flag
-      + ~C-x C-s~ to save as normal
++ To keep emacs from cluttering up your file tree with auto-save files:
+  #+begin_src elisp
+    (setq backup-directory-alist
+      `((".*" . ,(concat user-emacs-directory "backups"))))
+    (setq auto-save-file-name-transforms
+      `((".*" . ,(concat user-emacs-directory "backups") t)))
+    (setq create-lockfiles nil)
+  #+end_src
++ Recovering from auto-save
+  + If emacs or your computer has crashed, emacs will offer to recover from the auto-save file
+  + Emacs compares the timestamps of the file and the auto-save file in order to determine whether to prompt you to recover
+  + If you choose /not/ to recover, it can be worthwhile to force-save the file
+    + =C-u M-S-~= Sets the modification flag
+    + ~C-x C-s~ to save as normal
 * Editing remote files over SSH
-  + Emacs can edit files remotely over SSH with TRAMP
-  + ~C-x C-f /ssh:<user>@<host>:/path/to/file~
++ Emacs can edit files remotely over SSH with TRAMP
++ ~C-x C-f /ssh:<user>@<host>:/path/to/file~
 * Projectile
-  + Install with ~M-x package-install projectile~
-  + Enable with:
++ Install with ~M-x package-install projectile~
++ Enable with:
+  #+begin_src elisp
+    (projectile-mode +1)
+    (define-key projectile-mode-map (kbd "M-p") 'projectile-command-map)
+    (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+  #+end_src
++ Defining projects:
+  + For each project, add an empty ~.projectile~ file
+  + Then, in your ~init.el~ add the following:
     #+begin_src elisp
-      (projectile-mode +1)
-      (define-key projectile-mode-map (kbd "M-p") 'projectile-command-map)
-      (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+      (setq projectile-project-search-path '("<path 1>" "<path 2>"))
     #+end_src
-  + Defining projects:
-    + For each project, add an empty ~.projectile~ file
-    + Then, in your ~init.el~ add the following:
-      #+begin_src elisp
-        (setq projectile-project-search-path '("<path 1>" "<path 2>"))
-      #+end_src
-  + Using Projectile:
-    + Open a file in the current project: ~M-p f~
-    + Switch projects: ~M-p p~
++ Using Projectile:
+  + Open a file in the current project: ~M-p f~
+  + Switch projects: ~M-p p~
 * Shells
-  + To launch a shell: ~C-u M-x shell~ (give a ~C-u~ arg to have emacs prompt you for a shell name)
-  + In shell-mode, hit ~C-c C-c~ to send ~C-c~ to the running process
-  + To browse history: ~C-up~ / ~C-down~
-  + To go to the beginning of the command: ~C-c C-a~
-  + To go to the end of the command: ~C-c C-e~
++ To launch a shell: ~C-u M-x shell~ (give a ~C-u~ arg to have emacs prompt you for a shell name)
++ In shell-mode, hit ~C-c C-c~ to send ~C-c~ to the running process
++ To browse history: ~C-up~ / ~C-down~
++ To go to the beginning of the command: ~C-c C-a~
++ To go to the end of the command: ~C-c C-e~
 * Pass password manager integration
-  + Install ~pass~ package
-  + To run: ~M-x pass~
-  + If you get an error with "inappropriate ioctl for device": ~(setq epa-pinentry-mode 'loopback)~
++ Install ~pass~ package
++ To run: ~M-x pass~
++ If you get an error with "inappropriate ioctl for device": ~(setq epa-pinentry-mode 'loopback)~
++ To set the default password length (to something other than the paltry 8 characters it gives you by default): ~(setq password-store-password-length <length>)~
 * Better buffer management: ibuffer
-  + ~ibuffer~ is a better way of managing buffers than the standard buffer management tools
-  + To enable:
-    #+BEGIN_SRC elisp
-      (global-set-key (kbd "C-x C-b") 'ibuffer)
-    #+END_SRC
-  + To show unsaved files, use the following filter
-    + Open ibuffer
-    + ~/i /v~
-  + To clear the filter: ~/ /~
-  + To operate on buffers:
-    + ~m~ to mark
-    + ~u~ to unmark
-  + Buffer operations:
-    + ~S~: save marked buffers
-    + ~V~: revert marked buffers
-    + ~D~: kill (delete) marked buffers
++ ~ibuffer~ is a better way of managing buffers than the standard buffer management tools
++ To enable:
+  #+BEGIN_SRC elisp
+    (global-set-key (kbd "C-x C-b") 'ibuffer)
+  #+END_SRC
++ To show unsaved files, use the following filter
+  + Open ibuffer
+  + ~/i /v~
++ To clear the filter: ~/ /~
++ To operate on buffers:
+  + ~m~ to mark
+  + ~u~ to unmark
++ Buffer operations:
+  + ~S~: save marked buffers
+  + ~V~: revert marked buffers
+  + ~D~: kill (delete) marked buffers
 * Associating major modes with file types:
-  + To associate a particular extension with a major mode: ~(add-to-list 'auto-mode-alist '("<regexp>" . major-mode))~
-  + Make sure to end your regexp with ~\\'~, which is the end-of-string character to avoid matching prefixes
-  + Example:
-    #+BEGIN_SRC elisp
-      (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
-    #+END_SRC
++ To associate a particular extension with a major mode: ~(add-to-list 'auto-mode-alist '("<regexp>" . major-mode))~
++ Make sure to end your regexp with ~\\'~, which is the end-of-string character to avoid matching prefixes
++ Example:
+  #+BEGIN_SRC elisp
+    (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
+  #+END_SRC
 * Evil-mode
-  + To install and enable ~evil-mode~:
-    + ~M-x package-install RET evil-mode~
-    + ~M-x package-install evil-org-mode~
-    + ~M-x package-install evil-collection~
-    + ~M-x package-install evil-magit~
-    + Then, in your .emacs.d, add the following
-      #+begin_src elisp
-        (setq evil-want-keybinding nil)
-        (evil-mode)
-        (require 'evil-org)
-        (add-hook 'org-mode-hook 'evil-org-mode)
-        (evil-org-set-key-theme '(textobjects insert navigation additional shift todo heading))
-        (evil-collection-init)
-        (require 'evil-magit)
-        (setq evil-magit-state 'normal)
-      #+end_src
-  + Using evil-mode
-    + Movement: standard vim ~h~, ~j~, ~k~, ~l~
-    + Visual mode: ~v~ (just like vim)
-    + Org-mode:
-      + Increase indent: ~>>~ (note that the headline/list item has to have some text in it for the command to work)
-      + Insert new headline/list-item ~M-RET~
-      + Select entire heading: ~vae~
-    + Evil mode isn't vim; it's best thought of as a hybrid between vim and emacs
-    + Note that evil-mode doesn't play well with ~visual-line-mode~ or ~org-indent-mode~ when used with org, so if you have evil-mode on, you should turn visual-line-mode off and remove ~(org-startup-indented t)~
++ To install and enable ~evil-mode~:
+  + ~M-x package-install RET evil-mode~
+  + ~M-x package-install evil-org-mode~
+  + ~M-x package-install evil-collection~
+  + ~M-x package-install evil-magit~
+  + Then, in your .emacs.d, add the following
+    #+begin_src elisp
+      (setq evil-want-keybinding nil)
+      (evil-mode)
+      (require 'evil-org)
+      (add-hook 'org-mode-hook 'evil-org-mode)
+      (evil-org-set-key-theme '(textobjects insert navigation additional shift todo heading))
+      (evil-collection-init)
+      (require 'evil-magit)
+      (setq evil-magit-state 'normal)
+    #+end_src
++ Using evil-mode
+  + Movement: standard vim ~h~, ~j~, ~k~, ~l~
+  + Visual mode: ~v~ (just like vim)
+  + Org-mode:
+    + Increase indent: ~>>~ (note that the headline/list item has to have some text in it for the command to work)
+    + Insert new headline/list-item ~M-RET~
+    + Select entire heading: ~vae~
+  + Evil mode isn't vim; it's best thought of as a hybrid between vim and emacs
+  + Note that evil-mode doesn't play well with ~visual-line-mode~ or ~org-indent-mode~ when used with org, so if you have evil-mode on, you should turn visual-line-mode off and remove ~(org-startup-indented t)~
