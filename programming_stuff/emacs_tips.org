@@ -636,6 +636,7 @@ Then, in your ~init.el~, make sure to have:
 ** Branching
 + To switch branches: ~b b~
 + To create a new branch: ~b c~
++ To set the upstream of a branch, just try to push with ~Pu~ -- if you don't have an upstream set, it will ask you
 ** New repo setup:
 + ~M-x magit-clone~
 ** Diffing between two branches:
