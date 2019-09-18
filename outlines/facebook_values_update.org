@@ -1,0 +1,33 @@
+#+TITLE: Why Facebook Values Update Matters
+#+OPTIONS: toc:nil; num:nil; ^:nil; ':t
+
+[[https://www.lawfareblog.com/why-facebooks-values-update-matters][Original Link]]
+
++ Facebook updated its community standards in a short easy-to-miss blog post
++ Written by Monika Bickert, VP of global policy management
++ 4 values which can justify limiting expression
+  + Authenticity
+  + Safety
+  + Privacy
+  + Dignity
++ Prioritization of "voice" as the overarching community value
++ Purpose of "voice" is to build community and bring world closer together
++ Explicit incorporation of international human rights standards
++ Why now?
+  + Values serve as standards for new oversight board
+  + These values serve as a commitment by Facebook that it will abide by the decisions of the board
++ Effects
+  + Values guide oversight board in giving feedback on community standards
+  + Values act as a "Constitution" for Facebook
+  + Interesting that Facebook prioritizes "voice" over other values
+  + Facebook is indicating that it will err on the side of leaving content up in ambiguous situations
+  + Does not mean that Facebook is turning into a First Amendment fundamentalist organization
+  + "Authenticity" requirement means that anonymous content is not allowed
+  + Facebook is acknowledging that it is a global corporation, and that other countries have speech standards that differ considerably from the US
+  + Notable that Facebook is incorporating global human-rights standards into its values -- gets in front of activists which have been demanding that all social media firms incorporate these standards
++ Community standards realism
+  + None of these changes are technically or legally binding
+  + Values themselves are very fuzzy and leave a lot of room for interpretations
+  + However, the purpose of the values and the oversight board is to give Facebook's decisions greater public legitimacy
+  + Facebook is indicating that it thinks this legitimacy matters
+  + We should work to hold Facebook accountable to its values
