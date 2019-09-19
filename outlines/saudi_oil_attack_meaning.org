@@ -1,0 +1,40 @@
+#+TITLE: What The Strike on Saudi Arabia's Oil Facilities Teaches Us
+#+OPTIONS: toc:nil; num:nil; ^:nil; ':t
+
+Originally published on ASPI Strategist
+
++ We take precision for grantged in modern warfare, but true precision strike capability requires sophisticated infrastructure
++ Targeting and intelligence is even more important than having precise weapons
++ Without targeting, you get "precise misses" like the Indian airstrikes in Balakot
+  + Weapons precisely hit the coordinates they are given
+  + However, the coordinates are simply wrong
++ The Saudi Air Force, despite being armed with be best in precision-guided munitions that the West can sell, has /not/ mastered precision warfare
++ Many of the more egregious instances of mass civilian casualties in Yemen stem from Saudi incompetence rather than cruelty
+  + Poor targeting
+  + Insufficient intelligence
+  + Lack of training and familiarity with weapons systems
++ In contrast, the 09/14 attacks on Saudi Arabia demonstrated significant precision, even though they were carried out with much lower-end weapons systems
++ Precision resulted from much better surveillance and targeting prior to attack
+  + Attacker did not hit random portions of the oil facility -- targets were carefully chosen to maximize the damage inflicted
+  + Flaring and pipeline fires elsewhere along the Saudi coastline indicate significant second-order effects
++ It's /possible/ that the Houthis would have had the necessary expertise to know which targets to hit -- Yemen does have some smaller refineries which are under Houthi control
++ It's /certain/ that the Iranian government has the necessary expertise to know which targets to hit
++ Each individual target was hit very precisely -- can see in satellite images that storage tanks hundreds of meters apart were hit in exactly the same way
++ Suggests that GPS guidance was used
++ Also indicates that the attacker had access to detailed, high resolution imagery tagged with geospatial metadata
++ This imagery was likely provided by a third party with access to sophisticated space-based ISR
+  + Has to be either Russia or China
+  + Probably Russia, because China has relatively few incentives to cause oil prices to spike
++ Iran may have reappropriated data that was shared with it by Russia (as part of Iran's shared efforts with Russia in Syria) without Russian knowledge
++ Just as significant as the attack was the fact that Saudi Arabia was completely unable to defend against it
++ Saudi Arabia has an entire arm of its military dedicated to air defense -- they were still caught with their pants down
++ The above evidence indicates that the adversary has the following capabilities
+  + Precision weapons and delivery mechanisms
+  + Ability to carry out long term "effects based" planning -- adversary has enough planning, analysis and intelligence gathering resources to know how to work backwards from desired effects to targets
+  + Ability to pick and choose weapons systems in order to inflict desired effects on the target
+  + Stealth, or at least the ability to evade Saudi air defenses
++ For all of these reasons, we should suspect the Iranian state rather than the Houthis
++ We can also posit the backing (possible unknowing) of great power like Russia
++ Clear evidence that the gap between Western militaries and second-tier powers is narrowing when it comes to precision strike
++ Western militaries have gotten used to air-supremacy -- Western ground units don't worry about being attacked from the air
++ While Western aircraft are still superior, it's increasingly possible to get the same effects as airstrikes using drones, cruise missiles and conventionally armed ballistic missiles

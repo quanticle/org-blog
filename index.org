@@ -13,6 +13,7 @@
 + [[file:outlines/trust_me_im_lying.org][Trust Me I'm Lying]]
 + [[file:outlines/a_crisis_is_a_terrible_thing_to_waste.org][A Crisis is a Terrible Thing To Waste: The History and Future of the US/China Relationship]]
 + [[file:outlines/facebook_values_update.org][Why Facebook's "Values" Update Matters]]
++ [[file:outlines/saudi_oil_attack_meaning.org][What The Strike On Saudi Arabia's Oil Facilities Teaches Us]]
  
 * Articles
 + [[file:articles/fukuyama_identity_politics.org][Francis Fukuyama: Against Identity Politics]]
