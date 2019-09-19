@@ -1,8 +1,9 @@
 #+TITLE: What The Strike on Saudi Arabia's Oil Facilities Teaches Us
 #+OPTIONS: toc:nil; num:nil; ^:nil; ':t
 
-Originally published on ASPI Strategist
+Originally published on [[https://www.aspistrategist.org.au/what-the-strike-on-saudi-arabias-oil-facilities-teaches-us/][ASPI Strategist]]
 
+* Summary
 + We take precision for grantged in modern warfare, but true precision strike capability requires sophisticated infrastructure
 + Targeting and intelligence is even more important than having precise weapons
 + Without targeting, you get "precise misses" like the Indian airstrikes in Balakot
@@ -38,3 +39,17 @@ Originally published on ASPI Strategist
 + Clear evidence that the gap between Western militaries and second-tier powers is narrowing when it comes to precision strike
 + Western militaries have gotten used to air-supremacy -- Western ground units don't worry about being attacked from the air
 + While Western aircraft are still superior, it's increasingly possible to get the same effects as airstrikes using drones, cruise missiles and conventionally armed ballistic missiles
+
+* My thoughts
++ I agree with many of the conclusions of the piece, but I think it overstates Saudi competence and understates the possibility of human intelligence
++ I think it's more likely that the Iranians got their targeting data from HUMINT assets rather than satellite imagery
+  + Iran has a long record of using relatively cheaper HUMINT as a way of equalling adversaries' superior ELINT capabilities
+  + As Westerners, we need to be careful of the mode of thinking where we say, "This is how *we* would have done ~X~, therefore it is how our adversaries accomplished ~X~"
++ Overstatement of Saudi competence
+  + I don't think you need to do anything special to evade Saudi air defenses
+  + Air defense operators were probably (literally) asleep at their consoles
+  + Saudi military is primarily used for prestige, nepotism and sinecures
+  + Only has been called upon to act as a fighting force very recently, and it shows
+  + Saudis are well equipped, but don't have the doctrine or training to use any of their equipment effectively -- the article itself points this out
+  + Saudis are more analogous to a Soviet client-state than they are to another US ally like the UK or Israel
++ I do agree that this attack highlights how much convergence there has been in precision-strike capability between Western armed forces and non-Western armed forces
