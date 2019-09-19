@@ -736,6 +736,9 @@ I find that all the files I really care about are version controlled anyway, so 
 + ~t n~ and ~t p~ move the trail pointer
 + To swap the top two entries on the stack: ~TAB~
 + To delete from the stack: ~BACKSPACE~
++ Logarithm
+  + To take the logarithm of a number in a given base: ~B~
+    + ~1024 RET 2 RET B~ → ~10~
 * To insert unicode
 + ~C-x 8 RET~
 * Emacs ERC
