@@ -4,7 +4,7 @@
 Originally published on [[https://www.aspistrategist.org.au/what-the-strike-on-saudi-arabias-oil-facilities-teaches-us/][ASPI Strategist]]
 
 * Summary
-+ We take precision for grantged in modern warfare, but true precision strike capability requires sophisticated infrastructure
++ We take precision for granted in modern warfare, but true precision strike capability requires sophisticated infrastructure
 + Targeting and intelligence is even more important than having precise weapons
 + Without targeting, you get "precise misses" like the Indian airstrikes in Balakot
   + Weapons precisely hit the coordinates they are given
