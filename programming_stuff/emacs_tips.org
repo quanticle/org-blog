@@ -878,3 +878,13 @@ I find that all the files I really care about are version controlled anyway, so 
     + Select entire heading: ~vae~
   + Evil mode isn't vim; it's best thought of as a hybrid between vim and emacs
   + Note that evil-mode doesn't play well with ~visual-line-mode~ or ~org-indent-mode~ when used with org, so if you have evil-mode on, you should turn visual-line-mode off and remove ~(org-startup-indented t)~
+    
+* Command Line Emacs
++ The only real keyboard shortcut you give up ~C-RET~ -- this makes adding org-mode headings slightly more difficult
++ To ensure that org-mode links open in Firefox (i.e. on a system where you want Chrome to be the default):
+  #+begin_src elisp
+    (setq browse-url-browser-function
+      '(("." . browse-url-firefox)))
+  #+end_src
++ To set the location of the Firefox binary: ~(setq browse-url-firefox-program "<path to firefox>")~
++ Make sure to customize tmux to deconflict ~C-b~
