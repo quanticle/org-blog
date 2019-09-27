@@ -888,4 +888,5 @@ I find that all the files I really care about are version controlled anyway, so 
   #+end_src
 + To set the location of the Firefox binary: ~(setq browse-url-firefox-program "<path to firefox>")~
 + Make sure to customize tmux to deconflict ~C-b~
-+ Known issue -- nesting /italics and *bold*/ doesn't work -- the outermost style takes effect (in display, not in export); /italics and _underline_ work correctly/
++ Known issue: italics and bold formatting markers don't work properly when they're next to each other
++ Known issue: strikethrough doesn't work
