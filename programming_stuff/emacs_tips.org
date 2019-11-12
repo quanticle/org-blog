@@ -643,7 +643,12 @@ Then, in your ~init.el~, make sure to have:
 + ~d r~ (diff range)
 + This asks for a git range expression
 + For example, to compare ~master~ against your current branch: ~d r master..HEAD RET~
-** Rebasing:
+** Stashing
++ Create stash: ~z z~
++ Apply stash: ~z a~
++ Show stash in the inspector: ~z s~
++ Drop stash: ~z k~
++ Pop stash: ~z p~
 * Show time in emacs status bar
 + ~display-time-mode~
 + To edit the format: Customize ~display-time-string-forms~
